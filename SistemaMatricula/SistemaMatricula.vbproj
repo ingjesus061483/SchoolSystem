@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{099C127E-B90D-4F4D-B090-340C10F8F519}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SistemaMatricula.My.MyApplication</StartupObject>
+    <RootNamespace>SistemaMatricula</RootNamespace>
+    <AssemblyName>SistemaMatricula</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SistemaMatricula.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SistemaMatricula.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>matri.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmBusqueda.designer.vb">
+      <DependentUpon>FrmBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBusqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCurso.Designer.vb">
+      <DependentUpon>FrmCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportes.Designer.vb">
+      <DependentUpon>frmReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuario.Designer.vb">
+      <DependentUpon>FrmUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControl\AsignaturasUser.Designer.vb">
+      <DependentUpon>AsignaturasUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\AsignaturasUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CalificacionesUser.Designer.vb">
+      <DependentUpon>CalificacionesUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CalificacionesUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\FacturacionUser.Designer.vb">
+      <DependentUpon>FacturacionUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\FacturacionUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\EstudiantesUser.Designer.vb">
+      <DependentUpon>EstudiantesUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\EstudiantesUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\LogrosUser.Designer.vb">
+      <DependentUpon>LogrosUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\LogrosUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\MatriculaUser.Designer.vb">
+      <DependentUpon>MatriculaUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MatriculaUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ProfesorUser.Designer.vb">
+      <DependentUpon>ProfesorUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ProfesorUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CursosUser.Designer.vb">
+      <DependentUpon>CursosUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CursosUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ReporteUser.Designer.vb">
+      <DependentUpon>ReporteUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ReporteUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmBusqueda.resx">
+      <DependentUpon>FrmBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCurso.resx">
+      <DependentUpon>FrmCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportes.resx">
+      <DependentUpon>frmReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CursosUser.resx">
+      <DependentUpon>CursosUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\AsignaturasUser.resx">
+      <DependentUpon>AsignaturasUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CalificacionesUser.resx">
+      <DependentUpon>CalificacionesUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\FacturacionUser.resx">
+      <DependentUpon>FacturacionUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\EstudiantesUser.resx">
+      <DependentUpon>EstudiantesUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\LogrosUser.resx">
+      <DependentUpon>LogrosUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MatriculaUser.resx">
+      <DependentUpon>MatriculaUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ProfesorUser.resx">
+      <DependentUpon>ProfesorUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ReporteUser.resx">
+      <DependentUpon>ReporteUser.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helper\DataAccessHelper.vbproj">
+      <Project>{A9B8B801-BD03-4906-AE64-DA6F068D36F4}</Project>
+      <Name>DataAccessHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.vbproj">
+      <Project>{30a1259f-dd58-48b5-bca3-fbb7fdcbf45a}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="matri.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

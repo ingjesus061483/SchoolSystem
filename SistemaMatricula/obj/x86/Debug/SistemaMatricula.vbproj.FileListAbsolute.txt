@@ -1,0 +1,33 @@
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\SistemaMatricula.exe.config
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\SistemaMatricula.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\SistemaMatricula.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\SistemaMatricula.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmbusqueda.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmCurso.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmLogin.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmPrincipal.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmUsuario.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmMatricula.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.vbproj.CopyComplete
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.FrmEstudiantes.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmAsignaturas.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmLogros.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmCalificaciones.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\SistemaMatricula.frmReportes.resources
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\SistemaMatricula\bin\Debug\SistemaMatricula.exe.config
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\SistemaMatricula\obj\x86\Debug\SistemaMatricula.exe
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\SistemaMatricula\obj\x86\Debug\SistemaMatricula.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\SistemaMatricula\obj\x86\Debug\SistemaMatricula.pdb

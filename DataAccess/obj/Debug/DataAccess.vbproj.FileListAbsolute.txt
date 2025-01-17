@@ -1,0 +1,37 @@
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.vbproj.GenerateResource.Cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\bin\Debug\System.Net.Http.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\bin\Debug\System.Net.Http.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.vbproj.CopyComplete
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\DataAccess\obj\Debug\DataAccess.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\bin\Debug\System.Net.Http.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\bin\Debug\System.Net.Http.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\Datos.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\DataAccess\obj\Debug\DataAccess.vbproj.CopyComplete
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\bin\Debug\System.Net.Http.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\bin\Debug\System.Net.Http.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\DataAccess.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\Datos.Resources.resources
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\DataAccess.vbproj.GenerateResource.Cache
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\DataAccess.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\DataAccess.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\DataAccess\obj\Debug\DataAccess.pdb

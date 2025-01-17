@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0FD85AD-F040-44E4-8604-E84E98C0F648}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserControls</RootNamespace>
+    <AssemblyName>UserControls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsignaCursoUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AsignaCursoUser.Designer.cs">
+      <DependentUpon>AsignaCursoUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignaturaUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AsignaturaUser.Designer.cs">
+      <DependentUpon>AsignaturaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalificacionesUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalificacionesUser.Designer.cs">
+      <DependentUpon>CalificacionesUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSecundario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSecundario.Designer.cs">
+      <DependentUpon>frmSecundario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Class1.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\CourseSubject.cs" />
+    <Compile Include="CursosUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CursosUser.Designer.cs">
+      <DependentUpon>CursosUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstudiantesUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EstudiantesUser.Designer.cs">
+      <DependentUpon>EstudiantesUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacturacionUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FacturacionUser.Designer.cs">
+      <DependentUpon>FacturacionUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginUser.Designer.cs">
+      <DependentUpon>LoginUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogrosUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogrosUser.Designer.cs">
+      <DependentUpon>LogrosUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatriculaUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MatriculaUser.Designer.cs">
+      <DependentUpon>MatriculaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IdentificationType.cs" />
+    <Compile Include="Models\Sex.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="ProfesorUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProfesorUser.Designer.cs">
+      <DependentUpon>ProfesorUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportesUser.Designer.cs">
+      <DependentUpon>ReportesUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SchoolSubject.cs" />
+    <Compile Include="BuscarUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BuscarUser.Designer.cs">
+      <DependentUpon>BuscarUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AsignaCursoUser.resx">
+      <DependentUpon>AsignaCursoUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignaturaUser.resx">
+      <DependentUpon>AsignaturaUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarUser.resx">
+      <DependentUpon>BuscarUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalificacionesUser.resx">
+      <DependentUpon>CalificacionesUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CursosUser.resx">
+      <DependentUpon>CursosUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstudiantesUser.resx">
+      <DependentUpon>EstudiantesUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturacionUser.resx">
+      <DependentUpon>FacturacionUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSecundario.resx">
+      <DependentUpon>frmSecundario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUser.resx">
+      <DependentUpon>LoginUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogrosUser.resx">
+      <DependentUpon>LogrosUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatriculaUser.resx">
+      <DependentUpon>MatriculaUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfesorUser.resx">
+      <DependentUpon>ProfesorUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesUser.resx">
+      <DependentUpon>ReportesUser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApiWebApplication\ApiWebApplication.csproj">
+      <Project>{CD1CBC95-4A45-451B-898E-9CAF885977AA}</Project>
+      <Name>ApiWebApplication</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

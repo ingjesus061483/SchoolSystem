@@ -1,0 +1,39 @@
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.dll
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.pdb
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.xml
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.Resources.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\GenerateResource.read.1.tlog
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\GenerateResource.write.1.tlog
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.dll
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.xml
+D:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.Resources.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.vbproj.GenerateResource.Cache
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.dll
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.xml
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\obj\Debug\clases.vbprojResolveAssemblyReference.cache
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\bin\Debug\clases.dll
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\bin\Debug\clases.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\bin\Debug\clases.xml
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\clases\bin\Debug\MySql.Data.dll
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.dll
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.pdb
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\bin\Debug\clases.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\ResolveAssemblyReference.cache
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.Resources.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\GenerateResource.read.1.tlog
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\GenerateResource.write.1.tlog
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.dll
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\clases\obj\Debug\clases.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\clases.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\clases.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\clases.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\clases.pdb

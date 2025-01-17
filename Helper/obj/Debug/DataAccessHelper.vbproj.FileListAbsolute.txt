@@ -1,0 +1,40 @@
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.vbproj.CopyComplete
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\clases\obj\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\Datos.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\clases\obj\Debug\DataAccessHelper.vbproj.CopyComplete
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\DataAccessHelper.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\Datos.Resources.resources
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\DataAccessHelper.vbproj.GenerateResource.Cache
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\SistemaMatricula\SistemaMatricula\Helper\obj\Debug\DataAccessHelper.pdb

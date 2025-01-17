@@ -1,0 +1,110 @@
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.exe
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.pdb
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.xml
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.Resources.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.exe
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.xml
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.pdb
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_principal.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.dll
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.pdb
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.xml
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_autor.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_curso.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_estudiante.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_matricula.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_usuario.resources
+D:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_login.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.exe
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.xml
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbprojResolveAssemblyReference.cache
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_autor.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_curso.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_estudiante.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_login.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_matricula.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_principal.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_usuario.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.Resources.resources
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbproj.GenerateResource.Cache
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.exe
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.xml
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\clases.dll
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\MySql.Data.dll
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\clases.pdb
+\\CUES\ArchivosA\gvargas4868\Documents\Visual Studio 2012\Projects\sistema-matricula-mysql\interfaz\bin\Debug\clases.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.exe
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.pdb
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.exe
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.pdb
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.dll
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\MySql.Data.dll
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.pdb
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\bin\Debug\clases.xml
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_autor.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_curso.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_estudiante.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_login.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_matricula.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_principal.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frm_usuario.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.Resources.resources
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Visual Basic\OTROS\sistema-matricula-mysql\interfaz\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\interfaz.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\MySql.Data.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.vbproj.CopyComplete
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmEstudiante.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmMatricula.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmCurso.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmLogin.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmPrincipal.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\obj\x86\Debug\interfaz.frmUsuario.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema-matricula-mysql\interfaz\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.vbprojResolveAssemblyReference.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmCurso.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmLogin.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmPrincipal.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmUsuario.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.Resources.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmEstudiante.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmMatricula.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.vbproj.GenerateResource.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\interfaz.exe
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\interfaz.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\interfaz.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.dll
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccessHelper.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.pdb
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\DataAccess.xml
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.frmbusqueda.resources
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\bin\Debug\interfaz.exe.config
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.vbproj.CoreCompileInputs.cache
+E:\documentos\escritorio\sistema-matricula-mysql\sistema matricula mysql\interfaz\obj\x86\Debug\interfaz.vbproj.CopyComplete

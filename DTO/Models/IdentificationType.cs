@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -12,9 +13,11 @@ namespace UserControls.Models
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string Name { get; set; }
         
         public string Description { get; set; }
-        List<Student > Students { get; set; }
+
+        public List<Student > Students { get; set; }
     }
 }

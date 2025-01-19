@@ -13,15 +13,18 @@ namespace UserControls.Models
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string Identification {  get; set; }
 
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string FirstName { get; set; }
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string LastName { get; set; }
 
 
@@ -30,16 +33,19 @@ namespace UserControls.Models
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string Address {  get; set; }
 
         [Required]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string PhoneNumber {  get; set; }
 
 
         [Required]
         [EmailAddress]
         [StringLength(50)]
+        [Column(TypeName = "varchar")]
         public string Email {  get; set; }
 
         [Required]        
@@ -49,7 +55,14 @@ namespace UserControls.Models
         [Required]
         public int IdentificationTypeId {  get; set; }        
         public IdentificationType IdentificationType { get; set; }
-        
+
+        [Required]
+        public int StatusId { get; set; }
+        public Status Status { get; set; }
+
+        public List<PicturePerson> picturePeople { get; set; }
+
+
         public double Age
         {
             get

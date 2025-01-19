@@ -36,8 +36,7 @@ namespace WindowsFormsApp
         }
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Utilities<string>.Cerrar("Salir de aplicacion", e);
-
+            Utilities<string>.CloseForm("Salir de aplicacion", e);
         }
 
         private void toolStripButtonSchoolSubject_Click(object sender, EventArgs e)
@@ -56,7 +55,7 @@ namespace WindowsFormsApp
             EstudiantesUser estudiantesUser = new EstudiantesUser
             {
                 Dock = DockStyle.Fill,
-
+                Form =this,
             };
             addControl(estudiantesUser );
         }

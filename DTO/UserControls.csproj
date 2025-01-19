@@ -72,7 +72,19 @@
     <Compile Include="frmSecundario.Designer.cs">
       <DependentUpon>frmSecundario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Class1.cs" />
+    <Compile Include="ImagenesUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImagenesUser.Designer.cs">
+      <DependentUpon>ImagenesUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImagePreviewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImagePreviewUser.Designer.cs">
+      <DependentUpon>ImagePreviewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\CourseSubject.cs" />
     <Compile Include="CursosUser.cs">
@@ -112,7 +124,9 @@
       <DependentUpon>MatriculaUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentificationType.cs" />
+    <Compile Include="Models\PicturePerson.cs" />
     <Compile Include="Models\Sex.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="ProfesorUser.cs">
       <SubType>UserControl</SubType>
@@ -165,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSecundario.resx">
       <DependentUpon>frmSecundario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagenesUser.resx">
+      <DependentUpon>ImagenesUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagePreviewUser.resx">
+      <DependentUpon>ImagePreviewUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginUser.resx">
       <DependentUpon>LoginUser.cs</DependentUpon>

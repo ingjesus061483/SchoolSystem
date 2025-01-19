@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -14,7 +16,6 @@ namespace UserControls
 {
     public abstract  class Utilities<T>
     {
-       static  string[] arr = { "Id", "Name" };
 
         public static string Api {  get; set; }
         static string HeaderValue { get { return ConfigurationManager.AppSettings["HeaderValue"]; } }
@@ -31,6 +32,50 @@ namespace UserControls
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(HeaderValue));
                 return client;
+            }
+        }
+        public static bool OpenDialog(string  filter, ref string  path)
+        {
+            OpenFileDialog OpenFile = new OpenFileDialog  { Filter = filter };
+            bool b = OpenFile.ShowDialog() == DialogResult.OK;
+            path = OpenFile.FileName ;
+            return b;
+        }
+        public static byte[] GetBytes(string path)
+        {
+            
+            FileStream fileStream = new FileStream  (path, FileMode.Open, FileAccess.Read);
+            int.TryParse(fileStream.Length.ToString(), out int length);
+            byte[] bytes = { };
+            Array.Resize(ref bytes, length);
+            fileStream.Read(bytes, 0, length);
+            return bytes;
+        }
+        public static Image LoadImage(byte[] imagenbuffer)
+        {
+            try
+            {
+                MemoryStream MemoryStream; Image img;
+                MemoryStream = new MemoryStream(imagenbuffer);
+                img = Image.FromStream(MemoryStream);
+                return img;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public static byte[] LoadImage(PictureBox picture, string path)
+        {
+            try
+            {               
+                picture.SizeMode = PictureBoxSizeMode.StretchImage;
+                picture.Load(path);
+                return GetBytes(path);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
         public static void FillCombo(List<T> values,string []arr , ComboBox combo)
@@ -110,7 +155,7 @@ namespace UserControls
             }
             throw new Exception(JsonConvert.DeserializeObject<string>(await resp.Content.ReadAsStringAsync()));
         }
-        public static void Cerrar(T message ,FormClosingEventArgs e)
+        public static void CloseForm(T message ,FormClosingEventArgs e)
         {
             DialogResult resp;
             resp = MessageBox.Show(message .ToString () , "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);

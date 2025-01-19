@@ -31,21 +31,37 @@ namespace ApiWebApplication.Controllers
         // GET: api/Students
         public IQueryable<StudentDTO> GetStudents()
         {
-            return db.Students.Include("Sexes").Include("IdentificationTypes").Select(x=>new StudentDTO 
-            {
-                Id = x.Id,
-                FirstName = x.FirstName,
-                LastName = x.LastName,
-                Address = x.Address,
-                PhoneNumber = x.PhoneNumber,
-                Email = x.Email,
-                BirthDate = x.BirthDate,
-                Identification = x.Identification,
-                IdentificationType = x.IdentificationType,
-                Sex = x.Sex,
-                SexId = x.SexId,
-                IdentificationTypeId = x.IdentificationTypeId,
-            }) ;
+            return db.Students
+                .Include("Sexes")
+                .Include("Status")
+                .Include("Pictures")
+                .Include("PicturePersons")
+                .Include("IdentificationTypes")
+                .Select( x=>new StudentDTO
+                { 
+                    Id = x.Id,
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    Address = x.Address,
+                    PhoneNumber = x.PhoneNumber,
+                    Email = x.Email,
+                    BirthDate = x.BirthDate,
+                    Identification = x.Identification,
+                    IdentificationType = x.IdentificationType,
+                    Sex = x.Sex,
+                    SexId = x.SexId,
+                    IdentificationTypeId = x.IdentificationTypeId,
+                    Status = x.Status,
+                    StatusId = x.StatusId,
+                    PicturePeople=x. picturePeople.Where (p=>p.StudentId==x.Id).Select (p=>new PicturePersonDTO
+                    { 
+                       Id=p.Id,
+                       Picture=p.Picture,
+                       PictureId=p.PictureId,
+                       Student=x.FirstName+" "+x.LastName,
+                       StudentId=p.StudentId,
+                    }).ToList ()
+                }) ;
         }
 
         // GET: api/Students/5

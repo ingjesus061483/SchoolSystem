@@ -12,7 +12,7 @@ namespace ApiWebApplication.DTO
         public int Id { get; set; }
         [Required]
         public int CourseId {  get; set; }
-       public Course Course { get; set; }
+        public Course Course { get; set; }
 
         [Required]
         public int SchoolSubjectId {  get; set; }   

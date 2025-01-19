@@ -13,12 +13,16 @@ namespace ApiWebApplication.DataAccess
     {
         public SchoolDbContext():base(ConfigurationManager.ConnectionStrings["SchoolSystem"].ConnectionString )
         { 
+           
         }
-       public  DbSet<Course> Courses { get; set; }
+        public  DbSet<Course> Courses { get; set; }
         public DbSet<SchoolSubject> SchoolSubjects { get; set; }
         public DbSet <CourseSubject> CourseSubjects { get; set; }
         public DbSet<IdentificationType > IdentificationTypes { get; set; }
         public DbSet< Sex> Sexes { get; set; }
         public DbSet <Student > Students { get; set; }
+        public DbSet <Status > Statuses { get; set; }
+        public DbSet <Picture> Pictures { get; set; }
+        public DbSet <PicturePerson >PicturePeople { get; set; }
     }
 }

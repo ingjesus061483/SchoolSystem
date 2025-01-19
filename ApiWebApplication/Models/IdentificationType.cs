@@ -15,6 +15,6 @@ namespace ApiWebApplication.Models
         public string Name { get; set; }
         
         public string Description { get; set; }
-        List<Student > Students { get; set; }
+     public    List<Student > Students { get; set; }
     }
 }

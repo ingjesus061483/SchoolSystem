@@ -182,12 +182,16 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PictureController.cs" />
+    <Compile Include="Controllers\PicturePersonController.cs" />
     <Compile Include="Controllers\SchoolSubjectController.cs" />
     <Compile Include="Controllers\CourseSubjectController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="DataAccess\SchoolDbContext.cs" />
     <Compile Include="DTO\CourseDTO.cs" />
     <Compile Include="DTO\CourseSubjectDTO.cs" />
+    <Compile Include="DTO\PictureDTO.cs" />
+    <Compile Include="DTO\PicturePersonDTO.cs" />
     <Compile Include="DTO\SchoolSubjectDTO.cs" />
     <Compile Include="DTO\StudentDTO.cs" />
     <Compile Include="Global.asax.cs">
@@ -197,8 +201,11 @@
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\CourseSubject.cs" />
     <Compile Include="Models\IdentificationType.cs" />
+    <Compile Include="Models\Picture.cs" />
+    <Compile Include="Models\PicturePerson.cs" />
     <Compile Include="Models\SchoolSubject.cs" />
     <Compile Include="Models\Sex.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities.cs" />
@@ -271,6 +278,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\PicturePerson\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\bootstrap.min.js.map" />

@@ -13,10 +13,12 @@ namespace UserControls.Models
 
         [Required (ErrorMessage ="El campo codigo no puede ser vacio",AllowEmptyStrings =false)]
         [MaxLength(50,ErrorMessage ="El tamaño no puede ser mayor de 50" )]
+        [Column(TypeName = "varchar")]
         public string Code {  get; set; }
 
         [Required(ErrorMessage = "El campo nombre no puede ser vacio", AllowEmptyStrings = false)]
-        [MaxLength(50, ErrorMessage = "El tamaño no puede ser mayor de 50")] 
+        [MaxLength(50, ErrorMessage = "El tamaño no puede ser mayor de 50")]
+        [Column(TypeName = "varchar")]
         public string Name { get; set; }
 
         public string Description { get; set; }

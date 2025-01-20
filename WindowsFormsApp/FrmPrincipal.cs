@@ -59,5 +59,15 @@ namespace WindowsFormsApp
             };
             addControl(estudiantesUser );
         }
+
+        private void toolStripMatricula_Click(object sender, EventArgs e)
+        {
+            MatriculaUser matriculaUser = new MatriculaUser
+            {
+                Form = this,
+                Dock = DockStyle.Fill,
+            };
+            addControl(matriculaUser);
+        }
     }
 }

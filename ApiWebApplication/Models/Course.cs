@@ -32,5 +32,6 @@ namespace ApiWebApplication.Models
         public decimal Amount { get; set; }
 
         public List<CourseSubject> CourseSubjects { get; set; }
+        public List<Tuition> Tuitions { get; set; }
     }
 }

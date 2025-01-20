@@ -128,6 +128,8 @@
     <Compile Include="Models\Sex.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Tuition.cs" />
+    <Compile Include="Models\WorkingDay.cs" />
     <Compile Include="ProfesorUser.cs">
       <SubType>UserControl</SubType>
     </Compile>

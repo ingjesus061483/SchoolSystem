@@ -56,13 +56,10 @@ namespace ApiWebApplication.Models
 
         [Required]
         public int IdentificationTypeId { get; set; }
-        public IdentificationType IdentificationType { get; set; }
-
-        [Required]
-        public int StatusId {  get; set; }
-        public Status Status { get; set; }
+        public IdentificationType IdentificationType { get; set; }    
 
         public List<PicturePerson> picturePeople { get; set; }
 
+        public List<Tuition> Tuitions { get; set; }
     }
 }

@@ -24,5 +24,9 @@ namespace ApiWebApplication.DataAccess
         public DbSet <Status > Statuses { get; set; }
         public DbSet <Picture> Pictures { get; set; }
         public DbSet <PicturePerson >PicturePeople { get; set; }
+        public DbSet <WorkingDay > WorkingDays { get; set; }
+        public DbSet <Tuition> Tuitions { get; set; }
+        public DbSet<Strangeness> Strangenesses {  get; set; }
+        public DbSet <Concept> Concepts { get; set; }   
     }
 }

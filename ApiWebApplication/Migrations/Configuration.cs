@@ -48,9 +48,15 @@
                  new Status {Id =3 ,Name ="Cancelado" },
                  new Status {Id =4 ,Name ="Reprobado" },
                  new Status {Id =4 ,Name ="Aprobado" },
-
             };
             statuses.ForEach(ss => context.Statuses.AddOrUpdate(p => p.Name, ss));
+            List<WorkingDay> workingDays = new List<WorkingDay>
+            {
+                new WorkingDay {Id =1,Name ="Mañana"},
+                new WorkingDay{Id=2 ,Name="Tarde"},
+                new WorkingDay {Id =3 ,Name ="Noche"}
+            };
+            workingDays.ForEach (w=>context .WorkingDays.AddOrUpdate(p=>p.Name , w));
             context .SaveChanges();
         }
     }

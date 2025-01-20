@@ -101,7 +101,6 @@ C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControl
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.frmSecundario.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.LoginUser.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.LogrosUser.resources
-C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.MatriculaControl.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.ProfesorUser.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.Properties.Resources.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.ReportesUser.resources
@@ -112,3 +111,4 @@ C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControl
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.pdb
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.ImagenesUser.resources
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.ImagePreviewUser.resources
+C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\DTO\obj\Debug\UserControls.MatriculaUser.resources

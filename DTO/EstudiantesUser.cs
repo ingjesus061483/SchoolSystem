@@ -43,7 +43,7 @@ namespace UserControls
                 Sex = x.Sex.Name,
                 x.PhoneNumber,
                 x.Email,
-                status= x.Status.Name ,
+            //    status= x.Status.Name ,
             }).ToList();
             txtNumDoc .Clear ();
             txtPriNombre .Clear ();
@@ -89,7 +89,7 @@ namespace UserControls
                     PhoneNumber =txtTelefono .Text ,
                     Email =txtEmail .Text ,
                     SexId=int.Parse (cboSexo .SelectedValue .ToString ()),  
-                    StatusId=1
+                  //  StatusId=1
                 };
                 await Utilities<Student>.Post(student);                
             }

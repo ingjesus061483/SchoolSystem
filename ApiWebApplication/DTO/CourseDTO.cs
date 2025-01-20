@@ -32,5 +32,7 @@ namespace ApiWebApplication.DTO
         [Column(TypeName = "decimal")]        
         public decimal Amount { get; set; }
         public List<CourseSubjectDTO> CourseSubjects { get; set; }
+        public List<Tuition> Tuitions { get; set; }
+
     }
 }

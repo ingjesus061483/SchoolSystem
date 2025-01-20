@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace UserControls
     public partial class BuscarUser : UserControl
     {
         List<Course> courses;
+        List<Student > students ;
         public int Id {  get; set; }
         public  object List {  get; set; }
         public Form Form { get; set; }
@@ -22,41 +24,97 @@ namespace UserControls
         {
             InitializeComponent();
         }
+        void LoadGrid(object obj)
+        {
+            if (obj is List<Course>)
+            {
+                courses = obj as List<Course>;
+                dgVer.DataSource = courses.Select(x => new
+                {
+                    x.Id,
+                    Referencia = x.Reference,
+                    Descripcion = x.Description,
+                    CapicidadMax = x.Amount,
+                }).ToList();
+            }
+            else if(obj is List<Student >)
+            {
+                students = obj as List<Student>;
+                dgVer.DataSource = students.Select(x => new
+                {
+                    x.Id,
+                    TipoIdentificacion = x.IdentificationType.Name,
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Sexo = x.Sex.Name,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
+  //                  Estado = x.Status.Name,
+                }).ToList();
+            }
+        }
+        void LoadGrid(object obj, string filtro, string valor)
+        {
+            if (obj is List<Course>)
+            {
+                courses = obj as List<Course>;
+                dgVer.DataSource = courses.Select(x => new
+                {
+                    x.Id,
+                    Referencia = x.Reference,
+                    Descripcion = x.Description,
+                    CapicidadMax = x.Amount,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (obj is List<Student>)
+            {
+                students = obj as List<Student>;
+                dgVer.DataSource = students.Select(x => new
+                {
+                    x.Id,
+                    TipoIdentificacion = x.IdentificationType.Name,
+                   Identificacion= x.Identification,                    
+                   NombreCompleto= x.CompleteName,
+                   FechaNacimiento= x.BirthDate,
+                   Edad= x.Age,
+                   Direccion=x.Address,
+                   Sexo = x.Sex.Name,
+                   Telefono= x.PhoneNumber,
+                   x.Email,
+              //      Estado = x.Status.Name,
+                }).ToList ().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+        }
 
         private void BuscarUser_Load(object sender, EventArgs e)
         {
-            courses =List as List<Course> ;
-            dgVer.DataSource =  courses.Select(x => new { 
-                x.Id,
-                Referencia=x.Reference ,
-                Descripcion =x.Description ,
-               CapicidadMax= x.Amount,
-            }).ToList();
+            LoadGrid(List );
             var cols = Utilities<DataGridViewColumn>.GetValues(dgVer);
             Utilities<DataGridViewColumn>.FillCombo(cols, cbofiltro);
         }
 
         private void btnsalir_Click(object sender, EventArgs e)
         {
-     Id=int.Parse (      dgVer .CurrentRow .Cells["id"].Value.ToString  ());
+            Id = int.Parse(dgVer.CurrentRow.Cells["id"].Value.ToString());
             Form .Close();
         }
 
         private void txtfiltro_TextChanged(object sender, EventArgs e)
         {
-            dgVer .DataSource = courses.Select(x=>new 
-            
-            {
-                x.Id,
-                Referencia = x.Reference,
-                Descripcion = x.Description,
-                CapicidadMax = x.Amount,
-            }).ToList().Where(z => Utilities<object>.GetValue(z, cbofiltro .Text ,txtfiltro .Text )).ToList();
+            LoadGrid (List,cbofiltro .Text ,txtfiltro .Text );
         }
 
-        private void Panel1_Paint(object sender, PaintEventArgs e)
+        private void dgVer_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            if (e.RowIndex <0)
+            {
+                return;
+            }
+            Id = int.Parse(dgVer.Rows[e.RowIndex].Cells["id"].Value.ToString());
+            Form.Close();
         }
     }
 }

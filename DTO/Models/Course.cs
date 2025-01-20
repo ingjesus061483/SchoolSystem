@@ -26,6 +26,7 @@ namespace UserControls.Models
         [Required (ErrorMessage ="El campo capacidad no puede ser vacio")]        
         [Column(TypeName = "decimal")]        
         public decimal Amount { get; set; }
+        public List<Tuition> Tuitions { get; set; }
 
         public List <CourseSubject  > CourseSubjects    { get; set; }
         public string Reference 

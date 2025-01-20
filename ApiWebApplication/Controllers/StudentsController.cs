@@ -51,8 +51,6 @@ namespace ApiWebApplication.Controllers
                     Sex = x.Sex,
                     SexId = x.SexId,
                     IdentificationTypeId = x.IdentificationTypeId,
-                    Status = x.Status,
-                    StatusId = x.StatusId,
                     PicturePeople=x. picturePeople.Where (p=>p.StudentId==x.Id).Select (p=>new PicturePersonDTO
                     { 
                        Id=p.Id,

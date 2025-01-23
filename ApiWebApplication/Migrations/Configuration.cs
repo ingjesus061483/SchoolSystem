@@ -17,7 +17,14 @@
         }
 
         protected override void Seed(ApiWebApplication.DataAccess.SchoolDbContext context)
-        {           
+        {     
+            List<Concept > concepts = new List<Concept> 
+            {
+                new Concept {Id = 1,Code="001",Title ="Estudiante suspendido"},
+                new Concept {Id = 2,Code="002",Title ="Matricula condicional"},
+                new Concept{ Id=3,Code ="003" , Title="Cancelacion de matricula"}
+            };
+            concepts .ForEach(c=>context .Concepts.AddOrUpdate(p=>p.Code,c));           
             List<Course> courses = new List<Course>
             {
                new Course { Code="001",Name="Primero" , Amount=20,Id=1},

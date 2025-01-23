@@ -14,8 +14,14 @@ namespace ApiWebApplication.Models
         [Required]
         [Index(IsUnique = true)]
         [StringLength (50)]
+        [Column(TypeName = "varchar")]
         public string Code { get; set; }
         [Required ]
+        [StringLength(50)]
+        [Column(TypeName ="varchar")]
         public string Title { get; set; }
+
+        [Column(TypeName = "varchar")]
+        public string Description { get; set; }
     }
 }

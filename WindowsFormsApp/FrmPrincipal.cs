@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UserControls;
 namespace WindowsFormsApp
 {
     public partial class FrmPrincipal : Form
@@ -68,6 +68,16 @@ namespace WindowsFormsApp
                 Dock = DockStyle.Fill,
             };
             addControl(matriculaUser);
+        }
+
+        private void toolStripConcepto_Click(object sender, EventArgs e)
+        {
+            ConceptoUser conceptoUser = new ConceptoUser
+            {
+                Form = this,
+                Dock = DockStyle.Fill
+            };
+            addControl(conceptoUser);
         }
     }
 }

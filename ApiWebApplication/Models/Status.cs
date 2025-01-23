@@ -16,6 +16,7 @@ namespace ApiWebApplication.Models
         [Column(TypeName = "varchar")]
         public string Name { get; set; }
 
+        [Column(TypeName = "varchar")]
         public string Description { get; set; }
 
         public List<Tuition > Tuitions  { get; set; }

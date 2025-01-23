@@ -45,6 +45,7 @@ namespace ApiWebApplication.DTO
         public int StatusId { get; set; }
         public Status Status { get; set; }
 
+       public  List<StrangenessDTO> Strangenesses { get; set; }
         public double Duration
         {
             get

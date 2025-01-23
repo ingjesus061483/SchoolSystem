@@ -86,9 +86,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DTO\UserControls.csproj">
-      <Project>{b0fd85ad-f040-44e4-8604-e84e98c0f648}</Project>
-      <Name>UserControls</Name>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{1F8F996E-209D-4229-9C78-F76F5E094167}</Project>
+      <Name>Controls</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

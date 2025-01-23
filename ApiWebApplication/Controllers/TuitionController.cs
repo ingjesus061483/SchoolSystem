@@ -23,6 +23,8 @@ namespace ApiWebApplication.Controllers
                     .Include("WorkingDays")
                     .Include("Course")
                     .Include("Status")
+                    .Include ("Strangenesses")
+                    .Include("Concepts")
                     .Select(x => new TuitionDTO
                     {
                         Id = x.Id,
@@ -39,6 +41,18 @@ namespace ApiWebApplication.Controllers
                         TutionValue=x.TutionValue,
                         Status =x.Status,
                         StatusId=x.StatusId,
+                        Strangenesses =x.Strangeness.Where (a=> a.TuitionId==x.Id).Select(st=>new StrangenessDTO { 
+                            Id = st.Id,
+                            Code=st.Code,
+                            TuitionId=st.TuitionId,
+                           Course=x.Course.Code+" "+x.Course.Name ,
+                            ConceptId=st.ConceptId,
+                            Date=st.Date,
+                            Detail=st.Detail,
+                            Concept=st.Concept,
+                            
+                        }).ToList()
+                        
                     });    
             } 
         }

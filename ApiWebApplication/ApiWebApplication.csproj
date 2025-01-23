@@ -180,12 +180,14 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ConceptController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PictureController.cs" />
     <Compile Include="Controllers\PicturePersonController.cs" />
     <Compile Include="Controllers\SchoolSubjectController.cs" />
     <Compile Include="Controllers\CourseSubjectController.cs" />
+    <Compile Include="Controllers\StrangenessController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Controllers\TuitionController.cs" />
     <Compile Include="DataAccess\SchoolDbContext.cs" />
@@ -194,6 +196,7 @@
     <Compile Include="DTO\PictureDTO.cs" />
     <Compile Include="DTO\PicturePersonDTO.cs" />
     <Compile Include="DTO\SchoolSubjectDTO.cs" />
+    <Compile Include="DTO\StrangenessDTO.cs" />
     <Compile Include="DTO\StudentDTO.cs" />
     <Compile Include="DTO\TuitionDTO.cs" />
     <Compile Include="Global.asax.cs">

@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcudienteUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AcudienteUser.Designer.cs">
+      <DependentUpon>AcudienteUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsignaCursoUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -90,6 +96,7 @@
     <Compile Include="ImagePreviewUser.Designer.cs">
       <DependentUpon>ImagePreviewUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Attendant.cs" />
     <Compile Include="Models\Concept.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Course.cs" />
@@ -132,6 +139,7 @@
     </Compile>
     <Compile Include="Models\IdentificationType.cs" />
     <Compile Include="Models\PicturePerson.cs" />
+    <Compile Include="Models\Relationship.cs" />
     <Compile Include="Models\Sex.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Strangeness.cs" />
@@ -172,6 +180,9 @@
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AcudienteUser.resx">
+      <DependentUpon>AcudienteUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AsignaCursoUser.resx">
       <DependentUpon>AsignaCursoUser.cs</DependentUpon>
     </EmbeddedResource>

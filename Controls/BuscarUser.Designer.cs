@@ -136,7 +136,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(22, 132);
+            this.Label2.Location = new System.Drawing.Point(22, 121);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(58, 24);
@@ -147,7 +147,7 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(22, 91);
+            this.Label1.Location = new System.Drawing.Point(22, 80);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(59, 24);
@@ -161,7 +161,7 @@
             this.cbofiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbofiltro.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbofiltro.FormattingEnabled = true;
-            this.cbofiltro.Location = new System.Drawing.Point(89, 87);
+            this.cbofiltro.Location = new System.Drawing.Point(89, 76);
             this.cbofiltro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbofiltro.Name = "cbofiltro";
             this.cbofiltro.Size = new System.Drawing.Size(416, 31);
@@ -172,7 +172,7 @@
             this.txtfiltro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtfiltro.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfiltro.Location = new System.Drawing.Point(89, 129);
+            this.txtfiltro.Location = new System.Drawing.Point(89, 118);
             this.txtfiltro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtfiltro.Name = "txtfiltro";
             this.txtfiltro.Size = new System.Drawing.Size(416, 30);

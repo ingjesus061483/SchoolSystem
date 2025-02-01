@@ -103,6 +103,12 @@ namespace Controls
             {
                 return;
             }
+        
+            if(Tuitions.Where (x=>x.StudentId == student.Id && /*x.CourseId==Course.Id&&*/ (x.StatusId == 1 || x. StatusId == 2)).Any() )
+            {
+                MessageBox.Show("El estudiante ya se encuentra registrado en este curso","",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             txtNombre .Text = student .CompleteName ;
             txtIdentificacion .Text =student .Identification ;
         }
@@ -121,21 +127,34 @@ namespace Controls
         private async void btnGuardar_Click(object sender, EventArgs e)
         {
             Utilities<Tuition>.Api = "api/Tuition";
-            if (Tuition ==null)
+            if (Tuition == null)
             {
                 Tuition = new Tuition
                 {
                     Code = txtCodigo.Text,
                     StudentId = student.Id,
                     WorkingDayId = int.Parse(cmbJornada.SelectedValue.ToString()),
-                    FirstDate=txtFechaInicioMatricula .Value ,
-                    LastDate =txtFechaFinMatricula .Value ,
-                    CourseId=Course .Id,
-                    MonthValue=decimal .Parse ( txtValorMensualidad.Text),
-                    TutionValue =decimal .Parse (txtValorMatricula   .Text),
+                    FirstDate = txtFechaInicioMatricula.Value,
+                    LastDate = txtFechaFinMatricula.Value,
+                    CourseId = Course.Id,
+                    MonthValue = decimal.Parse(txtValorMensualidad.Text),
+                    TutionValue = decimal.Parse(txtValorMatricula.Text),
                     StatusId = 1
                 };
                 await Utilities<Tuition>.Post(Tuition);
+                Tuitions = await Utilities<Tuition>.Get();
+                Utilities<Concept >.Api = "api/Concept";
+                List <Concept > concepts =await  Utilities<Concept>.Get();
+                Utilities<Strangeness>.Api = "api/Strangeness";
+                Strangeness  Strangeness = new Strangeness
+                {
+                    Code = DateTime.Now.ToOADate().ToString(),
+                    ConceptId = concepts .FirstOrDefault(x=>x.Code== "001").Id ,
+                    TuitionId = Tuitions.Last().Id,
+                    Date = DateTime .Now ,
+                    Detail = $"El estudiante identificado {student.Identification} esta cursando {Course .Name }"
+                };
+                await Utilities<Strangeness>.Post(Strangeness);
             }
             else
             {
@@ -146,8 +165,8 @@ namespace Controls
                 Tuition.LastDate = txtFechaFinMatricula.Value;
                 Tuition.CourseId = Course.Id;
                 Tuition.MonthValue = decimal.Parse(txtValorMensualidad.Text);
-                Tuition .TutionValue = decimal.Parse(txtValorMatricula.Text);
-                await Utilities <Tuition>.Put(Tuition .Id, Tuition);                  
+                Tuition.TutionValue = decimal.Parse(txtValorMatricula.Text);
+                await Utilities<Tuition>.Put(Tuition.Id, Tuition);
             }
             newTuition();
         }

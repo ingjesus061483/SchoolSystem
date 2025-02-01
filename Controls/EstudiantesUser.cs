@@ -18,6 +18,7 @@ namespace Controls
     {
          string[] arr = { "Id", "Name" };
         public Form Form {  get; set; }
+        Attendant Attendant { get; set; }
         List<Student> students;
         Student student;
         List <IdentificationType > identities;
@@ -28,6 +29,7 @@ namespace Controls
         }
         async void newStudent()
         {
+            Attendant=null;
             student=null ;            
             Utilities<Student>.Api = "api/Students";
             students = await Utilities<Student>.Get();
@@ -43,7 +45,7 @@ namespace Controls
                 Sex = x.Sex.Name,
                 x.PhoneNumber,
                 x.Email,
-            //    status= x.Status.Name ,
+               Attendant = x.Attendant .CompleteName,
             }).ToList();
             txtNumDoc .Clear ();
             txtPriNombre .Clear ();
@@ -57,6 +59,8 @@ namespace Controls
             cboSexo.SelectedIndex = -1;
             cboTipoDoc .SelectedIndex = -1;
             txtNumDoc .Focus ();
+            txtAcudiente .Clear ();
+           txtIdentificacionAcudiente .Clear ();
         }
         private async void EstudiantesUser_Load(object sender, EventArgs e)
         {
@@ -88,6 +92,7 @@ namespace Controls
                     Address =txtDireccion .Text ,
                     PhoneNumber =txtTelefono .Text ,
                     Email =txtEmail .Text ,
+                    AttendantId=Attendant .Id ,
                     SexId=int.Parse (cboSexo .SelectedValue .ToString ()),  
                   //  StatusId=1
                 };
@@ -102,6 +107,8 @@ namespace Controls
                 student .FirstName =txtPriNombre .Text;
                 student .LastName =txtPriApellido .Text;
                 student .BirthDate = txtFechaNacim .Value;
+                student.AttendantId = Attendant.Id;
+                student.Attendant      = Attendant;
                 student .IdentificationTypeId=int.Parse ( cboTipoDoc .SelectedValue.ToString ());
                 student.Sex = sexes.FirstOrDefault(x => x.Id == int.Parse(cboSexo.SelectedValue.ToString()));
                 student .IdentificationType =identities .FirstOrDefault(x => x.Id ==int.Parse(cboTipoDoc .SelectedValue.ToString()));
@@ -135,8 +142,11 @@ namespace Controls
             if (e.RowIndex < 0) {
                 return;
             }
-          int.TryParse ( dgvEstudiante .Rows[e.RowIndex ].Cells["Id"].Value.ToString (),out int id);
-            student =students .First (x => x.Id == id);
+            int.TryParse(dgvEstudiante.Rows[e.RowIndex].Cells["Id"].Value.ToString(), out int id);       
+            student = students.FirstOrDefault (x => x.Id == id);
+            Attendant = student.Attendant;
+            txtIdentificacionAcudiente.Text = Attendant.Identification;
+            txtAcudiente.Text = Attendant.CompleteName ;
             txtNumDoc.Text =student .Identification ;
             txtPriNombre.Text =student .FirstName ;
             txtPriApellido.Text =student .LastName ;
@@ -179,6 +189,29 @@ namespace Controls
             frmSecundario.ShowDialog();
             newStudent();
 
+        }
+
+        private async void btnAcudiente_Click(object sender, EventArgs e)
+        {
+            Utilities<Attendant>.Api = "api/Attendant";
+            var attendants=await  Utilities<Attendant>.Get();
+            frmSecundario frmSecundario = new frmSecundario();
+            BuscarUser buscarUser = new BuscarUser
+            {
+                List = attendants,
+                Dock = DockStyle.Fill,
+                Form = frmSecundario
+            };
+            frmSecundario.UserControl = buscarUser;
+            frmSecundario.ShowDialog();
+            Attendant =attendants.FirstOrDefault(x=> x.Id ==buscarUser .Id );
+            if (Attendant==null)
+            {
+                return;
+            }
+            txtIdentificacionAcudiente .Text=Attendant.Identification ;
+            txtAcudiente .Text =Attendant .CompleteName ;
+           
         }
     }
 }

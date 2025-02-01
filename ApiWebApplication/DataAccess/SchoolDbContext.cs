@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.Entity;
 using System.Data.Entity.Core.Common.CommandTrees;
+using System.Data.Entity.Hierarchy;
 using System.Linq;
 using System.Web;
 
@@ -15,6 +16,8 @@ namespace ApiWebApplication.DataAccess
         { 
            
         }
+        public DbSet<Relationship> Relationships { get; set; }
+        public DbSet <Attendant> Attenants { get; set; }
         public  DbSet<Course> Courses { get; set; }
         public DbSet<SchoolSubject> SchoolSubjects { get; set; }
         public DbSet <CourseSubject> CourseSubjects { get; set; }

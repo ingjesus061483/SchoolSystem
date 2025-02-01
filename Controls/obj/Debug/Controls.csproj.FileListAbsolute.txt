@@ -26,3 +26,4 @@ C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\Controls\obj\Debug\Contro
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\Controls\obj\Debug\Controls.csproj.Up2Date
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\Controls\obj\Debug\Controls.dll
 C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\Controls\obj\Debug\Controls.pdb
+C:\Users\jesus\OneDrive\Documentos\GitHub\SchoolSystem\Controls\obj\Debug\Controls.AcudienteUser.resources

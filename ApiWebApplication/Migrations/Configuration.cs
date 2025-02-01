@@ -17,12 +17,22 @@
         }
 
         protected override void Seed(ApiWebApplication.DataAccess.SchoolDbContext context)
-        {     
+        {
+            List<Relationship> Relationships = new List<Relationship> 
+            {
+                new Relationship{Id=1,Name ="Padre"},
+                new Relationship{Id=1,Name ="Madre"},
+                new Relationship{Id=1,Name ="Tio"},
+                new Relationship{Id=1,Name ="Tia"},
+                new Relationship{Id=1,Name ="Abuelo"},
+                new Relationship{Id=1,Name ="Abuela"},
+            };
+            Relationships .ForEach(r => context.Relationships.AddOrUpdate(p=>p.Name, r));
             List<Concept > concepts = new List<Concept> 
             {
-                new Concept {Id = 1,Code="001",Title ="Estudiante suspendido"},
-                new Concept {Id = 2,Code="002",Title ="Matricula condicional"},
-                new Concept{ Id=3,Code ="003" , Title="Cancelacion de matricula"}
+                new Concept {Id =1,Code ="001",Title="Estudiante cursando"},
+                new Concept {Id = 2,Code="002",Title ="Estudiante suspendido"},
+                new Concept {Id = 3,Code="003",Title ="Cancelacion de matricula"},
             };
             concepts .ForEach(c=>context .Concepts.AddOrUpdate(p=>p.Code,c));           
             List<Course> courses = new List<Course>
@@ -50,7 +60,7 @@
             sexes.ForEach(s => context.Sexes.AddOrUpdate(p => p.Name, s));
             List<Status> statuses = new List<Status>
             {
-                 new Status { Id =1 ,Name ="Nuevo" },
+                 new Status { Id =1 ,Name ="Cursando" },
                  new Status { Id =2 ,Name ="Suspendido" },
                  new Status {Id =3 ,Name ="Cancelado" },
                  new Status {Id =4 ,Name ="Reprobado" },

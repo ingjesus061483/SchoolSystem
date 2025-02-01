@@ -180,6 +180,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AttendantController.cs" />
     <Compile Include="Controllers\ConceptController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -191,6 +192,7 @@
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Controllers\TuitionController.cs" />
     <Compile Include="DataAccess\SchoolDbContext.cs" />
+    <Compile Include="DTO\AttendantDTO.cs" />
     <Compile Include="DTO\CourseDTO.cs" />
     <Compile Include="DTO\CourseSubjectDTO.cs" />
     <Compile Include="DTO\PictureDTO.cs" />
@@ -203,12 +205,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Attendant.cs" />
     <Compile Include="Models\Concept.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\CourseSubject.cs" />
     <Compile Include="Models\IdentificationType.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\PicturePerson.cs" />
+    <Compile Include="Models\Relationship.cs" />
     <Compile Include="Models\SchoolSubject.cs" />
     <Compile Include="Models\Sex.cs" />
     <Compile Include="Models\Status.cs" />

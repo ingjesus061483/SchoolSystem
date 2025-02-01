@@ -52,8 +52,10 @@ namespace ApiWebApplication.DTO
         public int IdentificationTypeId {  get; set; }        
         public IdentificationType IdentificationType { get; set; }
         
+        public int? AttendantId { get; set; }
+        public Attendant Attendant { get; set; }
 
-       public  List<PicturePersonDTO> PicturePeople { get ; set; }
+        public  List<PicturePersonDTO> PicturePeople { get ; set; }
 
         public List<Tuition> Tuitions { get; set; }
 

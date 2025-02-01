@@ -36,6 +36,7 @@ namespace ApiWebApplication.Controllers
                 .Include("Status")
                 .Include("Pictures")
                 .Include("PicturePersons")
+                .Include ("Attendants")
                 .Include("IdentificationTypes")
                 .Select( x=>new StudentDTO
                 { 
@@ -49,9 +50,11 @@ namespace ApiWebApplication.Controllers
                     Identification = x.Identification,
                     IdentificationType = x.IdentificationType,
                     Sex = x.Sex,
-                    SexId = x.SexId,
+                    SexId = x.SexId,                    
                     IdentificationTypeId = x.IdentificationTypeId,
-                    PicturePeople=x. picturePeople.Where (p=>p.StudentId==x.Id).Select (p=>new PicturePersonDTO
+                    Attendant=x.Attendant,
+                    AttendantId = x.AttendantId,
+                    PicturePeople =x. picturePeople.Where (p=>p.StudentId==x.Id).Select (p=>new PicturePersonDTO
                     { 
                        Id=p.Id,
                        Picture=p.Picture,

@@ -36,7 +36,7 @@ namespace Controls
                Concept= x.Concept.Title ,
                x.Detail
             }).ToList();
-            txtCodigo .Clear ();
+            txtCodigo .Text =DateTime .Now .ToOADate().ToString();
             txtDescripcion .Clear ();
             cmbConcepto.SelectedIndex = -1;
             txtFecha.Value = DateTime.Now;

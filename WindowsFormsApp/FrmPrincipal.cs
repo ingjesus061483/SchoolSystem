@@ -79,5 +79,16 @@ namespace WindowsFormsApp
             };
             addControl(conceptoUser);
         }
+
+        private void toolStripButtonAcudiente_Click(object sender, EventArgs e)
+        {
+            AcudienteUser acudienteUser = new AcudienteUser 
+            {
+                Form = this,
+                Dock = DockStyle.Fill,
+            };
+            addControl(acudienteUser);
+
+        }
     }
 }

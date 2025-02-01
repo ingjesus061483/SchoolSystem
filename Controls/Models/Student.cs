@@ -59,8 +59,8 @@ namespace Controls.Models
         public List<PicturePerson> picturePeople { get; set; }
 
         public List<Tuition> Tuitions { get; set; }
-
-
+      public int? AttendantId {  get; set; }
+        public Attendant Attendant { get; set; }
         public double Age
         {
             get

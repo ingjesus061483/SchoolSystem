@@ -17,6 +17,7 @@ namespace Controls
     {
         List<Course> courses;
         List<Student > students ;
+        List<Attendant> attendants;
         public int Id {  get; set; }
         public  object List {  get; set; }
         public Form Form { get; set; }
@@ -37,7 +38,7 @@ namespace Controls
                     CapicidadMax = x.Amount,
                 }).ToList();
             }
-            else if(obj is List<Student >)
+            else if (obj is List<Student>)
             {
                 students = obj as List<Student>;
                 dgVer.DataSource = students.Select(x => new
@@ -52,7 +53,22 @@ namespace Controls
                     Sexo = x.Sex.Name,
                     Telefono = x.PhoneNumber,
                     x.Email,
-  //                  Estado = x.Status.Name,
+                    //                  Estado = x.Status.Name,
+                }).ToList();
+            }
+            else if (obj is List<Attendant>)
+            {
+                attendants = obj as List<Attendant>;
+                dgVer.DataSource = attendants .Select(x => new
+                {
+                    x.Id,
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
                 }).ToList();
             }
         }
@@ -86,6 +102,21 @@ namespace Controls
                    x.Email,
               //      Estado = x.Status.Name,
                 }).ToList ().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (obj is List<Attendant>)
+            {
+                attendants = obj as List<Attendant>;
+                dgVer.DataSource = attendants.Select(x => new
+                {
+                    x.Id,
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
             }
         }
 

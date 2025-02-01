@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.SqlTypes;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
 namespace ApiWebApplication.Models
-{ 
-    public class Student
+{
+    public class Attendant
     {
         public int Id { get; set; }
 
@@ -19,6 +18,9 @@ namespace ApiWebApplication.Models
         public string Identification { get; set; }
 
         [Required]
+        public DateTime BirthDate { get; set; }
+
+        [Required]
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string FirstName { get; set; }
@@ -27,9 +29,7 @@ namespace ApiWebApplication.Models
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string LastName { get; set; }
-
-        [Required]
-        public DateTime BirthDate { get; set; }
+        
 
         [Required]
         [StringLength(50)]
@@ -41,28 +41,19 @@ namespace ApiWebApplication.Models
         [Column(TypeName = "varchar")]
         public string PhoneNumber { get; set; }
 
+
         [Required]
         [EmailAddress]
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string Email { get; set; }
-
-        [Required]
-        public int SexId { get; set; }
-        public Sex Sex { get; set; }
-
         
-        public int? AttendantId { get; set; }
-        public Attendant Attendant { get; set; }
-
         [Required]
-        public int IdentificationTypeId { get; set; }
-        public IdentificationType IdentificationType { get; set; }    
+        public int  RelationshipId { get; set; }
+        public   Relationship Relationship { get; set; }
 
-        public List<PicturePerson> picturePeople { get; set; }
+      public  List<Student> Students { get; set; }
 
-        public List<Tuition> Tuitions { get; set; }
 
-        
     }
 }

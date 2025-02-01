@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\apiwebapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\apiwebapplication\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\jesus\\onedrive\\documentos\\github\\schoolsystem\\controls\\matriculauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\matriculauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\apiwebapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\apiwebapplication\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\controls\\models\\attendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -182,54 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogrosUser.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\LogrosUser.cs",
-              "RelativeDocumentMoniker": "Controls\\LogrosUser.cs",
-              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\LogrosUser.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Controls\\LogrosUser.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:54:38.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NovedadesUser.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\NovedadesUser.cs",
-              "RelativeDocumentMoniker": "Controls\\NovedadesUser.cs",
-              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\NovedadesUser.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Controls\\NovedadesUser.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T20:38:33.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MatriculaUser.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\MatriculaUser.cs",
-              "RelativeDocumentMoniker": "Controls\\MatriculaUser.cs",
-              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\MatriculaUser.cs",
-              "RelativeToolTip": "Controls\\MatriculaUser.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAhwL0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:25:09.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TuitionController.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\TuitionController.cs",
-              "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\TuitionController.cs",
-              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\TuitionController.cs",
-              "RelativeToolTip": "ApiWebApplication\\Controllers\\TuitionController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAWwFEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:17:42.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MatriculaUser.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\MatriculaUser.cs",
               "RelativeDocumentMoniker": "Controls\\MatriculaUser.cs",
@@ -251,30 +204,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "EstudiantesUser.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs",
               "RelativeDocumentMoniker": "Controls\\EstudiantesUser.cs",
               "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs",
               "RelativeToolTip": "Controls\\EstudiantesUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAlwMMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:05:19.442Z"
+              "WhenOpened": "2025-01-27T14:05:19.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EstudiantesUser.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs",
-              "RelativeDocumentMoniker": "Controls\\EstudiantesUser.cs",
-              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Controls\\EstudiantesUser.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:13:12.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Models\\Student.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\Models\\Student.cs",
@@ -282,19 +225,81 @@
               "RelativeToolTip": "ApiWebApplication\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T22:11:16.1Z"
+              "WhenOpened": "2025-01-26T22:11:16.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "ApiWebApplication\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAWwIAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAlwIAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:17:42.081Z"
+              "WhenOpened": "2025-01-26T18:17:42.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TuitionController.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\TuitionController.cs",
+              "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\TuitionController.cs",
+              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\ApiWebApplication\\Controllers\\TuitionController.cs",
+              "RelativeToolTip": "ApiWebApplication\\Controllers\\TuitionController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAWwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:17:42.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatriculaUser.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\MatriculaUser.cs",
+              "RelativeDocumentMoniker": "Controls\\MatriculaUser.cs",
+              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\MatriculaUser.cs",
+              "RelativeToolTip": "Controls\\MatriculaUser.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAhwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:25:09.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstudiantesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\EstudiantesUser.cs",
+              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\EstudiantesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\EstudiantesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:13:12.941Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NovedadesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\NovedadesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\NovedadesUser.cs",
+              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\NovedadesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\NovedadesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T20:38:33.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogrosUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\LogrosUser.cs",
+              "RelativeDocumentMoniker": "Controls\\LogrosUser.cs",
+              "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\LogrosUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\LogrosUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:54:38.738Z"
             },
             {
               "$type": "Document",
@@ -398,7 +403,8 @@
               "ToolTip": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\SchoolSystem\\Controls\\ImagenesUser.cs [Dise\u00F1o]",
               "RelativeToolTip": "Controls\\ImagenesUser.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:41:45.462Z"
+              "WhenOpened": "2025-01-27T13:41:45.462Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -410,7 +416,8 @@
               "RelativeToolTip": "ApiWebApplication\\Controllers\\AttendantController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T12:26:59.423Z"
+              "WhenOpened": "2025-01-27T12:26:59.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -479,7 +486,8 @@
               "RelativeToolTip": "Controls\\EstudiantesUser.Designer.cs",
               "ViewState": "AgIAALACAAAAAAAAAAAAALACAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:05:38.567Z"
+              "WhenOpened": "2025-01-27T14:05:38.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -536,7 +544,8 @@
               "RelativeToolTip": "ApiWebApplication\\Controllers\\ConceptController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:17:42.165Z"
+              "WhenOpened": "2025-01-26T18:17:42.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -596,7 +605,8 @@
               "RelativeToolTip": "ApiWebApplication\\Controllers\\PictureController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAWwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:17:42.13Z"
+              "WhenOpened": "2025-01-26T18:17:42.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -608,7 +618,8 @@
               "RelativeToolTip": "Controls\\ImagenesUser.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAWwE8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:08:08.475Z"
+              "WhenOpened": "2025-01-23T19:08:08.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -632,7 +643,8 @@
               "RelativeToolTip": "Controls\\ImagenesUser.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:08:37.142Z"
+              "WhenOpened": "2025-01-23T19:08:37.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

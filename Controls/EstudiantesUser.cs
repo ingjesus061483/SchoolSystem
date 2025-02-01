@@ -45,7 +45,7 @@ namespace Controls
                 Sex = x.Sex.Name,
                 x.PhoneNumber,
                 x.Email,
-               Attendant = x.Attendant .CompleteName,
+               Attendant = x.Attendant? .CompleteName,
             }).ToList();
             txtNumDoc .Clear ();
             txtPriNombre .Clear ();
@@ -92,7 +92,7 @@ namespace Controls
                     Address =txtDireccion .Text ,
                     PhoneNumber =txtTelefono .Text ,
                     Email =txtEmail .Text ,
-                    AttendantId=Attendant .Id ,
+                    AttendantId=Attendant?.Id ,
                     SexId=int.Parse (cboSexo .SelectedValue .ToString ()),  
                   //  StatusId=1
                 };
@@ -145,8 +145,8 @@ namespace Controls
             int.TryParse(dgvEstudiante.Rows[e.RowIndex].Cells["Id"].Value.ToString(), out int id);       
             student = students.FirstOrDefault (x => x.Id == id);
             Attendant = student.Attendant;
-            txtIdentificacionAcudiente.Text = Attendant.Identification;
-            txtAcudiente.Text = Attendant.CompleteName ;
+            txtIdentificacionAcudiente.Text = Attendant?.Identification;
+            txtAcudiente.Text = Attendant?.CompleteName ;
             txtNumDoc.Text =student .Identification ;
             txtPriNombre.Text =student .FirstName ;
             txtPriApellido.Text =student .LastName ;

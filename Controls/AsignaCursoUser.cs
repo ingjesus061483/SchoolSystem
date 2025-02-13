@@ -17,6 +17,7 @@ namespace Controls
     {      
         public Form Form {  get; set; }
         Course course;
+        Teacher Teacher;
         CourseSubject subject;
         List<CourseSubject> courseSubjects;
         public SchoolSubject SchoolSubject  {  get; set; }
@@ -43,10 +44,9 @@ namespace Controls
             dgAsignaturas .DataSource=courseSubjects .Select(x=>new 
             { 
                 x.Id,
-                x.CourseId,
-                x.SchoolSubjectId ,
-               course= x.Course.Reference  ,
-               subject=x.SchoolSubject.Reference 
+               Curso= x.Course.Reference  ,
+               Asignatura=x.SchoolSubject.Reference ,
+               Profesor=x.Teacher.Identification+" - "+ x.Teacher.CompleteName 
             }).ToList();
             txtAsignatura .Text =SchoolSubject .Reference;
         }
@@ -82,6 +82,9 @@ namespace Controls
             txtAsignatura .Text =subject .SchoolSubject .Reference ;
             txtCurso .Text=subject .Course .Reference ;
             course =subject .Course ;
+            Teacher = subject.Teacher;
+            txtIdentificacion.Text = Teacher.Identification;
+            txtNombre.Text = Teacher.CompleteName;
         }
 
         private async  void btnGuardar_Click(object sender, EventArgs e)
@@ -98,7 +101,8 @@ namespace Controls
                     subject = new CourseSubject
                     {
                         SchoolSubjectId =SchoolSubject .Id,
-                        CourseId =course.Id 
+                        CourseId =course.Id ,
+                        TeacherId=Teacher.Id ,
                     };
                    msg= await  Utilities <CourseSubject >.Post(subject ) ;
 
@@ -106,7 +110,8 @@ namespace Controls
                 else
                 {
                     subject.SchoolSubjectId = SchoolSubject.Id;
-                    subject.CourseId = course.Id;                    
+                    subject.CourseId = course.Id;
+                    subject.TeacherId = Teacher.Id;
                     msg = await Utilities<CourseSubject>.Put (subject.Id , subject);
                 }
                 MessageBox.Show(msg, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -143,6 +148,32 @@ namespace Controls
             {
                 Form.Close();
             }
+        }
+
+        private async void btnProfesor_Click(object sender, EventArgs e)
+        {
+            Utilities<Teacher>.Api = "api/Teacher"; 
+            var teachers = await Utilities<Teacher>.Get();
+
+            frmSecundario frmSecundario = new frmSecundario();
+            BuscarUser busquedaUser = new BuscarUser
+            {
+                List = teachers,
+                Form = frmSecundario,
+                Dock = DockStyle.Fill,
+            };
+            frmSecundario.UserControl = busquedaUser;
+
+            frmSecundario.ShowDialog();
+            Teacher = teachers.FirstOrDefault(x => x.Id == busquedaUser.Id);
+            if (teachers == null)
+            {
+                return;
+            }
+            txtIdentificacion .Text = Teacher.Identification;
+            txtNombre.Text = Teacher.CompleteName;
+
+
         }
     }
 }

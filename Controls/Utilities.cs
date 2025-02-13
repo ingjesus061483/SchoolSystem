@@ -140,6 +140,7 @@ namespace Controls
             {               
                 return await resp.Content.ReadAsStringAsync();
             }
+            string a =await  resp.Content.ReadAsStringAsync();
             throw new Exception(JsonConvert.DeserializeObject<string>(await resp.Content.ReadAsStringAsync()));
         }
         public static  async Task<string>Delete(int id )

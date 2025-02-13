@@ -14,11 +14,13 @@ namespace ApiWebApplication.DTO
         public int PictureId {  get; set; }
         public Picture  Picture { get; set; }
 
-        [Required]
-        public int StudentId {  get; set; }
+        public int? StudentId {  get; set; }
+        public int? TeacherId { get; set; }
 
-        [Required]
         public string Student {  get; set; }
-       // public Student Student { get; set; }
+
+        public string Teacher { get; set; }
+
+        // public Student Student { get; set; }
     }
 }

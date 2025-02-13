@@ -11,12 +11,12 @@ using Controls.Models;
 
 namespace Controls
 {
-    public partial class ConceptoUser : UserControl
+    public partial class ConceptosUser : UserControl
     {
         public Form Form { get; set; }
         List<Concept> Concepts { get; set; }
         Concept concept;
-        public ConceptoUser()
+        public ConceptosUser()
         {
             InitializeComponent();
         }

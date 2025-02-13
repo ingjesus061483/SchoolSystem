@@ -16,7 +16,11 @@ namespace ApiWebApplication.DTO
 
         [Required]
         public int SchoolSubjectId {  get; set; }   
-        public SchoolSubject SchoolSubject { get; set; }    
+        public SchoolSubject SchoolSubject { get; set; }
+
+        [Required ]
+        public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
 
     }
 }

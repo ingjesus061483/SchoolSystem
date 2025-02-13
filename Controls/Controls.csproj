@@ -72,11 +72,11 @@
     <Compile Include="CalificacionesUser.Designer.cs">
       <DependentUpon>CalificacionesUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConceptoUser.cs">
+    <Compile Include="ConceptosUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ConceptoUser.Designer.cs">
-      <DependentUpon>ConceptoUser.cs</DependentUpon>
+    <Compile Include="ConceptosUser.Designer.cs">
+      <DependentUpon>ConceptosUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSecundario.cs">
       <SubType>Form</SubType>
@@ -144,6 +144,7 @@
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Strangeness.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Models\Tuition.cs" />
     <Compile Include="Models\WorkingDay.cs" />
     <Compile Include="NovedadesUser.cs">
@@ -195,8 +196,8 @@
     <EmbeddedResource Include="CalificacionesUser.resx">
       <DependentUpon>CalificacionesUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConceptoUser.resx">
-      <DependentUpon>ConceptoUser.cs</DependentUpon>
+    <EmbeddedResource Include="ConceptosUser.resx">
+      <DependentUpon>ConceptosUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CursosUser.resx">
       <DependentUpon>CursosUser.cs</DependentUpon>

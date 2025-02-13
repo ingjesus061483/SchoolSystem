@@ -268,7 +268,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(27, 113);
+            this.Label2.Location = new System.Drawing.Point(27, 115);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(178, 24);
@@ -281,13 +281,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescripcion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.txtDescripcion.Location = new System.Drawing.Point(213, 178);
+            this.txtDescripcion.Location = new System.Drawing.Point(213, 193);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescripcion.Size = new System.Drawing.Size(388, 92);
+            this.txtDescripcion.Size = new System.Drawing.Size(388, 78);
             this.txtDescripcion.TabIndex = 1120;
             // 
             // Label3
@@ -295,7 +295,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(81, 178);
+            this.Label3.Location = new System.Drawing.Point(81, 193);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(122, 24);
@@ -308,7 +308,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.txtNombre.Location = new System.Drawing.Point(213, 110);
+            this.txtNombre.Location = new System.Drawing.Point(213, 112);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.MaxLength = 40;
             this.txtNombre.Name = "txtNombre";
@@ -321,7 +321,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCapacidadMax.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCapacidadMax.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.txtCapacidadMax.Location = new System.Drawing.Point(213, 143);
+            this.txtCapacidadMax.Location = new System.Drawing.Point(213, 152);
             this.txtCapacidadMax.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCapacidadMax.MaxLength = 40;
             this.txtCapacidadMax.Name = "txtCapacidadMax";
@@ -333,7 +333,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(16, 146);
+            this.Label1.Location = new System.Drawing.Point(16, 155);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(187, 24);

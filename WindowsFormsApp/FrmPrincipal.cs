@@ -19,6 +19,7 @@ namespace WindowsFormsApp
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
 
+            toolStripButtonCourse.PerformClick();
         }
         private void toolStripButtonCourse_Click(object sender, EventArgs e)
         {
@@ -72,7 +73,7 @@ namespace WindowsFormsApp
 
         private void toolStripConcepto_Click(object sender, EventArgs e)
         {
-            ConceptoUser conceptoUser = new ConceptoUser
+            ConceptosUser conceptoUser = new ConceptosUser
             {
                 Form = this,
                 Dock = DockStyle.Fill
@@ -89,6 +90,16 @@ namespace WindowsFormsApp
             };
             addControl(acudienteUser);
 
+        }
+
+        private void toolStripTeacher_Click(object sender, EventArgs e)
+        {
+            ProfesorUser ProfesorUser  = new ProfesorUser
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            addControl(ProfesorUser);
         }
     }
 }

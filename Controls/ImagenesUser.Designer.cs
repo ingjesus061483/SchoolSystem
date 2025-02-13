@@ -34,17 +34,19 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.dgAsignaturas = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtImagenes = new System.Windows.Forms.TextBox();
+            this.btnImagenes = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtIdentificacion = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnImagenes = new System.Windows.Forms.Button();
-            this.txtImagenes = new System.Windows.Forms.TextBox();
+            this.lblCaption = new System.Windows.Forms.Label();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PictureId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StudentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TeacherId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.picture = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estudiante = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Profesor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ver = new System.Windows.Forms.DataGridViewButtonColumn();
             this.eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Panel3.SuspendLayout();
@@ -108,8 +110,10 @@
             this.Id,
             this.PictureId,
             this.StudentId,
+            this.TeacherId,
             this.picture,
-            this.studente,
+            this.Estudiante,
+            this.Profesor,
             this.ver,
             this.eliminar});
             this.dgAsignaturas.Location = new System.Drawing.Point(15, 251);
@@ -133,12 +137,51 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtNombre);
             this.panel1.Controls.Add(this.txtIdentificacion);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lblCaption);
             this.panel1.Location = new System.Drawing.Point(15, 17);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(515, 161);
             this.panel1.TabIndex = 1134;
+            // 
+            // txtImagenes
+            // 
+            this.txtImagenes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtImagenes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtImagenes.Location = new System.Drawing.Point(130, 109);
+            this.txtImagenes.Name = "txtImagenes";
+            this.txtImagenes.ReadOnly = true;
+            this.txtImagenes.Size = new System.Drawing.Size(360, 30);
+            this.txtImagenes.TabIndex = 1102;
+            // 
+            // btnImagenes
+            // 
+            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
+            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImagenes.Location = new System.Drawing.Point(84, 109);
+            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnImagenes.Name = "btnImagenes";
+            this.btnImagenes.Size = new System.Drawing.Size(42, 32);
+            this.btnImagenes.TabIndex = 1101;
+            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnImagenes.UseVisualStyleBackColor = true;
+            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.SteelBlue;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(515, 51);
+            this.label4.TabIndex = 1139;
+            this.label4.Text = "ESTUDIANTES =>IMAGENES";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtNombre
             // 
@@ -160,54 +203,15 @@
             this.txtIdentificacion.Size = new System.Drawing.Size(95, 30);
             this.txtIdentificacion.TabIndex = 1;
             // 
-            // label1
+            // lblCaption
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Estudiante";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.SteelBlue;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(515, 51);
-            this.label4.TabIndex = 1139;
-            this.label4.Text = "ESTUDIANTES =>IMAGENES";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnImagenes
-            // 
-            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
-            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImagenes.Location = new System.Drawing.Point(83, 105);
-            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnImagenes.Name = "btnImagenes";
-            this.btnImagenes.Size = new System.Drawing.Size(42, 32);
-            this.btnImagenes.TabIndex = 1101;
-            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnImagenes.UseVisualStyleBackColor = true;
-            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
-            // 
-            // txtImagenes
-            // 
-            this.txtImagenes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtImagenes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtImagenes.Location = new System.Drawing.Point(130, 104);
-            this.txtImagenes.Name = "txtImagenes";
-            this.txtImagenes.ReadOnly = true;
-            this.txtImagenes.Size = new System.Drawing.Size(360, 30);
-            this.txtImagenes.TabIndex = 1102;
+            this.lblCaption.AutoSize = true;
+            this.lblCaption.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaption.Location = new System.Drawing.Point(13, 73);
+            this.lblCaption.Name = "lblCaption";
+            this.lblCaption.Size = new System.Drawing.Size(111, 24);
+            this.lblCaption.TabIndex = 0;
+            this.lblCaption.Text = "Estudiante";
             // 
             // Id
             // 
@@ -239,6 +243,16 @@
             this.StudentId.Visible = false;
             this.StudentId.Width = 150;
             // 
+            // TeacherId
+            // 
+            this.TeacherId.DataPropertyName = "TeacherId";
+            this.TeacherId.HeaderText = "TeacherId";
+            this.TeacherId.MinimumWidth = 8;
+            this.TeacherId.Name = "TeacherId";
+            this.TeacherId.ReadOnly = true;
+            this.TeacherId.Visible = false;
+            this.TeacherId.Width = 150;
+            // 
             // picture
             // 
             this.picture.DataPropertyName = "imagen";
@@ -248,14 +262,23 @@
             this.picture.ReadOnly = true;
             this.picture.Width = 150;
             // 
-            // studente
+            // Estudiante
             // 
-            this.studente.DataPropertyName = "estudiante";
-            this.studente.HeaderText = "Estudiante";
-            this.studente.MinimumWidth = 8;
-            this.studente.Name = "studente";
-            this.studente.ReadOnly = true;
-            this.studente.Width = 150;
+            this.Estudiante.DataPropertyName = "estudiante";
+            this.Estudiante.HeaderText = "Estudiante";
+            this.Estudiante.MinimumWidth = 8;
+            this.Estudiante.Name = "Estudiante";
+            this.Estudiante.ReadOnly = true;
+            this.Estudiante.Width = 150;
+            // 
+            // Profesor
+            // 
+            this.Profesor.DataPropertyName = "profesor";
+            this.Profesor.HeaderText = "Profesor";
+            this.Profesor.MinimumWidth = 8;
+            this.Profesor.Name = "Profesor";
+            this.Profesor.ReadOnly = true;
+            this.Profesor.Width = 150;
             // 
             // ver
             // 
@@ -307,15 +330,17 @@
         private System.Windows.Forms.Panel panel1;
         internal System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtIdentificacion;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCaption;
         private System.Windows.Forms.TextBox txtNombre;
         internal System.Windows.Forms.Button btnImagenes;
         private System.Windows.Forms.TextBox txtImagenes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn PictureId;
         private System.Windows.Forms.DataGridViewTextBoxColumn StudentId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TeacherId;
         private System.Windows.Forms.DataGridViewTextBoxColumn picture;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estudiante;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Profesor;
         private System.Windows.Forms.DataGridViewButtonColumn ver;
         private System.Windows.Forms.DataGridViewButtonColumn eliminar;
     }

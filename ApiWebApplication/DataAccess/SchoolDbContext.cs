@@ -30,6 +30,7 @@ namespace ApiWebApplication.DataAccess
         public DbSet <WorkingDay > WorkingDays { get; set; }
         public DbSet <Tuition> Tuitions { get; set; }
         public DbSet<Strangeness> Strangenesses {  get; set; }
-        public DbSet <Concept> Concepts { get; set; }   
+        public DbSet <Concept> Concepts { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
     }
 }

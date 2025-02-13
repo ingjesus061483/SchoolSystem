@@ -38,6 +38,7 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.DataGridView1 = new System.Windows.Forms.DataGridView();
             this.Panel3 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.Button2 = new System.Windows.Forms.Button();
             this.txtestudiante = new System.Windows.Forms.TextBox();
@@ -47,7 +48,6 @@
             this.Label2 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.txtFechaInicioMatricula = new System.Windows.Forms.DateTimePicker();
-            this.label12 = new System.Windows.Forms.Label();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.Panel3.SuspendLayout();
@@ -174,13 +174,27 @@
             this.Panel3.Size = new System.Drawing.Size(773, 211);
             this.Panel3.TabIndex = 1130;
             // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.SteelBlue;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label12.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(0, 0);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(773, 54);
+            this.label12.TabIndex = 1140;
+            this.label12.Text = "FACTURACION";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // TextBox1
             // 
             this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TextBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TextBox1.Location = new System.Drawing.Point(355, 153);
+            this.TextBox1.Location = new System.Drawing.Point(355, 158);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox1.MaxLength = 40;
             this.TextBox1.Name = "TextBox1";
@@ -195,7 +209,7 @@
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.ForeColor = System.Drawing.Color.White;
-            this.Button2.Location = new System.Drawing.Point(101, 153);
+            this.Button2.Location = new System.Drawing.Point(101, 158);
             this.Button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(50, 30);
@@ -206,7 +220,7 @@
             // 
             this.txtestudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtestudiante.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtestudiante.Location = new System.Drawing.Point(155, 153);
+            this.txtestudiante.Location = new System.Drawing.Point(155, 158);
             this.txtestudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtestudiante.MaxLength = 40;
             this.txtestudiante.Name = "txtestudiante";
@@ -218,7 +232,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(496, 122);
+            this.Label3.Location = new System.Drawing.Point(456, 124);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(102, 24);
@@ -230,10 +244,10 @@
             this.txtFechaFinMatricula.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFechaFinMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFechaFinMatricula.Location = new System.Drawing.Point(607, 118);
+            this.txtFechaFinMatricula.Location = new System.Drawing.Point(567, 121);
             this.txtFechaFinMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaFinMatricula.Name = "txtFechaFinMatricula";
-            this.txtFechaFinMatricula.Size = new System.Drawing.Size(146, 30);
+            this.txtFechaFinMatricula.Size = new System.Drawing.Size(185, 30);
             this.txtFechaFinMatricula.TabIndex = 1106;
             // 
             // cmbCurso
@@ -255,7 +269,7 @@
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(22, 122);
+            this.Label2.Location = new System.Drawing.Point(22, 124);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(123, 24);
@@ -278,25 +292,11 @@
             // txtFechaInicioMatricula
             // 
             this.txtFechaInicioMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(156, 119);
+            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(156, 121);
             this.txtFechaInicioMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaInicioMatricula.Name = "txtFechaInicioMatricula";
             this.txtFechaInicioMatricula.Size = new System.Drawing.Size(284, 30);
             this.txtFechaInicioMatricula.TabIndex = 1095;
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.SteelBlue;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label12.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(0, 0);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(773, 54);
-            this.label12.TabIndex = 1140;
-            this.label12.Text = "FACTURACION";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FacturacionUser
             // 

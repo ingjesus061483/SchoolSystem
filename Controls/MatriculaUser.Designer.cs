@@ -181,12 +181,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDuracion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDuracion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtDuracion.Location = new System.Drawing.Point(496, 249);
+            this.txtDuracion.Location = new System.Drawing.Point(490, 206);
             this.txtDuracion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDuracion.MaxLength = 40;
             this.txtDuracion.Name = "txtDuracion";
             this.txtDuracion.ReadOnly = true;
-            this.txtDuracion.Size = new System.Drawing.Size(76, 30);
+            this.txtDuracion.Size = new System.Drawing.Size(82, 30);
             this.txtDuracion.TabIndex = 1146;
             // 
             // txtCodigo
@@ -195,7 +195,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCodigo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCodigo.Location = new System.Drawing.Point(208, 208);
+            this.txtCodigo.Location = new System.Drawing.Point(208, 165);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCodigo.MaxLength = 40;
             this.txtCodigo.Name = "txtCodigo";
@@ -207,7 +207,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(120, 209);
+            this.label5.Location = new System.Drawing.Point(120, 166);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 24);
@@ -225,7 +225,7 @@
             this.BtnCurso.Location = new System.Drawing.Point(150, 82);
             this.BtnCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnCurso.Name = "BtnCurso";
-            this.BtnCurso.Size = new System.Drawing.Size(54, 32);
+            this.BtnCurso.Size = new System.Drawing.Size(54, 30);
             this.BtnCurso.TabIndex = 1143;
             this.BtnCurso.UseVisualStyleBackColor = false;
             this.BtnCurso.Click += new System.EventHandler(this.BtnCurso_Click);
@@ -236,12 +236,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCurso.Location = new System.Drawing.Point(210, 82);
+            this.txtCurso.Location = new System.Drawing.Point(209, 82);
             this.txtCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCurso.MaxLength = 40;
             this.txtCurso.Name = "txtCurso";
             this.txtCurso.ReadOnly = true;
-            this.txtCurso.Size = new System.Drawing.Size(362, 30);
+            this.txtCurso.Size = new System.Drawing.Size(363, 30);
             this.txtCurso.TabIndex = 1142;
             // 
             // label4
@@ -264,12 +264,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtNombre.Location = new System.Drawing.Point(408, 123);
+            this.txtNombre.Location = new System.Drawing.Point(406, 123);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.MaxLength = 40;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ReadOnly = true;
-            this.txtNombre.Size = new System.Drawing.Size(164, 30);
+            this.txtNombre.Size = new System.Drawing.Size(166, 30);
             this.txtNombre.TabIndex = 1119;
             // 
             // txtFechaFinMatricula
@@ -277,7 +277,7 @@
             this.txtFechaFinMatricula.CustomFormat = "yyyy-MM-dd";
             this.txtFechaFinMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFechaFinMatricula.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtFechaFinMatricula.Location = new System.Drawing.Point(354, 249);
+            this.txtFechaFinMatricula.Location = new System.Drawing.Point(349, 206);
             this.txtFechaFinMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaFinMatricula.Name = "txtFechaFinMatricula";
             this.txtFechaFinMatricula.Size = new System.Drawing.Size(134, 30);
@@ -290,7 +290,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtValorMensualidad.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValorMensualidad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtValorMensualidad.Location = new System.Drawing.Point(208, 334);
+            this.txtValorMensualidad.Location = new System.Drawing.Point(208, 291);
             this.txtValorMensualidad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtValorMensualidad.MaxLength = 40;
             this.txtValorMensualidad.Name = "txtValorMensualidad";
@@ -302,7 +302,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(14, 338);
+            this.Label1.Location = new System.Drawing.Point(14, 295);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(183, 24);
@@ -314,7 +314,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(130, 252);
+            this.Label2.Location = new System.Drawing.Point(130, 209);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(67, 24);
@@ -329,7 +329,7 @@
             this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstudiante.ForeColor = System.Drawing.Color.Black;
-            this.btnEstudiante.Location = new System.Drawing.Point(150, 125);
+            this.btnEstudiante.Location = new System.Drawing.Point(150, 123);
             this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEstudiante.Name = "btnEstudiante";
             this.btnEstudiante.Size = new System.Drawing.Size(54, 31);
@@ -342,7 +342,7 @@
             this.txtFechaInicioMatricula.CustomFormat = "yyyy-MM-dd";
             this.txtFechaInicioMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFechaInicioMatricula.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(208, 249);
+            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(208, 206);
             this.txtFechaInicioMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaInicioMatricula.Name = "txtFechaInicioMatricula";
             this.txtFechaInicioMatricula.Size = new System.Drawing.Size(136, 30);
@@ -366,7 +366,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtValorMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValorMatricula.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtValorMatricula.Location = new System.Drawing.Point(208, 292);
+            this.txtValorMatricula.Location = new System.Drawing.Point(208, 249);
             this.txtValorMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtValorMatricula.MaxLength = 40;
             this.txtValorMatricula.Name = "txtValorMatricula";
@@ -378,7 +378,7 @@
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label10.ForeColor = System.Drawing.Color.Black;
-            this.Label10.Location = new System.Drawing.Point(46, 295);
+            this.Label10.Location = new System.Drawing.Point(46, 252);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(151, 24);
@@ -392,7 +392,7 @@
             this.cmbJornada.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbJornada.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbJornada.FormattingEnabled = true;
-            this.cmbJornada.Location = new System.Drawing.Point(208, 166);
+            this.cmbJornada.Location = new System.Drawing.Point(208, 331);
             this.cmbJornada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbJornada.Name = "cmbJornada";
             this.cmbJornada.Size = new System.Drawing.Size(364, 31);
@@ -403,7 +403,7 @@
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label11.ForeColor = System.Drawing.Color.Black;
-            this.Label11.Location = new System.Drawing.Point(112, 169);
+            this.Label11.Location = new System.Drawing.Point(112, 334);
             this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(87, 24);

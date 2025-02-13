@@ -244,7 +244,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(64, 123);
+            this.label6.Location = new System.Drawing.Point(64, 115);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 24);
@@ -256,7 +256,7 @@
             this.txtCodigo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCodigo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(152, 119);
+            this.txtCodigo.Location = new System.Drawing.Point(152, 111);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(380, 30);
@@ -281,7 +281,7 @@
             this.cmbConcepto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbConcepto.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbConcepto.FormattingEnabled = true;
-            this.cmbConcepto.Location = new System.Drawing.Point(153, 210);
+            this.cmbConcepto.Location = new System.Drawing.Point(153, 187);
             this.cmbConcepto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbConcepto.Name = "cmbConcepto";
             this.cmbConcepto.Size = new System.Drawing.Size(380, 31);
@@ -319,7 +319,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFecha.CalendarFont = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFecha.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFecha.Location = new System.Drawing.Point(153, 165);
+            this.txtFecha.Location = new System.Drawing.Point(153, 149);
             this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(380, 30);
@@ -344,7 +344,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(75, 170);
+            this.Label2.Location = new System.Drawing.Point(75, 154);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(67, 24);
@@ -358,7 +358,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescripcion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.txtDescripcion.Location = new System.Drawing.Point(152, 255);
+            this.txtDescripcion.Location = new System.Drawing.Point(152, 227);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Multiline = true;
@@ -372,7 +372,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(22, 259);
+            this.Label3.Location = new System.Drawing.Point(22, 231);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(122, 24);
@@ -384,7 +384,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(44, 213);
+            this.Label1.Location = new System.Drawing.Point(44, 190);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(101, 24);

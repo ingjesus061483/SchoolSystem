@@ -18,7 +18,9 @@ namespace ApiWebApplication.Models
 
         [Column(TypeName = "varchar")]
         public string Description { get; set; }
-        
+
+        public List<Teacher> Teachers { get; set; }
+
         public List<Student > Students { get; set; }
     }
 }

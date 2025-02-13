@@ -60,6 +60,7 @@ namespace ApiWebApplication.Controllers
             }
             old.CourseId=value .CourseId;
             old.SchoolSubjectId =value .SchoolSubjectId;
+            old.TeacherId = value.TeacherId;
             SchoolDbContext.CourseSubjects .AddOrUpdate(old);
             SchoolDbContext.SaveChanges();
             return Request.CreateResponse(HttpStatusCode.OK, "Registro actualizado");

@@ -62,7 +62,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCantidadHoraria.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidadHoraria.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCantidadHoraria.Location = new System.Drawing.Point(177, 145);
+            this.txtCantidadHoraria.Location = new System.Drawing.Point(177, 152);
             this.txtCantidadHoraria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCantidadHoraria.MaxLength = 40;
             this.txtCantidadHoraria.Name = "txtCantidadHoraria";
@@ -74,7 +74,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(16, 148);
+            this.Label2.Location = new System.Drawing.Point(16, 155);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(155, 21);
@@ -112,7 +112,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtNombre.Location = new System.Drawing.Point(177, 112);
+            this.txtNombre.Location = new System.Drawing.Point(177, 115);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.MaxLength = 40;
             this.txtNombre.Name = "txtNombre";
@@ -124,7 +124,7 @@
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label9.ForeColor = System.Drawing.Color.Black;
-            this.Label9.Location = new System.Drawing.Point(92, 115);
+            this.Label9.Location = new System.Drawing.Point(92, 118);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(80, 21);
@@ -137,7 +137,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescripcion.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtDescripcion.Location = new System.Drawing.Point(177, 179);
+            this.txtDescripcion.Location = new System.Drawing.Point(177, 189);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Multiline = true;
@@ -151,7 +151,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(56, 184);
+            this.Label3.Location = new System.Drawing.Point(56, 194);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(114, 21);
@@ -189,7 +189,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(528, 54);
             this.label4.TabIndex = 1138;
-            this.label4.Text = "ASIGNATURA";
+            this.label4.Text = "ASIGNATURAS";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Panel3

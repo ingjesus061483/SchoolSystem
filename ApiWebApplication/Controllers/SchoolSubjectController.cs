@@ -22,7 +22,7 @@ namespace ApiWebApplication.Controllers
         {
             get
             {
-                return  SchoolDbContext.SchoolSubjects.Include ("Courses").Include ("CourseSubjects").Select (ss=>new SchoolSubjectDTO  // .CourseSubjects.Include("Courses").Include ("SchoolSubjects").Select(x => new CourseSubjectDTO 
+                return  SchoolDbContext.SchoolSubjects.Include ("Courses").Include ("CourseSubjects").Include("Teachers").Select (ss=>new SchoolSubjectDTO  // .CourseSubjects.Include("Courses").Include ("SchoolSubjects").Select(x => new CourseSubjectDTO 
                 {                       
                     Id = ss.Id,
                     Code = ss.Code,
@@ -36,6 +36,8 @@ namespace ApiWebApplication.Controllers
                         Course =cs.Course,
                         SchoolSubjectId = cs.SchoolSubjectId,
                         SchoolSubject=ss,
+                        Teacher=cs.Teacher ,
+                        TeacherId=cs.TeacherId
                     }).ToList (),              
                 });
             }

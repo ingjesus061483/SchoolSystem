@@ -18,6 +18,7 @@ namespace Controls
         List<Course> courses;
         List<Student > students ;
         List<Attendant> attendants;
+        List<Teacher> teachers;
         public int Id {  get; set; }
         public  object List {  get; set; }
         public Form Form { get; set; }
@@ -71,6 +72,23 @@ namespace Controls
                     x.Email,
                 }).ToList();
             }
+            else if(obj is List<Teacher>)
+            {
+                teachers = obj as List<Teacher>;
+                dgVer.DataSource = teachers.Select(x => new
+                {
+                    x.Id,
+                    TipoIdentificacion = x.IdentificationType.Name,
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Sexo = x.Sex.Name,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
+                }).ToList();
+            }
         }
         void LoadGrid(object obj, string filtro, string valor)
         {
@@ -92,16 +110,16 @@ namespace Controls
                 {
                     x.Id,
                     TipoIdentificacion = x.IdentificationType.Name,
-                   Identificacion= x.Identification,                    
-                   NombreCompleto= x.CompleteName,
-                   FechaNacimiento= x.BirthDate,
-                   Edad= x.Age,
-                   Direccion=x.Address,
-                   Sexo = x.Sex.Name,
-                   Telefono= x.PhoneNumber,
-                   x.Email,
-              //      Estado = x.Status.Name,
-                }).ToList ().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Sexo = x.Sex.Name,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
+                    //      Estado = x.Status.Name,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
             }
             else if (obj is List<Attendant>)
             {
@@ -114,6 +132,23 @@ namespace Controls
                     FechaNacimiento = x.BirthDate,
                     Edad = x.Age,
                     Direccion = x.Address,
+                    Telefono = x.PhoneNumber,
+                    x.Email,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (obj is List<Teacher>)
+            {
+                teachers = obj as List<Teacher>;
+                dgVer.DataSource = teachers.Select(x => new
+                {
+                    x.Id,
+                    TipoIdentificacion = x.IdentificationType.Name,
+                    Identificacion = x.Identification,
+                    NombreCompleto = x.CompleteName,
+                    FechaNacimiento = x.BirthDate,
+                    Edad = x.Age,
+                    Direccion = x.Address,
+                    Sexo = x.Sex.Name,
                     Telefono = x.PhoneNumber,
                     x.Email,
                 }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();

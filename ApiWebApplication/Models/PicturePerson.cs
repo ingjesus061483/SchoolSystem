@@ -11,8 +11,11 @@ namespace ApiWebApplication.Models
 
         public int PictureId {  get; set; }
         public Picture  Picture { get; set; }
+       
+        public int? TeacherId { get; set; }
+        public Teacher Teacher{ get; set; }
 
-        public int StudentId {  get; set; }
+        public int? StudentId {  get; set; }
         public Student Student { get; set; }
     }
 }

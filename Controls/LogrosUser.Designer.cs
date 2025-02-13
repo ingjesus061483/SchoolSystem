@@ -42,6 +42,7 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.Button2 = new System.Windows.Forms.Button();
             this.txtAsignatura = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.Label1 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLogros)).BeginInit();
             this.Panel3.SuspendLayout();
             this.Panel1.SuspendLayout();
@@ -232,6 +232,20 @@
             this.Panel1.Size = new System.Drawing.Size(423, 386);
             this.Panel1.TabIndex = 1110;
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.SteelBlue;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(423, 54);
+            this.label2.TabIndex = 1140;
+            this.label2.Text = "LOGROS";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Button2
             // 
             this.Button2.BackColor = System.Drawing.Color.Transparent;
@@ -266,7 +280,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(28, 176);
+            this.Label3.Location = new System.Drawing.Point(28, 182);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(114, 21);
@@ -279,13 +293,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescripcion.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtDescripcion.Location = new System.Drawing.Point(143, 169);
+            this.txtDescripcion.Location = new System.Drawing.Point(143, 175);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescripcion.Size = new System.Drawing.Size(246, 201);
+            this.txtDescripcion.Size = new System.Drawing.Size(246, 169);
             this.txtDescripcion.TabIndex = 1136;
             // 
             // Label9
@@ -293,7 +307,7 @@
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label9.ForeColor = System.Drawing.Color.Black;
-            this.Label9.Location = new System.Drawing.Point(61, 142);
+            this.Label9.Location = new System.Drawing.Point(61, 146);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(80, 21);
@@ -306,7 +320,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtNombre.Location = new System.Drawing.Point(143, 137);
+            this.txtNombre.Location = new System.Drawing.Point(143, 141);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.MaxLength = 40;
             this.txtNombre.Name = "txtNombre";
@@ -318,7 +332,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(70, 110);
+            this.Label1.Location = new System.Drawing.Point(70, 112);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(72, 21);
@@ -331,26 +345,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCodigo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCodigo.Location = new System.Drawing.Point(143, 105);
+            this.txtCodigo.Location = new System.Drawing.Point(143, 107);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCodigo.MaxLength = 20;
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(247, 28);
             this.txtCodigo.TabIndex = 1130;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.SteelBlue;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(423, 54);
-            this.label2.TabIndex = 1140;
-            this.label2.Text = "LOGROS";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LogrosUser
             // 

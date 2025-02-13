@@ -1,6 +1,6 @@
 ﻿namespace Controls
 {
-    partial class ConceptoUser
+    partial class ConceptosUser
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConceptoUser));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConceptosUser));
             this.dgAsignaturas = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Panel3 = new System.Windows.Forms.Panel();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -43,10 +47,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.Label1 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgAsignaturas)).BeginInit();
             this.Panel3.SuspendLayout();
             this.Panel1.SuspendLayout();
@@ -75,6 +75,39 @@
             this.dgAsignaturas.Size = new System.Drawing.Size(626, 324);
             this.dgAsignaturas.TabIndex = 1134;
             this.dgAsignaturas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgAsignaturas_CellContentClick);
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "Id";
+            this.id.HeaderText = "id";
+            this.id.MinimumWidth = 8;
+            this.id.Name = "id";
+            this.id.Visible = false;
+            this.id.Width = 150;
+            // 
+            // codigo
+            // 
+            this.codigo.DataPropertyName = "Code";
+            this.codigo.HeaderText = "Codigo";
+            this.codigo.MinimumWidth = 8;
+            this.codigo.Name = "codigo";
+            this.codigo.Width = 150;
+            // 
+            // Nombre
+            // 
+            this.Nombre.DataPropertyName = "Title";
+            this.Nombre.HeaderText = "Titulo";
+            this.Nombre.MinimumWidth = 8;
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 150;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.DataPropertyName = "Description";
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.MinimumWidth = 8;
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.Width = 150;
             // 
             // Panel3
             // 
@@ -180,7 +213,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(623, 54);
             this.label4.TabIndex = 1138;
-            this.label4.Text = "ASIGNATURA";
+            this.label4.Text = "CONCEPTOS";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Label3
@@ -215,7 +248,7 @@
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label9.ForeColor = System.Drawing.Color.Black;
-            this.Label9.Location = new System.Drawing.Point(108, 115);
+            this.Label9.Location = new System.Drawing.Point(108, 118);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(59, 21);
@@ -228,7 +261,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombre.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtNombre.Location = new System.Drawing.Point(177, 112);
+            this.txtNombre.Location = new System.Drawing.Point(177, 115);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombre.MaxLength = 40;
             this.txtNombre.Name = "txtNombre";
@@ -260,40 +293,7 @@
             this.txtCodigo.Size = new System.Drawing.Size(426, 28);
             this.txtCodigo.TabIndex = 1130;
             // 
-            // id
-            // 
-            this.id.DataPropertyName = "Id";
-            this.id.HeaderText = "id";
-            this.id.MinimumWidth = 8;
-            this.id.Name = "id";
-            this.id.Visible = false;
-            this.id.Width = 150;
-            // 
-            // codigo
-            // 
-            this.codigo.DataPropertyName = "Code";
-            this.codigo.HeaderText = "Codigo";
-            this.codigo.MinimumWidth = 8;
-            this.codigo.Name = "codigo";
-            this.codigo.Width = 150;
-            // 
-            // Nombre
-            // 
-            this.Nombre.DataPropertyName = "Title";
-            this.Nombre.HeaderText = "Titulo";
-            this.Nombre.MinimumWidth = 8;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 150;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.DataPropertyName = "Description";
-            this.Descripcion.HeaderText = "Descripcion";
-            this.Descripcion.MinimumWidth = 8;
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.Width = 150;
-            // 
-            // ConceptoUser
+            // ConceptosUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -301,7 +301,7 @@
             this.Controls.Add(this.dgAsignaturas);
             this.Controls.Add(this.Panel3);
             this.Controls.Add(this.Panel1);
-            this.Name = "ConceptoUser";
+            this.Name = "ConceptosUser";
             this.Size = new System.Drawing.Size(641, 754);
             this.Load += new System.EventHandler(this.ConceptoUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgAsignaturas)).EndInit();

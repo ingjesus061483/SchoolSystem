@@ -13,11 +13,12 @@ namespace Controls.Models
         public int PictureId {  get; set; }
         public Picture  Picture { get; set; }
 
-        public int StudentId {  get; set; }
-
+        public int? StudentId {  get; set; }
+      
+        public int? TeacherId { get; set; }
 
         public string Student { get; set; }
 
-        //public Student Student { get; set; }
+        public string Teacher { get; set; }
     }
 }

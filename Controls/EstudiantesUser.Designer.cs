@@ -243,12 +243,12 @@
             // 
             this.txtIdentificacionAcudiente.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdentificacionAcudiente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtIdentificacionAcudiente.Location = new System.Drawing.Point(227, 67);
+            this.txtIdentificacionAcudiente.Location = new System.Drawing.Point(234, 67);
             this.txtIdentificacionAcudiente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtIdentificacionAcudiente.MaxLength = 40;
             this.txtIdentificacionAcudiente.Name = "txtIdentificacionAcudiente";
             this.txtIdentificacionAcudiente.ReadOnly = true;
-            this.txtIdentificacionAcudiente.Size = new System.Drawing.Size(192, 30);
+            this.txtIdentificacionAcudiente.Size = new System.Drawing.Size(185, 30);
             this.txtIdentificacionAcudiente.TabIndex = 1142;
             // 
             // txtEmail
@@ -257,7 +257,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEmail.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEmail.Location = new System.Drawing.Point(234, 290);
+            this.txtEmail.Location = new System.Drawing.Point(234, 292);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.MaxLength = 40;
             this.txtEmail.Name = "txtEmail";
@@ -269,7 +269,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(162, 293);
+            this.label2.Location = new System.Drawing.Point(162, 295);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 21);
@@ -295,7 +295,7 @@
             this.Label13.AutoSize = true;
             this.Label13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label13.ForeColor = System.Drawing.Color.Black;
-            this.Label13.Location = new System.Drawing.Point(113, 406);
+            this.Label13.Location = new System.Drawing.Point(113, 408);
             this.Label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label13.Name = "Label13";
             this.Label13.Size = new System.Drawing.Size(110, 21);
@@ -308,7 +308,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPssword.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPssword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtPssword.Location = new System.Drawing.Point(234, 403);
+            this.txtPssword.Location = new System.Drawing.Point(234, 405);
             this.txtPssword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPssword.MaxLength = 40;
             this.txtPssword.Name = "txtPssword";
@@ -321,7 +321,7 @@
             this.Label14.AutoSize = true;
             this.Label14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label14.ForeColor = System.Drawing.Color.Black;
-            this.Label14.Location = new System.Drawing.Point(146, 368);
+            this.Label14.Location = new System.Drawing.Point(146, 370);
             this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(77, 21);
@@ -334,7 +334,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUsuario.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtUsuario.Location = new System.Drawing.Point(234, 365);
+            this.txtUsuario.Location = new System.Drawing.Point(234, 367);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUsuario.MaxLength = 20;
             this.txtUsuario.Name = "txtUsuario";
@@ -346,7 +346,7 @@
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label10.ForeColor = System.Drawing.Color.Black;
-            this.Label10.Location = new System.Drawing.Point(167, 488);
+            this.Label10.Location = new System.Drawing.Point(167, 490);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(55, 21);
@@ -364,7 +364,7 @@
             this.txtEdad.MaxLength = 15;
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.ReadOnly = true;
-            this.txtEdad.Size = new System.Drawing.Size(323, 28);
+            this.txtEdad.Size = new System.Drawing.Size(326, 28);
             this.txtEdad.TabIndex = 1128;
             // 
             // cboSexo
@@ -374,7 +374,7 @@
             this.cboSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSexo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboSexo.FormattingEnabled = true;
-            this.cboSexo.Location = new System.Drawing.Point(234, 483);
+            this.cboSexo.Location = new System.Drawing.Point(234, 485);
             this.cboSexo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboSexo.Name = "cboSexo";
             this.cboSexo.Size = new System.Drawing.Size(488, 29);
@@ -410,7 +410,7 @@
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label8.ForeColor = System.Drawing.Color.Black;
-            this.Label8.Location = new System.Drawing.Point(47, 445);
+            this.Label8.Location = new System.Drawing.Point(47, 447);
             this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(179, 21);
@@ -424,7 +424,7 @@
             this.cboTipoDoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoDoc.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipoDoc.FormattingEnabled = true;
-            this.cboTipoDoc.Location = new System.Drawing.Point(234, 441);
+            this.cboTipoDoc.Location = new System.Drawing.Point(234, 443);
             this.cboTipoDoc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboTipoDoc.Name = "cboTipoDoc";
             this.cboTipoDoc.Size = new System.Drawing.Size(488, 29);
@@ -446,7 +446,7 @@
             // 
             this.txtFechaNacim.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFechaNacim.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtFechaNacim.Location = new System.Drawing.Point(234, 217);
+            this.txtFechaNacim.Location = new System.Drawing.Point(234, 218);
             this.txtFechaNacim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaNacim.Name = "txtFechaNacim";
             this.txtFechaNacim.Size = new System.Drawing.Size(155, 28);
@@ -459,7 +459,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTelefono.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefono.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtTelefono.Location = new System.Drawing.Point(234, 328);
+            this.txtTelefono.Location = new System.Drawing.Point(234, 330);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTelefono.MaxLength = 15;
             this.txtTelefono.Name = "txtTelefono";
@@ -471,7 +471,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(140, 332);
+            this.label3.Location = new System.Drawing.Point(140, 334);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 21);
@@ -484,7 +484,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDireccion.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtDireccion.Location = new System.Drawing.Point(234, 253);
+            this.txtDireccion.Location = new System.Drawing.Point(234, 255);
             this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDireccion.MaxLength = 40;
             this.txtDireccion.Name = "txtDireccion";
@@ -496,7 +496,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(133, 258);
+            this.label6.Location = new System.Drawing.Point(133, 260);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 21);

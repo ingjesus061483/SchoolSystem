@@ -9,13 +9,18 @@ namespace ApiWebApplication.Models
     public class CourseSubject
     {
         public int Id { get; set; }
+
         [Required (AllowEmptyStrings =false ,ErrorMessage ="El campo curso no puede ser vacio")]
         public int CourseId {  get; set; }
-       public Course Course { get; set; }
+        public Course Course { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "El campo asignatura no puede ser vacio")]
         public int SchoolSubjectId {  get; set; }   
-        public SchoolSubject SchoolSubject { get; set; }    
+        public SchoolSubject SchoolSubject { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "El campo procesor no puede ser vacio")]
+        public int TeacherId {  get; set; }
+        public   Teacher Teacher {  get; set; }
 
     }
 }

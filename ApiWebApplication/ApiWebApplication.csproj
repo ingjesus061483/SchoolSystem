@@ -190,6 +190,7 @@
     <Compile Include="Controllers\CourseSubjectController.cs" />
     <Compile Include="Controllers\StrangenessController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
+    <Compile Include="Controllers\TeacherController.cs" />
     <Compile Include="Controllers\TuitionController.cs" />
     <Compile Include="DataAccess\SchoolDbContext.cs" />
     <Compile Include="DTO\AttendantDTO.cs" />
@@ -199,6 +200,7 @@
     <Compile Include="DTO\PicturePersonDTO.cs" />
     <Compile Include="DTO\SchoolSubjectDTO.cs" />
     <Compile Include="DTO\StrangenessDTO.cs" />
+    <Compile Include="DTO\TeacherDTO.cs" />
     <Compile Include="DTO\StudentDTO.cs" />
     <Compile Include="DTO\TuitionDTO.cs" />
     <Compile Include="Global.asax.cs">
@@ -217,6 +219,7 @@
     <Compile Include="Models\Sex.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Strangeness.cs" />
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Tuition.cs" />
     <Compile Include="Models\WorkingDay.cs" />

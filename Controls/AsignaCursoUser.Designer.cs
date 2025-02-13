@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AsignaCursoUser));
             this.dgAsignaturas = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SchoolSubjectId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Course = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Subject = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Panel3 = new System.Windows.Forms.Panel();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -43,7 +38,13 @@
             this.txtCurso = new System.Windows.Forms.TextBox();
             this.BtnCurso = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.btnProfesor = new System.Windows.Forms.Button();
+            this.txtIdentificacion = new System.Windows.Forms.TextBox();
             this.txtAsignatura = new System.Windows.Forms.TextBox();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CourseId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SchoolSubjectId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgAsignaturas)).BeginInit();
             this.Panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -53,18 +54,12 @@
             // 
             this.dgAsignaturas.AllowUserToAddRows = false;
             this.dgAsignaturas.AllowUserToDeleteRows = false;
-            this.dgAsignaturas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgAsignaturas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgAsignaturas.BackgroundColor = System.Drawing.Color.White;
             this.dgAsignaturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgAsignaturas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Id,
-            this.CourseId,
-            this.SchoolSubjectId,
-            this.Course,
-            this.Subject});
-            this.dgAsignaturas.Location = new System.Drawing.Point(9, 199);
+            this.dgAsignaturas.Location = new System.Drawing.Point(9, 265);
             this.dgAsignaturas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgAsignaturas.Name = "dgAsignaturas";
             this.dgAsignaturas.ReadOnly = true;
@@ -75,63 +70,15 @@
             this.dgAsignaturas.TabIndex = 1132;
             this.dgAsignaturas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgAsignaturas_CellContentClick);
             // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.MinimumWidth = 8;
-            this.Id.Name = "Id";
-            this.Id.ReadOnly = true;
-            this.Id.Visible = false;
-            this.Id.Width = 150;
-            // 
-            // CourseId
-            // 
-            this.CourseId.DataPropertyName = "CourseId";
-            this.CourseId.HeaderText = "CourseId";
-            this.CourseId.MinimumWidth = 8;
-            this.CourseId.Name = "CourseId";
-            this.CourseId.ReadOnly = true;
-            this.CourseId.Visible = false;
-            this.CourseId.Width = 150;
-            // 
-            // SchoolSubjectId
-            // 
-            this.SchoolSubjectId.DataPropertyName = "SchoolSubjectId";
-            this.SchoolSubjectId.HeaderText = "SchoolSubjectId";
-            this.SchoolSubjectId.MinimumWidth = 8;
-            this.SchoolSubjectId.Name = "SchoolSubjectId";
-            this.SchoolSubjectId.ReadOnly = true;
-            this.SchoolSubjectId.Visible = false;
-            this.SchoolSubjectId.Width = 150;
-            // 
-            // Course
-            // 
-            this.Course.DataPropertyName = "Course";
-            this.Course.HeaderText = "Curso";
-            this.Course.MinimumWidth = 8;
-            this.Course.Name = "Course";
-            this.Course.ReadOnly = true;
-            this.Course.Width = 150;
-            // 
-            // Subject
-            // 
-            this.Subject.DataPropertyName = "Subject";
-            this.Subject.HeaderText = "Asignatura";
-            this.Subject.MinimumWidth = 8;
-            this.Subject.Name = "Subject";
-            this.Subject.ReadOnly = true;
-            this.Subject.Width = 150;
-            // 
             // Panel3
             // 
-            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel3.BackColor = System.Drawing.Color.White;
             this.Panel3.Controls.Add(this.btnGuardar);
             this.Panel3.Controls.Add(this.btnEliminar);
             this.Panel3.Controls.Add(this.btnSalir);
-            this.Panel3.Location = new System.Drawing.Point(9, 430);
+            this.Panel3.Location = new System.Drawing.Point(9, 199);
             this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(597, 62);
@@ -198,11 +145,11 @@
             // 
             // txtCurso
             // 
-            this.txtCurso.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtCurso.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCurso.Location = new System.Drawing.Point(95, 111);
+            this.txtCurso.Location = new System.Drawing.Point(95, 105);
             this.txtCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCurso.MaxLength = 40;
             this.txtCurso.Name = "txtCurso";
@@ -218,7 +165,7 @@
             this.BtnCurso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCurso.ForeColor = System.Drawing.Color.Black;
-            this.BtnCurso.Location = new System.Drawing.Point(35, 110);
+            this.BtnCurso.Location = new System.Drawing.Point(35, 104);
             this.BtnCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnCurso.Name = "BtnCurso";
             this.BtnCurso.Size = new System.Drawing.Size(54, 32);
@@ -228,9 +175,12 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.btnProfesor);
+            this.panel1.Controls.Add(this.txtIdentificacion);
             this.panel1.Controls.Add(this.txtAsignatura);
             this.panel1.Controls.Add(this.BtnCurso);
             this.panel1.Controls.Add(this.txtCurso);
@@ -241,19 +191,88 @@
             this.panel1.Size = new System.Drawing.Size(597, 189);
             this.panel1.TabIndex = 0;
             // 
+            // txtNombre
+            // 
+            this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNombre.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtNombre.Location = new System.Drawing.Point(294, 144);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNombre.MaxLength = 40;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.ReadOnly = true;
+            this.txtNombre.Size = new System.Drawing.Size(279, 30);
+            this.txtNombre.TabIndex = 1145;
+            // 
+            // btnProfesor
+            // 
+            this.btnProfesor.BackColor = System.Drawing.Color.Transparent;
+            this.btnProfesor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProfesor.BackgroundImage")));
+            this.btnProfesor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnProfesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfesor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfesor.ForeColor = System.Drawing.Color.Black;
+            this.btnProfesor.Location = new System.Drawing.Point(36, 145);
+            this.btnProfesor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnProfesor.Name = "btnProfesor";
+            this.btnProfesor.Size = new System.Drawing.Size(54, 31);
+            this.btnProfesor.TabIndex = 1144;
+            this.btnProfesor.UseVisualStyleBackColor = false;
+            this.btnProfesor.Click += new System.EventHandler(this.btnProfesor_Click);
+            // 
+            // txtIdentificacion
+            // 
+            this.txtIdentificacion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentificacion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtIdentificacion.Location = new System.Drawing.Point(94, 144);
+            this.txtIdentificacion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIdentificacion.MaxLength = 40;
+            this.txtIdentificacion.Name = "txtIdentificacion";
+            this.txtIdentificacion.ReadOnly = true;
+            this.txtIdentificacion.Size = new System.Drawing.Size(192, 30);
+            this.txtIdentificacion.TabIndex = 1143;
+            // 
             // txtAsignatura
             // 
-            this.txtAsignatura.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtAsignatura.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAsignatura.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAsignatura.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtAsignatura.Location = new System.Drawing.Point(35, 74);
+            this.txtAsignatura.Location = new System.Drawing.Point(35, 66);
             this.txtAsignatura.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAsignatura.MaxLength = 40;
             this.txtAsignatura.Name = "txtAsignatura";
             this.txtAsignatura.ReadOnly = true;
             this.txtAsignatura.Size = new System.Drawing.Size(538, 30);
             this.txtAsignatura.TabIndex = 1142;
+            // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.MinimumWidth = 8;
+            this.Id.Name = "Id";
+            this.Id.Visible = false;
+            this.Id.Width = 150;
+            // 
+            // CourseId
+            // 
+            this.CourseId.DataPropertyName = "CourseId";
+            this.CourseId.HeaderText = "CourseId";
+            this.CourseId.MinimumWidth = 8;
+            this.CourseId.Name = "CourseId";
+            this.CourseId.Visible = false;
+            this.CourseId.Width = 150;
+            // 
+            // SchoolSubjectId
+            // 
+            this.SchoolSubjectId.DataPropertyName = "SchoolSubjectId";
+            this.SchoolSubjectId.HeaderText = "SchoolSubjectId";
+            this.SchoolSubjectId.MinimumWidth = 8;
+            this.SchoolSubjectId.Name = "SchoolSubjectId";
+            this.SchoolSubjectId.Visible = false;
+            this.SchoolSubjectId.Width = 150;
             // 
             // AsignaCursoUser
             // 
@@ -284,12 +303,13 @@
         internal System.Windows.Forms.Button BtnCurso;
         private System.Windows.Forms.Panel panel1;
         internal System.Windows.Forms.TextBox txtAsignatura;
+        internal System.Windows.Forms.Button btnGuardar;
+        internal System.Windows.Forms.Button btnEliminar;
+        internal System.Windows.Forms.TextBox txtNombre;
+        internal System.Windows.Forms.Button btnProfesor;
+        internal System.Windows.Forms.TextBox txtIdentificacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn CourseId;
         private System.Windows.Forms.DataGridViewTextBoxColumn SchoolSubjectId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Course;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Subject;
-        internal System.Windows.Forms.Button btnGuardar;
-        internal System.Windows.Forms.Button btnEliminar;
     }
 }

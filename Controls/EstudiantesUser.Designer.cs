@@ -101,6 +101,7 @@
             this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
             this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnImagenes.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnImagenes.FlatAppearance.BorderSize = 0;
             this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnImagenes.Location = new System.Drawing.Point(448, 0);
             this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -116,6 +117,7 @@
             this.btnNuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNuevo.BackgroundImage")));
             this.btnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNuevo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNuevo.FlatAppearance.BorderSize = 0;
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Location = new System.Drawing.Point(508, 0);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -131,6 +133,7 @@
             this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Location = new System.Drawing.Point(568, 0);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -146,6 +149,7 @@
             this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Location = new System.Drawing.Point(628, 0);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -161,6 +165,7 @@
             this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Location = new System.Drawing.Point(688, 0);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -228,6 +233,7 @@
             this.btnAcudiente.BackColor = System.Drawing.Color.Transparent;
             this.btnAcudiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAcudiente.BackgroundImage")));
             this.btnAcudiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAcudiente.FlatAppearance.BorderSize = 0;
             this.btnAcudiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcudiente.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcudiente.ForeColor = System.Drawing.Color.Black;

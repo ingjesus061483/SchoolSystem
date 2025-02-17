@@ -3,43 +3,111 @@
   "WorkspaceRootPath": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\reportesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\reportesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\dto\\qualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\dto\\qualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\dataaccess\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\dataaccess\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\periodouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\periodouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\profesoruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\profesoruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\controls\\periodouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\periodouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\novedadesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\novedadesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\matriculauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\matriculauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\imagenesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\imagenesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\frmsecundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\frmsecundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\facturacionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\facturacionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\estudiantesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\cursosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\cursosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\conceptosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\conceptosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\buscaruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\buscaruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\asignaturauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\asignaturauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\asignacursouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\asignacursouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\controls\\acudienteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\acudienteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\apiwebapplication\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\apiwebapplication\\dto\\qualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\dto\\qualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\apiwebapplication\\dataaccess\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\dataaccess\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\calificacionesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F8F996E-209D-4229-9C78-F76F5E094167}|Controls\\Controls.csproj|solutionrelative:controls\\logrosuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,15 +118,217 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ReportesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\ReportesUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ReportesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\ReportesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:48:08.191Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProfesorUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ProfesorUser.cs",
+              "RelativeDocumentMoniker": "Controls\\ProfesorUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ProfesorUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\ProfesorUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:47:35.795Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NovedadesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\NovedadesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\NovedadesUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\NovedadesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\NovedadesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:42:40.365Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatriculaUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\MatriculaUser.cs",
+              "RelativeDocumentMoniker": "Controls\\MatriculaUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\MatriculaUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\MatriculaUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:40:48.19Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\LoginUser.cs",
+              "RelativeDocumentMoniker": "Controls\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\LoginUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\LoginUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:39:19.019Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImagenesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ImagenesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\ImagenesUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ImagenesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\ImagenesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:38:18.278Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSecundario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\frmSecundario.cs",
+              "RelativeDocumentMoniker": "Controls\\frmSecundario.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\frmSecundario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\frmSecundario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:38:11.981Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacturacionUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\FacturacionUser.cs",
+              "RelativeDocumentMoniker": "Controls\\FacturacionUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\FacturacionUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\FacturacionUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:38:02.528Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EstudiantesUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\EstudiantesUser.cs",
+              "RelativeDocumentMoniker": "Controls\\EstudiantesUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\EstudiantesUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\EstudiantesUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:36:23.722Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursosUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\CursosUser.cs",
+              "RelativeDocumentMoniker": "Controls\\CursosUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\CursosUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\CursosUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:34:22.861Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConceptosUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ConceptosUser.cs",
+              "RelativeDocumentMoniker": "Controls\\ConceptosUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\ConceptosUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\ConceptosUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:33:55.752Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BuscarUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\BuscarUser.cs",
+              "RelativeDocumentMoniker": "Controls\\BuscarUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\BuscarUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\BuscarUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:31:33.439Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AsignaturaUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AsignaturaUser.cs",
+              "RelativeDocumentMoniker": "Controls\\AsignaturaUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AsignaturaUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\AsignaturaUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:30:56.424Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AsignaCursoUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AsignaCursoUser.cs",
+              "RelativeDocumentMoniker": "Controls\\AsignaCursoUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AsignaCursoUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\AsignaCursoUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:29:39.923Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AcudienteUser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AcudienteUser.cs",
+              "RelativeDocumentMoniker": "Controls\\AcudienteUser.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\AcudienteUser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Controls\\AcudienteUser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:24:25.427Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ApiWebApplication\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:09:53.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ApiWebApplication\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Global.asax.cs",
+              "RelativeToolTip": "ApiWebApplication\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:31:18.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "SchoolDbContext.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\DataAccess\\SchoolDbContext.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\DataAccess\\SchoolDbContext.cs",
@@ -66,12 +336,11 @@
               "RelativeToolTip": "ApiWebApplication\\DataAccess\\SchoolDbContext.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAywCQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T17:14:18.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T17:14:18.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "QualificationDTO.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\DTO\\QualificationDTO.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\DTO\\QualificationDTO.cs",
@@ -79,8 +348,7 @@
               "RelativeToolTip": "ApiWebApplication\\DTO\\QualificationDTO.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T17:09:11.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T17:09:11.076Z"
             },
             {
               "$type": "Document",
@@ -96,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 20,
               "Title": "Qualification.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Models\\Qualification.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\Models\\Qualification.cs",
@@ -104,12 +372,11 @@
               "RelativeToolTip": "ApiWebApplication\\Models\\Qualification.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:20:37.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T15:20:37.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
               "Title": "CalificacionesUser.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\CalificacionesUser.cs",
               "RelativeDocumentMoniker": "Controls\\CalificacionesUser.cs",
@@ -122,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\FrmPrincipal.cs",
@@ -130,24 +397,22 @@
               "RelativeToolTip": "WindowsFormsApp\\FrmPrincipal.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAgwIMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:51:02.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T13:51:02.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
               "Title": "FrmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\FrmPrincipal.cs",
               "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:48:54.638Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-02-17T13:48:54.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "CalificacionesUser.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\CalificacionesUser.cs",
               "RelativeDocumentMoniker": "Controls\\CalificacionesUser.cs",
@@ -159,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "LogrosUser.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\LogrosUser.cs",
               "RelativeDocumentMoniker": "Controls\\LogrosUser.cs",
@@ -172,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "LogrosUser.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\Controls\\LogrosUser.cs",
               "RelativeDocumentMoniker": "Controls\\LogrosUser.cs",

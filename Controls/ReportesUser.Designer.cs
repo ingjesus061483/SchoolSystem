@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportesUser));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.btnCargar = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
@@ -59,17 +58,6 @@
             this.NotaFinalLogro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabListarEstudiante = new System.Windows.Forms.TabPage();
             this.dgvEstudiante = new System.Windows.Forms.DataGridView();
-            this.Panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
-            this.Label3 = new System.Windows.Forms.Label();
-            this.txtFechaFinMatricula = new System.Windows.Forms.DateTimePicker();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.btnEstudiante = new System.Windows.Forms.Button();
-            this.txtFechaInicioMatricula = new System.Windows.Forms.DateTimePicker();
-            this.txtestudiante = new System.Windows.Forms.TextBox();
-            this.BtnCurso = new System.Windows.Forms.Button();
-            this.txtCurso = new System.Windows.Forms.TextBox();
             this.DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idTipoDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -82,6 +70,15 @@
             this.DataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Panel3 = new System.Windows.Forms.Panel();
+            this.BtnCurso = new System.Windows.Forms.Button();
+            this.txtCurso = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.btnEstudiante = new System.Windows.Forms.Button();
+            this.txtestudiante = new System.Windows.Forms.TextBox();
+            this.btnPeriodo = new System.Windows.Forms.Button();
+            this.txtPeriodo = new System.Windows.Forms.TextBox();
             this.Panel1.SuspendLayout();
             this.TabControl1.SuspendLayout();
             this.TabBoletines.SuspendLayout();
@@ -93,7 +90,7 @@
             // 
             // Panel1
             // 
-            this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel1.BackColor = System.Drawing.Color.White;
             this.Panel1.Controls.Add(this.btnCargar);
@@ -164,8 +161,8 @@
             // 
             // TabControl1
             // 
-            this.TabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.TabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TabControl1.Controls.Add(this.TabBoletines);
             this.TabControl1.Controls.Add(this.tabListarEstudiante);
@@ -435,14 +432,6 @@
             this.DataGridViewTextBoxColumn8,
             this.DataGridViewTextBoxColumn9,
             this.DataGridViewTextBoxColumn10});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEstudiante.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEstudiante.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvEstudiante.Location = new System.Drawing.Point(4, 5);
             this.dgvEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -453,155 +442,6 @@
             this.dgvEstudiante.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEstudiante.Size = new System.Drawing.Size(568, 269);
             this.dgvEstudiante.TabIndex = 1103;
-            // 
-            // Panel3
-            // 
-            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Panel3.BackColor = System.Drawing.Color.White;
-            this.Panel3.Controls.Add(this.BtnCurso);
-            this.Panel3.Controls.Add(this.txtCurso);
-            this.Panel3.Controls.Add(this.label1);
-            this.Panel3.Controls.Add(this.TextBox1);
-            this.Panel3.Controls.Add(this.Label3);
-            this.Panel3.Controls.Add(this.txtFechaFinMatricula);
-            this.Panel3.Controls.Add(this.Label2);
-            this.Panel3.Controls.Add(this.btnEstudiante);
-            this.Panel3.Controls.Add(this.txtFechaInicioMatricula);
-            this.Panel3.Controls.Add(this.txtestudiante);
-            this.Panel3.Location = new System.Drawing.Point(10, 8);
-            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(584, 195);
-            this.Panel3.TabIndex = 1131;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.SteelBlue;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(584, 54);
-            this.label1.TabIndex = 1109;
-            this.label1.Text = "REPORTES";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // TextBox1
-            // 
-            this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TextBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TextBox1.Location = new System.Drawing.Point(299, 109);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.TextBox1.MaxLength = 40;
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.ReadOnly = true;
-            this.TextBox1.Size = new System.Drawing.Size(261, 30);
-            this.TextBox1.TabIndex = 1108;
-            // 
-            // Label3
-            // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(398, 153);
-            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(102, 24);
-            this.Label3.TabIndex = 1107;
-            this.Label3.Text = "Fecha Fin";
-            // 
-            // txtFechaFinMatricula
-            // 
-            this.txtFechaFinMatricula.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFechaFinMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFechaFinMatricula.Location = new System.Drawing.Point(509, 149);
-            this.txtFechaFinMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtFechaFinMatricula.Name = "txtFechaFinMatricula";
-            this.txtFechaFinMatricula.Size = new System.Drawing.Size(51, 30);
-            this.txtFechaFinMatricula.TabIndex = 1106;
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(10, 153);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(123, 24);
-            this.Label2.TabIndex = 1096;
-            this.Label2.Text = "Fecha inicio";
-            // 
-            // btnEstudiante
-            // 
-            this.btnEstudiante.BackColor = System.Drawing.Color.Transparent;
-            this.btnEstudiante.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEstudiante.BackgroundImage")));
-            this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstudiante.ForeColor = System.Drawing.Color.Black;
-            this.btnEstudiante.Location = new System.Drawing.Point(103, 109);
-            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEstudiante.Name = "btnEstudiante";
-            this.btnEstudiante.Size = new System.Drawing.Size(38, 30);
-            this.btnEstudiante.TabIndex = 1103;
-            this.btnEstudiante.UseVisualStyleBackColor = false;
-            // 
-            // txtFechaInicioMatricula
-            // 
-            this.txtFechaInicioMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(144, 149);
-            this.txtFechaInicioMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtFechaInicioMatricula.Name = "txtFechaInicioMatricula";
-            this.txtFechaInicioMatricula.Size = new System.Drawing.Size(213, 30);
-            this.txtFechaInicioMatricula.TabIndex = 1095;
-            // 
-            // txtestudiante
-            // 
-            this.txtestudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtestudiante.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtestudiante.Location = new System.Drawing.Point(144, 109);
-            this.txtestudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtestudiante.MaxLength = 40;
-            this.txtestudiante.Name = "txtestudiante";
-            this.txtestudiante.ReadOnly = true;
-            this.txtestudiante.Size = new System.Drawing.Size(150, 30);
-            this.txtestudiante.TabIndex = 1084;
-            // 
-            // BtnCurso
-            // 
-            this.BtnCurso.BackColor = System.Drawing.Color.Transparent;
-            this.BtnCurso.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCurso.BackgroundImage")));
-            this.BtnCurso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnCurso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCurso.ForeColor = System.Drawing.Color.Black;
-            this.BtnCurso.Location = new System.Drawing.Point(87, 69);
-            this.BtnCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnCurso.Name = "BtnCurso";
-            this.BtnCurso.Size = new System.Drawing.Size(54, 32);
-            this.BtnCurso.TabIndex = 1145;
-            this.BtnCurso.UseVisualStyleBackColor = false;
-            // 
-            // txtCurso
-            // 
-            this.txtCurso.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCurso.Location = new System.Drawing.Point(147, 69);
-            this.txtCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCurso.MaxLength = 40;
-            this.txtCurso.Name = "txtCurso";
-            this.txtCurso.ReadOnly = true;
-            this.txtCurso.Size = new System.Drawing.Size(413, 30);
-            this.txtCurso.TabIndex = 1144;
             // 
             // DataGridViewTextBoxColumn1
             // 
@@ -715,6 +555,141 @@
             this.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10";
             this.DataGridViewTextBoxColumn10.ReadOnly = true;
             // 
+            // Panel3
+            // 
+            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Panel3.BackColor = System.Drawing.Color.White;
+            this.Panel3.Controls.Add(this.btnPeriodo);
+            this.Panel3.Controls.Add(this.txtPeriodo);
+            this.Panel3.Controls.Add(this.BtnCurso);
+            this.Panel3.Controls.Add(this.txtCurso);
+            this.Panel3.Controls.Add(this.label1);
+            this.Panel3.Controls.Add(this.TextBox1);
+            this.Panel3.Controls.Add(this.btnEstudiante);
+            this.Panel3.Controls.Add(this.txtestudiante);
+            this.Panel3.Location = new System.Drawing.Point(10, 8);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Panel3.Name = "Panel3";
+            this.Panel3.Size = new System.Drawing.Size(584, 195);
+            this.Panel3.TabIndex = 1131;
+            // 
+            // BtnCurso
+            // 
+            this.BtnCurso.BackColor = System.Drawing.Color.Transparent;
+            this.BtnCurso.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCurso.BackgroundImage")));
+            this.BtnCurso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnCurso.FlatAppearance.BorderSize = 0;
+            this.BtnCurso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCurso.ForeColor = System.Drawing.Color.Black;
+            this.BtnCurso.Location = new System.Drawing.Point(87, 69);
+            this.BtnCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnCurso.Name = "BtnCurso";
+            this.BtnCurso.Size = new System.Drawing.Size(54, 32);
+            this.BtnCurso.TabIndex = 1145;
+            this.BtnCurso.UseVisualStyleBackColor = false;
+            // 
+            // txtCurso
+            // 
+            this.txtCurso.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCurso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtCurso.Location = new System.Drawing.Point(147, 69);
+            this.txtCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCurso.MaxLength = 40;
+            this.txtCurso.Name = "txtCurso";
+            this.txtCurso.ReadOnly = true;
+            this.txtCurso.Size = new System.Drawing.Size(413, 30);
+            this.txtCurso.TabIndex = 1144;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.SteelBlue;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(584, 54);
+            this.label1.TabIndex = 1109;
+            this.label1.Text = "REPORTES";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TextBox1
+            // 
+            this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TextBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.TextBox1.Location = new System.Drawing.Point(299, 109);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TextBox1.MaxLength = 40;
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.ReadOnly = true;
+            this.TextBox1.Size = new System.Drawing.Size(261, 30);
+            this.TextBox1.TabIndex = 1108;
+            // 
+            // btnEstudiante
+            // 
+            this.btnEstudiante.BackColor = System.Drawing.Color.Transparent;
+            this.btnEstudiante.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEstudiante.BackgroundImage")));
+            this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEstudiante.FlatAppearance.BorderSize = 0;
+            this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiante.ForeColor = System.Drawing.Color.Black;
+            this.btnEstudiante.Location = new System.Drawing.Point(103, 109);
+            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEstudiante.Name = "btnEstudiante";
+            this.btnEstudiante.Size = new System.Drawing.Size(38, 30);
+            this.btnEstudiante.TabIndex = 1103;
+            this.btnEstudiante.UseVisualStyleBackColor = false;
+            // 
+            // txtestudiante
+            // 
+            this.txtestudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtestudiante.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtestudiante.Location = new System.Drawing.Point(144, 109);
+            this.txtestudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtestudiante.MaxLength = 40;
+            this.txtestudiante.Name = "txtestudiante";
+            this.txtestudiante.ReadOnly = true;
+            this.txtestudiante.Size = new System.Drawing.Size(150, 30);
+            this.txtestudiante.TabIndex = 1084;
+            // 
+            // btnPeriodo
+            // 
+            this.btnPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnPeriodo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPeriodo.BackgroundImage")));
+            this.btnPeriodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPeriodo.FlatAppearance.BorderSize = 0;
+            this.btnPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPeriodo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnPeriodo.Location = new System.Drawing.Point(89, 149);
+            this.btnPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnPeriodo.Name = "btnPeriodo";
+            this.btnPeriodo.Size = new System.Drawing.Size(52, 31);
+            this.btnPeriodo.TabIndex = 1149;
+            this.btnPeriodo.UseVisualStyleBackColor = false;
+            // 
+            // txtPeriodo
+            // 
+            this.txtPeriodo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPeriodo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeriodo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtPeriodo.Location = new System.Drawing.Point(145, 149);
+            this.txtPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPeriodo.MaxLength = 40;
+            this.txtPeriodo.Name = "txtPeriodo";
+            this.txtPeriodo.ReadOnly = true;
+            this.txtPeriodo.Size = new System.Drawing.Size(415, 30);
+            this.txtPeriodo.TabIndex = 1148;
+            // 
             // ReportesUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -769,11 +744,7 @@
         private System.Windows.Forms.DataGridView dgvEstudiante;
         internal System.Windows.Forms.Panel Panel3;
         internal System.Windows.Forms.TextBox TextBox1;
-        internal System.Windows.Forms.Label Label3;
-        private System.Windows.Forms.DateTimePicker txtFechaFinMatricula;
-        internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Button btnEstudiante;
-        private System.Windows.Forms.DateTimePicker txtFechaInicioMatricula;
         internal System.Windows.Forms.TextBox txtestudiante;
         internal System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn DataGridViewTextBoxColumn1;
@@ -790,5 +761,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DataGridViewTextBoxColumn10;
         internal System.Windows.Forms.Button BtnCurso;
         internal System.Windows.Forms.TextBox txtCurso;
+        internal System.Windows.Forms.Button btnPeriodo;
+        internal System.Windows.Forms.TextBox txtPeriodo;
     }
 }

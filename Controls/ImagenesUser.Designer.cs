@@ -33,13 +33,6 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.dgAsignaturas = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtImagenes = new System.Windows.Forms.TextBox();
-            this.btnImagenes = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtIdentificacion = new System.Windows.Forms.TextBox();
-            this.lblCaption = new System.Windows.Forms.Label();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PictureId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StudentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +42,13 @@
             this.Profesor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ver = new System.Windows.Forms.DataGridViewButtonColumn();
             this.eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtImagenes = new System.Windows.Forms.TextBox();
+            this.btnImagenes = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtIdentificacion = new System.Windows.Forms.TextBox();
+            this.lblCaption = new System.Windows.Forms.Label();
             this.Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgAsignaturas)).BeginInit();
             this.panel1.SuspendLayout();
@@ -72,6 +72,7 @@
             this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Location = new System.Drawing.Point(395, 0);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -87,6 +88,7 @@
             this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Location = new System.Drawing.Point(455, 0);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -126,92 +128,6 @@
             this.dgAsignaturas.Size = new System.Drawing.Size(515, 484);
             this.dgAsignaturas.TabIndex = 1135;
             this.dgAsignaturas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgAsignaturas_CellContentClick);
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.txtImagenes);
-            this.panel1.Controls.Add(this.btnImagenes);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.txtNombre);
-            this.panel1.Controls.Add(this.txtIdentificacion);
-            this.panel1.Controls.Add(this.lblCaption);
-            this.panel1.Location = new System.Drawing.Point(15, 17);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(515, 161);
-            this.panel1.TabIndex = 1134;
-            // 
-            // txtImagenes
-            // 
-            this.txtImagenes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtImagenes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtImagenes.Location = new System.Drawing.Point(130, 109);
-            this.txtImagenes.Name = "txtImagenes";
-            this.txtImagenes.ReadOnly = true;
-            this.txtImagenes.Size = new System.Drawing.Size(360, 30);
-            this.txtImagenes.TabIndex = 1102;
-            // 
-            // btnImagenes
-            // 
-            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
-            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImagenes.Location = new System.Drawing.Point(84, 109);
-            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnImagenes.Name = "btnImagenes";
-            this.btnImagenes.Size = new System.Drawing.Size(42, 32);
-            this.btnImagenes.TabIndex = 1101;
-            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnImagenes.UseVisualStyleBackColor = true;
-            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.SteelBlue;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(515, 51);
-            this.label4.TabIndex = 1139;
-            this.label4.Text = "ESTUDIANTES =>IMAGENES";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombre.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(232, 70);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.ReadOnly = true;
-            this.txtNombre.Size = new System.Drawing.Size(258, 30);
-            this.txtNombre.TabIndex = 2;
-            // 
-            // txtIdentificacion
-            // 
-            this.txtIdentificacion.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdentificacion.Location = new System.Drawing.Point(130, 70);
-            this.txtIdentificacion.Name = "txtIdentificacion";
-            this.txtIdentificacion.ReadOnly = true;
-            this.txtIdentificacion.Size = new System.Drawing.Size(95, 30);
-            this.txtIdentificacion.TabIndex = 1;
-            // 
-            // lblCaption
-            // 
-            this.lblCaption.AutoSize = true;
-            this.lblCaption.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaption.Location = new System.Drawing.Point(13, 73);
-            this.lblCaption.Name = "lblCaption";
-            this.lblCaption.Size = new System.Drawing.Size(111, 24);
-            this.lblCaption.TabIndex = 0;
-            this.lblCaption.Text = "Estudiante";
             // 
             // Id
             // 
@@ -301,6 +217,93 @@
             this.eliminar.Text = "Eliminar";
             this.eliminar.UseColumnTextForButtonValue = true;
             this.eliminar.Width = 150;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtImagenes);
+            this.panel1.Controls.Add(this.btnImagenes);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.txtIdentificacion);
+            this.panel1.Controls.Add(this.lblCaption);
+            this.panel1.Location = new System.Drawing.Point(15, 17);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(515, 161);
+            this.panel1.TabIndex = 1134;
+            // 
+            // txtImagenes
+            // 
+            this.txtImagenes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtImagenes.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtImagenes.Location = new System.Drawing.Point(130, 109);
+            this.txtImagenes.Name = "txtImagenes";
+            this.txtImagenes.ReadOnly = true;
+            this.txtImagenes.Size = new System.Drawing.Size(360, 30);
+            this.txtImagenes.TabIndex = 1102;
+            // 
+            // btnImagenes
+            // 
+            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
+            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnImagenes.FlatAppearance.BorderSize = 0;
+            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImagenes.Location = new System.Drawing.Point(84, 109);
+            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnImagenes.Name = "btnImagenes";
+            this.btnImagenes.Size = new System.Drawing.Size(42, 32);
+            this.btnImagenes.TabIndex = 1101;
+            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnImagenes.UseVisualStyleBackColor = true;
+            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.SteelBlue;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(515, 51);
+            this.label4.TabIndex = 1139;
+            this.label4.Text = "ESTUDIANTES =>IMAGENES";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNombre.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(232, 70);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.ReadOnly = true;
+            this.txtNombre.Size = new System.Drawing.Size(258, 30);
+            this.txtNombre.TabIndex = 2;
+            // 
+            // txtIdentificacion
+            // 
+            this.txtIdentificacion.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentificacion.Location = new System.Drawing.Point(130, 70);
+            this.txtIdentificacion.Name = "txtIdentificacion";
+            this.txtIdentificacion.ReadOnly = true;
+            this.txtIdentificacion.Size = new System.Drawing.Size(95, 30);
+            this.txtIdentificacion.TabIndex = 1;
+            // 
+            // lblCaption
+            // 
+            this.lblCaption.AutoSize = true;
+            this.lblCaption.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaption.Location = new System.Drawing.Point(13, 73);
+            this.lblCaption.Name = "lblCaption";
+            this.lblCaption.Size = new System.Drawing.Size(111, 24);
+            this.lblCaption.TabIndex = 0;
+            this.lblCaption.Text = "Estudiante";
             // 
             // ImagenesUser
             // 

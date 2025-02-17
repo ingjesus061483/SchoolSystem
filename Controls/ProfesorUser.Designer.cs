@@ -58,12 +58,6 @@
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.dgvUsuario = new System.Windows.Forms.DataGridView();
-            this.Panel3 = new System.Windows.Forms.Panel();
-            this.btnImagenes = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TipoIdentificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Identificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -75,6 +69,12 @@
             this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Panel3 = new System.Windows.Forms.Panel();
+            this.btnImagenes = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
             this.Panel3.SuspendLayout();
@@ -474,97 +474,6 @@
             this.dgvUsuario.TabIndex = 1130;
             this.dgvUsuario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsuario_CellContentClick);
             // 
-            // Panel3
-            // 
-            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Panel3.BackColor = System.Drawing.Color.White;
-            this.Panel3.Controls.Add(this.btnImagenes);
-            this.Panel3.Controls.Add(this.btnNuevo);
-            this.Panel3.Controls.Add(this.btnGuardar);
-            this.Panel3.Controls.Add(this.btnEliminar);
-            this.Panel3.Controls.Add(this.btnSalir);
-            this.Panel3.Location = new System.Drawing.Point(12, 510);
-            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(718, 62);
-            this.Panel3.TabIndex = 1132;
-            // 
-            // btnImagenes
-            // 
-            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
-            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnImagenes.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImagenes.Location = new System.Drawing.Point(418, 0);
-            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnImagenes.Name = "btnImagenes";
-            this.btnImagenes.Size = new System.Drawing.Size(60, 62);
-            this.btnImagenes.TabIndex = 1100;
-            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnImagenes.UseVisualStyleBackColor = true;
-            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNuevo.BackgroundImage")));
-            this.btnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNuevo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevo.Location = new System.Drawing.Point(478, 0);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(60, 62);
-            this.btnNuevo.TabIndex = 1099;
-            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
-            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Location = new System.Drawing.Point(538, 0);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(60, 62);
-            this.btnGuardar.TabIndex = 1097;
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
-            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(598, 0);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(60, 62);
-            this.btnEliminar.TabIndex = 1098;
-            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
-            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalir.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Location = new System.Drawing.Point(658, 0);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(60, 62);
-            this.btnSalir.TabIndex = 1084;
-            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
             // Id
             // 
             this.Id.DataPropertyName = "Id";
@@ -664,6 +573,102 @@
             this.usuario.MinimumWidth = 8;
             this.usuario.Name = "usuario";
             this.usuario.ReadOnly = true;
+            // 
+            // Panel3
+            // 
+            this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Panel3.BackColor = System.Drawing.Color.White;
+            this.Panel3.Controls.Add(this.btnImagenes);
+            this.Panel3.Controls.Add(this.btnNuevo);
+            this.Panel3.Controls.Add(this.btnGuardar);
+            this.Panel3.Controls.Add(this.btnEliminar);
+            this.Panel3.Controls.Add(this.btnSalir);
+            this.Panel3.Location = new System.Drawing.Point(12, 510);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Panel3.Name = "Panel3";
+            this.Panel3.Size = new System.Drawing.Size(718, 62);
+            this.Panel3.TabIndex = 1132;
+            // 
+            // btnImagenes
+            // 
+            this.btnImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImagenes.BackgroundImage")));
+            this.btnImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnImagenes.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnImagenes.FlatAppearance.BorderSize = 0;
+            this.btnImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImagenes.Location = new System.Drawing.Point(418, 0);
+            this.btnImagenes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnImagenes.Name = "btnImagenes";
+            this.btnImagenes.Size = new System.Drawing.Size(60, 62);
+            this.btnImagenes.TabIndex = 1100;
+            this.btnImagenes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnImagenes.UseVisualStyleBackColor = true;
+            this.btnImagenes.Click += new System.EventHandler(this.btnImagenes_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNuevo.BackgroundImage")));
+            this.btnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNuevo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNuevo.FlatAppearance.BorderSize = 0;
+            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevo.Location = new System.Drawing.Point(478, 0);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(60, 62);
+            this.btnNuevo.TabIndex = 1099;
+            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
+            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnGuardar.FlatAppearance.BorderSize = 0;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Location = new System.Drawing.Point(538, 0);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(60, 62);
+            this.btnGuardar.TabIndex = 1097;
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Location = new System.Drawing.Point(598, 0);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(60, 62);
+            this.btnEliminar.TabIndex = 1098;
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Location = new System.Drawing.Point(658, 0);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(60, 62);
+            this.btnSalir.TabIndex = 1084;
+            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // ProfesorUser
             // 

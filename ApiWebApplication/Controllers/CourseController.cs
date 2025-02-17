@@ -30,7 +30,7 @@ namespace ApiWebApplication.Controllers
                     Code = c.Code,
                     Description = c.Description,
                     Amount = c.Amount,
-                    Achievements = c.Achievements,
+                   // Achievements = c.Achievements,
                     CourseSubjects =c.CourseSubjects .Where (sc=>sc.CourseId == c.Id).Select (sc=>new CourseSubjectDTO
                     {
                         Id=sc.Id,

@@ -30,7 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalificacionesUser));
             this.dgvEstudiante = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.asignatura = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Observaciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Periodo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.btnPeriodo = new System.Windows.Forms.Button();
+            this.txtPeriodo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
@@ -45,22 +56,11 @@
             this.txtNota = new System.Windows.Forms.TextBox();
             this.Label1 = new System.Windows.Forms.Label();
             this.txtConcepto = new System.Windows.Forms.TextBox();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.asignatura = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Observaciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Periodo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Panel3 = new System.Windows.Forms.Panel();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnPeriodo = new System.Windows.Forms.Button();
-            this.txtPeriodo = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiante)).BeginInit();
             this.Panel1.SuspendLayout();
             this.Panel3.SuspendLayout();
@@ -94,6 +94,69 @@
             this.dgvEstudiante.Size = new System.Drawing.Size(495, 101);
             this.dgvEstudiante.TabIndex = 1116;
             // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.MinimumWidth = 8;
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Visible = false;
+            this.Id.Width = 150;
+            // 
+            // fecha
+            // 
+            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.fecha.DataPropertyName = "fecha";
+            this.fecha.HeaderText = "fecha";
+            this.fecha.MinimumWidth = 8;
+            this.fecha.Name = "fecha";
+            this.fecha.ReadOnly = true;
+            // 
+            // asignatura
+            // 
+            this.asignatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.asignatura.DataPropertyName = "logros";
+            this.asignatura.HeaderText = " logros";
+            this.asignatura.MinimumWidth = 8;
+            this.asignatura.Name = "asignatura";
+            this.asignatura.ReadOnly = true;
+            // 
+            // Concepto
+            // 
+            this.Concepto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Concepto.DataPropertyName = "Concepto";
+            this.Concepto.HeaderText = "Concepto";
+            this.Concepto.MinimumWidth = 8;
+            this.Concepto.Name = "Concepto";
+            this.Concepto.ReadOnly = true;
+            // 
+            // nota
+            // 
+            this.nota.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nota.DataPropertyName = "nota";
+            this.nota.HeaderText = "nota";
+            this.nota.MinimumWidth = 8;
+            this.nota.Name = "nota";
+            this.nota.ReadOnly = true;
+            // 
+            // Observaciones
+            // 
+            this.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Observaciones.DataPropertyName = "Observaciones";
+            this.Observaciones.HeaderText = "Observaciones";
+            this.Observaciones.MinimumWidth = 8;
+            this.Observaciones.Name = "Observaciones";
+            this.Observaciones.ReadOnly = true;
+            // 
+            // Periodo
+            // 
+            this.Periodo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Periodo.HeaderText = "Periodo";
+            this.Periodo.MinimumWidth = 8;
+            this.Periodo.Name = "Periodo";
+            this.Periodo.ReadOnly = true;
+            // 
             // Panel1
             // 
             this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -122,6 +185,61 @@
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(495, 482);
             this.Panel1.TabIndex = 1115;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(88, 199);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 21);
+            this.label5.TabIndex = 1151;
+            this.label5.Text = "Codigo";
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCodigo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtCodigo.Location = new System.Drawing.Point(166, 196);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCodigo.MaxLength = 20;
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(314, 28);
+            this.txtCodigo.TabIndex = 1150;
+            // 
+            // btnPeriodo
+            // 
+            this.btnPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnPeriodo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPeriodo.BackgroundImage")));
+            this.btnPeriodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPeriodo.FlatAppearance.BorderSize = 0;
+            this.btnPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPeriodo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnPeriodo.Location = new System.Drawing.Point(111, 76);
+            this.btnPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnPeriodo.Name = "btnPeriodo";
+            this.btnPeriodo.Size = new System.Drawing.Size(52, 31);
+            this.btnPeriodo.TabIndex = 1149;
+            this.btnPeriodo.UseVisualStyleBackColor = false;
+            // 
+            // txtPeriodo
+            // 
+            this.txtPeriodo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPeriodo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeriodo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtPeriodo.Location = new System.Drawing.Point(167, 76);
+            this.txtPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPeriodo.MaxLength = 40;
+            this.txtPeriodo.Name = "txtPeriodo";
+            this.txtPeriodo.ReadOnly = true;
+            this.txtPeriodo.Size = new System.Drawing.Size(313, 30);
+            this.txtPeriodo.TabIndex = 1148;
             // 
             // label4
             // 
@@ -309,69 +427,6 @@
             this.txtConcepto.Size = new System.Drawing.Size(314, 28);
             this.txtConcepto.TabIndex = 1130;
             // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.MinimumWidth = 8;
-            this.Id.Name = "Id";
-            this.Id.ReadOnly = true;
-            this.Id.Visible = false;
-            this.Id.Width = 150;
-            // 
-            // fecha
-            // 
-            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.fecha.DataPropertyName = "fecha";
-            this.fecha.HeaderText = "fecha";
-            this.fecha.MinimumWidth = 8;
-            this.fecha.Name = "fecha";
-            this.fecha.ReadOnly = true;
-            // 
-            // asignatura
-            // 
-            this.asignatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.asignatura.DataPropertyName = "logros";
-            this.asignatura.HeaderText = " logros";
-            this.asignatura.MinimumWidth = 8;
-            this.asignatura.Name = "asignatura";
-            this.asignatura.ReadOnly = true;
-            // 
-            // Concepto
-            // 
-            this.Concepto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Concepto.DataPropertyName = "Concepto";
-            this.Concepto.HeaderText = "Concepto";
-            this.Concepto.MinimumWidth = 8;
-            this.Concepto.Name = "Concepto";
-            this.Concepto.ReadOnly = true;
-            // 
-            // nota
-            // 
-            this.nota.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nota.DataPropertyName = "nota";
-            this.nota.HeaderText = "nota";
-            this.nota.MinimumWidth = 8;
-            this.nota.Name = "nota";
-            this.nota.ReadOnly = true;
-            // 
-            // Observaciones
-            // 
-            this.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Observaciones.DataPropertyName = "Observaciones";
-            this.Observaciones.HeaderText = "Observaciones";
-            this.Observaciones.MinimumWidth = 8;
-            this.Observaciones.Name = "Observaciones";
-            this.Observaciones.ReadOnly = true;
-            // 
-            // Periodo
-            // 
-            this.Periodo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Periodo.HeaderText = "Periodo";
-            this.Periodo.MinimumWidth = 8;
-            this.Periodo.Name = "Periodo";
-            this.Periodo.ReadOnly = true;
-            // 
             // Panel3
             // 
             this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -392,6 +447,7 @@
             this.btnNuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNuevo.BackgroundImage")));
             this.btnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNuevo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnNuevo.FlatAppearance.BorderSize = 0;
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Location = new System.Drawing.Point(255, 0);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -406,6 +462,7 @@
             this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Location = new System.Drawing.Point(315, 0);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -420,6 +477,7 @@
             this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Location = new System.Drawing.Point(375, 0);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -434,6 +492,7 @@
             this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Location = new System.Drawing.Point(435, 0);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -442,61 +501,6 @@
             this.btnSalir.TabIndex = 1084;
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalir.UseVisualStyleBackColor = true;
-            // 
-            // btnPeriodo
-            // 
-            this.btnPeriodo.BackColor = System.Drawing.Color.Transparent;
-            this.btnPeriodo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPeriodo.BackgroundImage")));
-            this.btnPeriodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPeriodo.FlatAppearance.BorderSize = 0;
-            this.btnPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPeriodo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPeriodo.ForeColor = System.Drawing.Color.Black;
-            this.btnPeriodo.Location = new System.Drawing.Point(111, 76);
-            this.btnPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnPeriodo.Name = "btnPeriodo";
-            this.btnPeriodo.Size = new System.Drawing.Size(52, 31);
-            this.btnPeriodo.TabIndex = 1149;
-            this.btnPeriodo.UseVisualStyleBackColor = false;
-            // 
-            // txtPeriodo
-            // 
-            this.txtPeriodo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPeriodo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPeriodo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtPeriodo.Location = new System.Drawing.Point(167, 76);
-            this.txtPeriodo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtPeriodo.MaxLength = 40;
-            this.txtPeriodo.Name = "txtPeriodo";
-            this.txtPeriodo.ReadOnly = true;
-            this.txtPeriodo.Size = new System.Drawing.Size(313, 30);
-            this.txtPeriodo.TabIndex = 1148;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(88, 199);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 21);
-            this.label5.TabIndex = 1151;
-            this.label5.Text = "Codigo";
-            // 
-            // txtCodigo
-            // 
-            this.txtCodigo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCodigo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCodigo.Location = new System.Drawing.Point(166, 196);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCodigo.MaxLength = 20;
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(314, 28);
-            this.txtCodigo.TabIndex = 1150;
             // 
             // CalificacionesUser
             // 

@@ -31,6 +31,8 @@ namespace ApiWebApplication.DTO
         [Required (ErrorMessage ="El campo capacidad no puede ser vacio")]        
         [Column(TypeName = "decimal")]        
         public decimal Amount { get; set; }
+
+    public List <Achievement >    Achievements { get; set; }
         public List<CourseSubjectDTO> CourseSubjects { get; set; }
         public List<Tuition> Tuitions { get; set; }
 

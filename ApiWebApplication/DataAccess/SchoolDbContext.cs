@@ -16,6 +16,8 @@ namespace ApiWebApplication.DataAccess
         { 
            
         }
+        public DbSet<Period > Periods {  get; set; }
+        public DbSet <Achievement> Achievements { get; set; }
         public DbSet<Relationship> Relationships { get; set; }
         public DbSet <Attendant> Attenants { get; set; }
         public  DbSet<Course> Courses { get; set; }
@@ -32,5 +34,6 @@ namespace ApiWebApplication.DataAccess
         public DbSet<Strangeness> Strangenesses {  get; set; }
         public DbSet <Concept> Concepts { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Qualification> Qualifications { get; set; }
     }
 }

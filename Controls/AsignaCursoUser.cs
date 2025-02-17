@@ -53,19 +53,11 @@ namespace Controls
 
         private async void  BtnCurso_Click(object sender, EventArgs e)
         {
-            Utilities<Course>.Api = "api/Course"; 
-            frmSecundario frmSecundario = new frmSecundario();
-            var courses = await Utilities<Course>.Get();               
-            BuscarUser busquedaUser = new BuscarUser 
-            {
-                List = courses ,
-                Form = frmSecundario,
-                Dock = DockStyle.Fill,
-            };
-            frmSecundario .UserControl=busquedaUser;
-          
-            frmSecundario .ShowDialog();
-            course =courses .FirstOrDefault ( x=>x.Id ==busquedaUser .Id );
+            Utilities<Course>.Api = "api/Course";      
+            List<Course> courses = await Utilities<Course>.Get();
+            int id = Utilities<Course >.GetID(courses);
+
+            course = courses .FirstOrDefault ( x=>x.Id ==id );
             if (course == null)
             {
              return ;
@@ -154,18 +146,8 @@ namespace Controls
         {
             Utilities<Teacher>.Api = "api/Teacher"; 
             var teachers = await Utilities<Teacher>.Get();
-
-            frmSecundario frmSecundario = new frmSecundario();
-            BuscarUser busquedaUser = new BuscarUser
-            {
-                List = teachers,
-                Form = frmSecundario,
-                Dock = DockStyle.Fill,
-            };
-            frmSecundario.UserControl = busquedaUser;
-
-            frmSecundario.ShowDialog();
-            Teacher = teachers.FirstOrDefault(x => x.Id == busquedaUser.Id);
+            int id = Utilities<Teacher>.GetID(teachers );
+            Teacher = teachers.FirstOrDefault(x => x.Id == id );
             if (teachers == null)
             {
                 return;

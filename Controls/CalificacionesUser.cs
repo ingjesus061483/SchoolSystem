@@ -12,6 +12,7 @@ namespace Controls
 { 
     public partial class CalificacionesUser : UserControl
     {
+        public Form Form { get; set; }
         public CalificacionesUser()
         {
             InitializeComponent();

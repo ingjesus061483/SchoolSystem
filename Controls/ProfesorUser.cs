@@ -69,6 +69,7 @@ namespace Controls
             }
             catch(Exception ex)
             {
+                MessageBox.Show(ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
             finally

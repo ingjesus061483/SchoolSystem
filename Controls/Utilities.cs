@@ -192,5 +192,18 @@ namespace Controls
             return z.GetType().GetProperty(field).GetValue(z)
                               .ToString().Contains(value);
         }
+        public static int GetID(List<T > values )
+        {           
+            frmSecundario frmSecundario = new frmSecundario();
+            BuscarUser buscarUser = new BuscarUser
+            {
+                List = values,
+                Dock = DockStyle.Fill,
+                Form = frmSecundario
+            };
+            frmSecundario.UserControl = buscarUser;
+            frmSecundario.ShowDialog();           
+            return buscarUser.Id;
+        }
     }
 }

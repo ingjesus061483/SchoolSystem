@@ -96,8 +96,10 @@
     <Compile Include="ImagePreviewUser.Designer.cs">
       <DependentUpon>ImagePreviewUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Achievement.cs" />
     <Compile Include="Models\Attendant.cs" />
     <Compile Include="Models\Concept.cs" />
+    <Compile Include="Models\Period.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\CourseSubject.cs" />
@@ -152,6 +154,12 @@
     </Compile>
     <Compile Include="NovedadesUser.Designer.cs">
       <DependentUpon>NovedadesUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PeriodoUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PeriodoUser.Designer.cs">
+      <DependentUpon>PeriodoUser.cs</DependentUpon>
     </Compile>
     <Compile Include="ProfesorUser.cs">
       <SubType>UserControl</SubType>
@@ -228,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NovedadesUser.resx">
       <DependentUpon>NovedadesUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeriodoUser.resx">
+      <DependentUpon>PeriodoUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfesorUser.resx">
       <DependentUpon>ProfesorUser.cs</DependentUpon>

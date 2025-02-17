@@ -39,6 +39,9 @@
             this.toolStripConcepto = new System.Windows.Forms.ToolStripButton();
             this.toolStripMatricula = new System.Windows.Forms.ToolStripButton();
             this.toolStripTeacher = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonPeriodo = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonLogro = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonCalificaciones = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,9 +57,9 @@
             // pnlbody
             // 
             this.pnlbody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlbody.Location = new System.Drawing.Point(221, 38);
+            this.pnlbody.Location = new System.Drawing.Point(221, 33);
             this.pnlbody.Name = "pnlbody";
-            this.pnlbody.Size = new System.Drawing.Size(579, 412);
+            this.pnlbody.Size = new System.Drawing.Size(579, 417);
             this.pnlbody.TabIndex = 1;
             // 
             // toolStrip1
@@ -70,10 +73,13 @@
             this.toolStripStudent,
             this.toolStripConcepto,
             this.toolStripMatricula,
-            this.toolStripTeacher});
+            this.toolStripTeacher,
+            this.toolStripButtonPeriodo,
+            this.toolStripButtonLogro,
+            this.toolStripButtonCalificaciones});
             this.toolStrip1.Location = new System.Drawing.Point(221, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(579, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(579, 33);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -84,7 +90,7 @@
             this.toolStripButtonCourse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButtonCourse.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonCourse.Name = "toolStripButtonCourse";
-            this.toolStripButtonCourse.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButtonCourse.Size = new System.Drawing.Size(34, 28);
             this.toolStripButtonCourse.Text = "toolStripButton1";
             this.toolStripButtonCourse.ToolTipText = "Cursos";
             this.toolStripButtonCourse.Click += new System.EventHandler(this.toolStripButtonCourse_Click);
@@ -96,7 +102,7 @@
             this.toolStripButtonSchoolSubject.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButtonSchoolSubject.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonSchoolSubject.Name = "toolStripButtonSchoolSubject";
-            this.toolStripButtonSchoolSubject.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButtonSchoolSubject.Size = new System.Drawing.Size(34, 28);
             this.toolStripButtonSchoolSubject.Text = "toolStripButton1";
             this.toolStripButtonSchoolSubject.ToolTipText = "Asignatura";
             this.toolStripButtonSchoolSubject.Click += new System.EventHandler(this.toolStripButtonSchoolSubject_Click);
@@ -107,7 +113,7 @@
             this.toolStripButtonAcudiente.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonAcudiente.Image")));
             this.toolStripButtonAcudiente.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonAcudiente.Name = "toolStripButtonAcudiente";
-            this.toolStripButtonAcudiente.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButtonAcudiente.Size = new System.Drawing.Size(34, 28);
             this.toolStripButtonAcudiente.Text = "toolStripButton1";
             this.toolStripButtonAcudiente.ToolTipText = "Acudiente";
             this.toolStripButtonAcudiente.Click += new System.EventHandler(this.toolStripButtonAcudiente_Click);
@@ -118,7 +124,7 @@
             this.toolStripStudent.Image = ((System.Drawing.Image)(resources.GetObject("toolStripStudent.Image")));
             this.toolStripStudent.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripStudent.Name = "toolStripStudent";
-            this.toolStripStudent.Size = new System.Drawing.Size(34, 33);
+            this.toolStripStudent.Size = new System.Drawing.Size(34, 28);
             this.toolStripStudent.Text = "Estudiantes";
             this.toolStripStudent.Click += new System.EventHandler(this.toolStripStudent_Click);
             // 
@@ -128,7 +134,7 @@
             this.toolStripConcepto.Image = ((System.Drawing.Image)(resources.GetObject("toolStripConcepto.Image")));
             this.toolStripConcepto.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripConcepto.Name = "toolStripConcepto";
-            this.toolStripConcepto.Size = new System.Drawing.Size(34, 33);
+            this.toolStripConcepto.Size = new System.Drawing.Size(34, 28);
             this.toolStripConcepto.ToolTipText = "Concepto";
             this.toolStripConcepto.Click += new System.EventHandler(this.toolStripConcepto_Click);
             // 
@@ -138,7 +144,7 @@
             this.toolStripMatricula.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMatricula.Image")));
             this.toolStripMatricula.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripMatricula.Name = "toolStripMatricula";
-            this.toolStripMatricula.Size = new System.Drawing.Size(34, 33);
+            this.toolStripMatricula.Size = new System.Drawing.Size(34, 28);
             this.toolStripMatricula.Text = "Matricula";
             this.toolStripMatricula.Click += new System.EventHandler(this.toolStripMatricula_Click);
             // 
@@ -148,10 +154,42 @@
             this.toolStripTeacher.Image = ((System.Drawing.Image)(resources.GetObject("toolStripTeacher.Image")));
             this.toolStripTeacher.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripTeacher.Name = "toolStripTeacher";
-            this.toolStripTeacher.Size = new System.Drawing.Size(34, 33);
+            this.toolStripTeacher.Size = new System.Drawing.Size(34, 28);
             this.toolStripTeacher.Text = "toolStripButton1";
             this.toolStripTeacher.ToolTipText = "Profesor";
             this.toolStripTeacher.Click += new System.EventHandler(this.toolStripTeacher_Click);
+            // 
+            // toolStripButtonPeriodo
+            // 
+            this.toolStripButtonPeriodo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonPeriodo.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonPeriodo.Image")));
+            this.toolStripButtonPeriodo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonPeriodo.Name = "toolStripButtonPeriodo";
+            this.toolStripButtonPeriodo.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButtonPeriodo.Text = "toolStripButton1";
+            this.toolStripButtonPeriodo.ToolTipText = "Periodo";
+            this.toolStripButtonPeriodo.Click += new System.EventHandler(this.toolStripButtonPeriodo_Click);
+            // 
+            // toolStripButtonLogro
+            // 
+            this.toolStripButtonLogro.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonLogro.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonLogro.Image")));
+            this.toolStripButtonLogro.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonLogro.Name = "toolStripButtonLogro";
+            this.toolStripButtonLogro.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButtonLogro.Text = "toolStripButton1";
+            this.toolStripButtonLogro.Click += new System.EventHandler(this.toolStripButtonLogro_Click);
+            // 
+            // toolStripButtonCalificaciones
+            // 
+            this.toolStripButtonCalificaciones.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonCalificaciones.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonCalificaciones.Image")));
+            this.toolStripButtonCalificaciones.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonCalificaciones.Name = "toolStripButtonCalificaciones";
+            this.toolStripButtonCalificaciones.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButtonCalificaciones.Text = "toolStripButton1";
+            this.toolStripButtonCalificaciones.ToolTipText = "Calificaciones";
+            this.toolStripButtonCalificaciones.Click += new System.EventHandler(this.toolStripButtonCalificaciones_Click);
             // 
             // FrmPrincipal
             // 
@@ -185,6 +223,9 @@
         private System.Windows.Forms.ToolStripButton toolStripConcepto;
         private System.Windows.Forms.ToolStripButton toolStripButtonAcudiente;
         private System.Windows.Forms.ToolStripButton toolStripTeacher;
+        private System.Windows.Forms.ToolStripButton toolStripButtonLogro;
+        private System.Windows.Forms.ToolStripButton toolStripButtonPeriodo;
+        private System.Windows.Forms.ToolStripButton toolStripButtonCalificaciones;
     }
 }
 

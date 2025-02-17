@@ -19,6 +19,8 @@ namespace Controls
         List<Student > students ;
         List<Attendant> attendants;
         List<Teacher> teachers;
+        List<SchoolSubject> schoolSubjects;
+        List<Period> periods;
         public int Id {  get; set; }
         public  object List {  get; set; }
         public Form Form { get; set; }
@@ -60,7 +62,7 @@ namespace Controls
             else if (obj is List<Attendant>)
             {
                 attendants = obj as List<Attendant>;
-                dgVer.DataSource = attendants .Select(x => new
+                dgVer.DataSource = attendants.Select(x => new
                 {
                     x.Id,
                     Identificacion = x.Identification,
@@ -72,7 +74,7 @@ namespace Controls
                     x.Email,
                 }).ToList();
             }
-            else if(obj is List<Teacher>)
+            else if (obj is List<Teacher>)
             {
                 teachers = obj as List<Teacher>;
                 dgVer.DataSource = teachers.Select(x => new
@@ -89,7 +91,31 @@ namespace Controls
                     x.Email,
                 }).ToList();
             }
-        }
+            else if (List is List<SchoolSubject>)
+            {
+                schoolSubjects = obj as List<SchoolSubject>;
+                dgVer.DataSource = schoolSubjects.Select(x => new
+                {
+                    x.Id,
+                    Codigo = x.Code,
+                    Nombre = x.Name,
+                    Descripcion = x.Description,
+                    CantidadHoras = x.HourAmount
+                }).ToList();
+            }
+            else if(List is List<Period>)
+            {
+                periods = obj as List<Period>;
+                dgVer .DataSource = periods.Select(x => new
+                {
+                    x.Id,
+                    x.Title,
+                    x.Since,
+                    x.Untill,
+                    x.Description
+                }).ToList();
+            }
+        }        
         void LoadGrid(object obj, string filtro, string valor)
         {
             if (obj is List<Course>)
@@ -151,6 +177,30 @@ namespace Controls
                     Sexo = x.Sex.Name,
                     Telefono = x.PhoneNumber,
                     x.Email,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (List is List<SchoolSubject>)
+            {
+                schoolSubjects = obj as List<SchoolSubject>;
+                dgVer.DataSource = schoolSubjects.Select(x => new
+                {
+                    x.Id,
+                    Codigo = x.Code,
+                    Nombre = x.Name,
+                    Descripcion = x.Description,
+                    CantidadHoras = x.HourAmount
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (List is List<Period>)
+            {
+                periods = obj as List<Period>;
+                dgVer.DataSource = periods.Select(x => new
+                {
+                    x.Id,
+                    x.Title,
+                    x.Since,
+                    x.Untill,
+                    x.Description
                 }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
             }
         }

@@ -85,3 +85,4 @@ C:\Users\issac\OneDrive\Documentos\SchoolSystem\Controls\obj\Debug\Controls.cspr
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\Controls\obj\Debug\Controls.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\Controls\obj\Debug\Controls.pdb
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\Controls\obj\Debug\Controls.ConceptosUser.resources
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\Controls\obj\Debug\Controls.PeriodoUser.resources

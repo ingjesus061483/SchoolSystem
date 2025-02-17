@@ -22,13 +22,14 @@ namespace ApiWebApplication.Controllers
         {
             get
             {
-                return  SchoolDbContext.SchoolSubjects.Include ("Courses").Include ("CourseSubjects").Include("Teachers").Select (ss=>new SchoolSubjectDTO  // .CourseSubjects.Include("Courses").Include ("SchoolSubjects").Select(x => new CourseSubjectDTO 
+                return  SchoolDbContext.SchoolSubjects.Include ("Courses").Include ("CourseSubjects").Include("Teachers").Include("Achievements"). Select (ss=>new SchoolSubjectDTO  // .CourseSubjects.Include("Courses").Include ("SchoolSubjects").Select(x => new CourseSubjectDTO 
                 {                       
                     Id = ss.Id,
                     Code = ss.Code,
                     Name = ss.Name,
                     Description = ss.Description,
                     HourAmount = ss.HourAmount,
+                    Achievements =ss.Achievements,
                     CourseSubjects = ss.CourseSubjects. Where(cs=>cs.SchoolSubjectId==ss.Id ). Select (cs=>new CourseSubjectDTO
                     {
                         Id = cs.Id,

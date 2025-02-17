@@ -18,6 +18,15 @@
 
         protected override void Seed(ApiWebApplication.DataAccess.SchoolDbContext context)
         {
+            List <Period > periods= new List<Period> { 
+                new Period{ Id = 1,Title="Primer periodo"},
+                new Period{ Id = 1,Title="Segundo periodo"},
+                new Period{ Id = 1,Title="Tercer periodo"},
+                new Period{ Id = 1,Title="Cuarto periodo"},
+
+            };
+           periods.ForEach(r => context.Periods .AddOrUpdate(p => p.Title , r));
+
             List<Relationship> Relationships = new List<Relationship> 
             {
                 new Relationship{Id=1,Name ="Padre"},

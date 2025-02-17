@@ -195,16 +195,8 @@ namespace Controls
         {
             Utilities<Attendant>.Api = "api/Attendant";
             var attendants=await  Utilities<Attendant>.Get();
-            frmSecundario frmSecundario = new frmSecundario();
-            BuscarUser buscarUser = new BuscarUser
-            {
-                List = attendants,
-                Dock = DockStyle.Fill,
-                Form = frmSecundario
-            };
-            frmSecundario.UserControl = buscarUser;
-            frmSecundario.ShowDialog();
-            Attendant =attendants.FirstOrDefault(x=> x.Id ==buscarUser .Id );
+            int id = Utilities<Attendant >.GetID(attendants);
+            Attendant = attendants.FirstOrDefault(x=> x.Id ==id );
             if (Attendant==null)
             {
                 return;

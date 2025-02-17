@@ -101,5 +101,35 @@ namespace WindowsFormsApp
             };
             addControl(ProfesorUser);
         }
+
+        private void toolStripButtonLogro_Click(object sender, EventArgs e)
+        {
+            LogrosUser  logrosUser = new LogrosUser
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            addControl(logrosUser );
+        }
+
+        private void toolStripButtonPeriodo_Click(object sender, EventArgs e)
+        {
+            PeriodoUser periodoUser= new PeriodoUser
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            addControl(periodoUser );
+        }
+
+        private void toolStripButtonCalificaciones_Click(object sender, EventArgs e)
+        {
+            CalificacionesUser calificacionesUser = new CalificacionesUser
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            addControl(calificacionesUser);
+        }
     }
 }

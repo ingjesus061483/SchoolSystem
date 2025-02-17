@@ -68,16 +68,10 @@ namespace Controls
         private async  void BtnCurso_Click(object sender, EventArgs e)
         {
             Utilities<Course>.Api = "api/Course";
-            var Courses=await  Utilities <Course>.Get();
-            frmSecundario frmSecundario = new frmSecundario();
-            BuscarUser buscarUser = new BuscarUser { 
-                List =Courses  ,
-                Dock = DockStyle.Fill,
-                Form = frmSecundario
-            };
-            frmSecundario .UserControl = buscarUser;
-            frmSecundario .ShowDialog();
-            Course = Courses .FirstOrDefault(x => x.Id == buscarUser.Id);
+            var courses=await  Utilities <Course>.Get();
+            int id = Utilities<Course>.GetID(courses);
+
+            Course = courses .FirstOrDefault(x => x.Id == id);
             if (Course == null)
             {
                 return;
@@ -89,16 +83,9 @@ namespace Controls
         {
             Utilities<Student>.Api = "api/Students";
             var students=await Utilities<Student>.Get();
-            frmSecundario frmSecundario = new frmSecundario();
-            BuscarUser buscarUser = new BuscarUser
-            {
-                List = students ,
-                Dock = DockStyle.Fill,
-                Form = frmSecundario
-            };
-            frmSecundario.UserControl = buscarUser;
-            frmSecundario.ShowDialog();
-           student = students .FirstOrDefault(x => x.Id == buscarUser.Id);
+            int id = Utilities<Student>.GetID(students);
+
+            student = students .FirstOrDefault(x => x.Id == id);
             if (student == null)
             {
                 return;

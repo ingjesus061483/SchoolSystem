@@ -32,5 +32,6 @@ namespace ApiWebApplication.DTO
         public decimal HourAmount {  get; set; }
 
         public List<CourseSubjectDTO> CourseSubjects { get; set; }
+        public List<Achievement> Achievements { get; set; }
     }
 }

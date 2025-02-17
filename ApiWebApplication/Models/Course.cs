@@ -31,6 +31,7 @@ namespace ApiWebApplication.Models
         [Column(TypeName = "decimal")]        
         public decimal Amount { get; set; }
 
+        public List<Achievement> Achievements { get; set; }
         public List<CourseSubject> CourseSubjects { get; set; }
         public List<Tuition> Tuitions { get; set; }
     }

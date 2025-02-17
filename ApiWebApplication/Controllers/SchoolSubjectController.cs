@@ -29,7 +29,7 @@ namespace ApiWebApplication.Controllers
                     Name = ss.Name,
                     Description = ss.Description,
                     HourAmount = ss.HourAmount,
-                    Achievements =ss.Achievements,
+                   // Achievements =ss.Achievements,
                     CourseSubjects = ss.CourseSubjects. Where(cs=>cs.SchoolSubjectId==ss.Id ). Select (cs=>new CourseSubjectDTO
                     {
                         Id = cs.Id,

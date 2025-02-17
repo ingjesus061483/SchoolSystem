@@ -324,35 +324,35 @@
             // 
             // codigo
             // 
+            this.codigo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.codigo.DataPropertyName = "Code";
             this.codigo.HeaderText = "Codigo";
             this.codigo.MinimumWidth = 8;
             this.codigo.Name = "codigo";
-            this.codigo.Width = 150;
             // 
             // Nombre
             // 
+            this.Nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Nombre.DataPropertyName = "Name";
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.MinimumWidth = 8;
             this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 150;
             // 
             // CantidadHoraria
             // 
+            this.CantidadHoraria.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CantidadHoraria.DataPropertyName = "HourAmount";
             this.CantidadHoraria.HeaderText = "Cantidad horaria";
             this.CantidadHoraria.MinimumWidth = 8;
             this.CantidadHoraria.Name = "CantidadHoraria";
-            this.CantidadHoraria.Width = 150;
             // 
             // Descripcion
             // 
+            this.Descripcion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Descripcion.DataPropertyName = "Description";
             this.Descripcion.HeaderText = "Descripcion";
             this.Descripcion.MinimumWidth = 8;
             this.Descripcion.Name = "Descripcion";
-            this.Descripcion.Width = 150;
             // 
             // AsignaturaUser
             // 

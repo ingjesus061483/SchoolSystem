@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2466F91E-DF6F-4EBA-9AF7-61584AB27D76}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\controllers\\achievementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\controllers\\achievementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|c:\\users\\issac\\onedrive\\documentos\\schoolsystem\\apiwebapplication\\controllers\\schoolsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD1CBC95-4A45-451B-898E-9CAF885977AA}|ApiWebApplication\\ApiWebApplication.csproj|solutionrelative:apiwebapplication\\controllers\\schoolsubjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +31,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs",
+              "RelativeToolTip": "WindowsFormsApp\\FrmPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T23:07:19.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\WindowsFormsApp\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T23:07:14.602Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AchievementController.cs",
+              "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\AchievementController.cs",
+              "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\AchievementController.cs",
+              "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\AchievementController.cs",
+              "RelativeToolTip": "ApiWebApplication\\Controllers\\AchievementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T23:03:52.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SchoolSubjectController.cs",
               "DocumentMoniker": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\SchoolSubjectController.cs",
               "RelativeDocumentMoniker": "ApiWebApplication\\Controllers\\SchoolSubjectController.cs",
               "ToolTip": "C:\\Users\\issac\\OneDrive\\Documentos\\SchoolSystem\\ApiWebApplication\\Controllers\\SchoolSubjectController.cs",
               "RelativeToolTip": "ApiWebApplication\\Controllers\\SchoolSubjectController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwB8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T21:20:01.531Z",
               "EditorCaption": ""

@@ -1,8 +1,12 @@
 ﻿################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
+*.cache
+*.pdb
+*.dll
 *.suo
 *.user
+*.exe
 /.vs
 /ApiWebApplication/.vs
 ApiWebApplication/ApiWebApplication.csproj.user
@@ -13,3 +17,6 @@ ApiWebApplication/ApiWebApplication.csproj.user
 /WindowsFormsApp/bin
 /WindowsFormsApp/obj
 .vs/SchoolSystem/v17/*.json
+.vs/SchoolSystem/v17/*.suo
+
+

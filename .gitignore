@@ -12,3 +12,4 @@ ApiWebApplication/ApiWebApplication.csproj.user
 /Controls/obj
 /WindowsFormsApp/bin
 /WindowsFormsApp/obj
+.vs/SchoolSystem/v17/*.json

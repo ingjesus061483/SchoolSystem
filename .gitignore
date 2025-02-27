@@ -4,5 +4,5 @@
 *.suo
 *.user
 /.vs
-
 /ApiWebApplication/.vs
+ApiWebApplication/ApiWebApplication.csproj.user

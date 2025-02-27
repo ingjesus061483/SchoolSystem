@@ -1,0 +1,108 @@
+﻿@model IEnumerable<ApiWebApplication.DTO.TuitionDTO>
+
+@using ApiWebApplication.DTO
+@{
+    CourseDTO course = (CourseDTO)TempData["course"];
+    ViewBag.Title = "FormatPdf";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    @if (course != null)
+    {
+        <div class="row" style="padding-top:50px">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <h1>
+                    Curso
+                </h1>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        <div class="row" style="padding-top:50px">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2">
+                Nombre:
+            </div>
+            <div class="col-md-8">
+                @course.Reference  
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    }
+    <div class="row" style="padding-top:50px">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+            <h1>
+                Listado  de estudiantes
+            </h1>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+    <div class="row" style="padding-top:50px">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
+            <table id="table" class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Id
+                        </th>
+                        <th>
+                            Estudiante
+                        </th>
+                        <th>
+                            Sintesis
+                        </th>
+                        <th>
+                            Numero de paginas
+                        </th>
+                        <th>
+                            Autor
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Id)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Student.CompleteName)
+                            </td>
+                            <td>
+         
+                            </td>
+                            <td>
+         
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</body>
+</html>
+

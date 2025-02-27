@@ -141,6 +141,7 @@
     </Compile>
     <Compile Include="Models\IdentificationType.cs" />
     <Compile Include="Models\PicturePerson.cs" />
+    <Compile Include="Models\Qualification.cs" />
     <Compile Include="Models\Relationship.cs" />
     <Compile Include="Models\Sex.cs" />
     <Compile Include="Models\Status.cs" />

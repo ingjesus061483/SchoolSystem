@@ -62,6 +62,16 @@ namespace ApiWebApplication.Models
         public List<PicturePerson> picturePeople { get; set; }
 
         public List<Tuition> Tuitions { get; set; }
+     
+        [NotMapped]
+        public string CompleteName
+        {
+            get
+            {
+                return FirstName + " " + LastName;
+            }
+
+        }
 
         
     }

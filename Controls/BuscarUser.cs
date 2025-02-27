@@ -21,6 +21,8 @@ namespace Controls
         List<Teacher> teachers;
         List<SchoolSubject> schoolSubjects;
         List<Period> periods;
+        List<Tuition> tuitions;
+        List<Achievement> achievements;
         public int Id {  get; set; }
         public  object List {  get; set; }
         public Form Form { get; set; }
@@ -91,7 +93,7 @@ namespace Controls
                     x.Email,
                 }).ToList();
             }
-            else if (List is List<SchoolSubject>)
+            else if (obj is List<SchoolSubject>)
             {
                 schoolSubjects = obj as List<SchoolSubject>;
                 dgVer.DataSource = schoolSubjects.Select(x => new
@@ -103,10 +105,10 @@ namespace Controls
                     CantidadHoras = x.HourAmount
                 }).ToList();
             }
-            else if(List is List<Period>)
+            else if (obj is List<Period>)
             {
                 periods = obj as List<Period>;
-                dgVer .DataSource = periods.Select(x => new
+                dgVer.DataSource = periods.Select(x => new
                 {
                     x.Id,
                     x.Title,
@@ -115,7 +117,37 @@ namespace Controls
                     x.Description
                 }).ToList();
             }
-        }        
+            else if (obj is List<Tuition>)
+            {
+                tuitions = obj as List<Tuition>;
+                dgVer.DataSource = tuitions.Select(x => new
+                {
+                    x.Id,
+                    Estudiante = x.Student.Identification + " " + x.Student.CompleteName,
+                    Jornada = x.WorkingDay.Name,
+                    Curso = x.Course.Reference,
+                    Codigo = x.Code,
+                    Periodo = x.FirstDate.ToString() + " - " + x.LastDate.ToString(),
+                    Duracion = x.Duration,
+                    Estado = x.Status.Name,
+                }).ToList();
+
+            }
+            else if (obj is List <Achievement>)
+            {
+                achievements = obj as List<Achievement>;
+                dgVer.DataSource = achievements.Select(x => new
+                {
+                    x.Id,
+                 Codigo=   x.Code,
+                   Titulo= x.Title,
+              Descripcion=     x.Description,
+                   Asignatura = x.SchoolSubject.Reference,
+                    Curso = x.Course.Reference,
+                    Periodo = x.Period.Title
+                }).ToList();
+            }
+        }
         void LoadGrid(object obj, string filtro, string valor)
         {
             if (obj is List<Course>)
@@ -203,6 +235,35 @@ namespace Controls
                     x.Description
                 }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
             }
+            else if (List is List<Tuition>)
+            {
+                tuitions = obj as List<Tuition>;
+                dgVer.DataSource = tuitions.Select(x => new
+                {
+                    x.Id,
+                    Estudiante = x.Student.Identification + " " + x.Student.CompleteName,
+                    Jornada = x.WorkingDay.Name,
+                    Curso = x.Course.Reference,
+                    Codigo = x.Code,
+                    Periodo = x.FirstDate.ToString() + " - " + x.LastDate.ToString(),
+                    Duracion = x.Duration,
+                    Estado = x.Status.Name,
+                }).ToList().Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
+            else if (obj is List<Achievement>)
+            {
+                achievements = obj as List<Achievement>;
+                dgVer.DataSource = achievements.Select(x => new
+                {
+                    x.Id,
+                    Codigo = x.Code,
+                    Titulo = x.Title,
+                    Descripcion = x.Description,
+                    Asignatura = x.SchoolSubject.Reference,
+                    Curso = x.Course.Reference,
+                    Periodo = x.Period.Title
+                }).ToList(). Where(z => Utilities<object>.GetValue(z, filtro, valor)).ToList();
+            }
         }
 
         private void BuscarUser_Load(object sender, EventArgs e)
@@ -217,7 +278,6 @@ namespace Controls
             Id = int.Parse(dgVer.CurrentRow.Cells["id"].Value.ToString());
             Form .Close();
         }
-
         private void txtfiltro_TextChanged(object sender, EventArgs e)
         {
             LoadGrid (List,cbofiltro .Text ,txtfiltro .Text );

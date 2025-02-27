@@ -131,5 +131,18 @@ namespace WindowsFormsApp
             };
             addControl(calificacionesUser);
         }
+
+        private void toolStripButtonReport_Click(object sender, EventArgs e)
+        {
+            frmSecundario frmSecundario = new frmSecundario();
+            ReportesUser reportesUser = new ReportesUser
+            {
+                Form = frmSecundario,
+                Dock = DockStyle.Fill
+            };
+            frmSecundario.UserControl = reportesUser;
+            frmSecundario.ShowDialog();
+       
+        }
     }
 }

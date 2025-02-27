@@ -18,6 +18,7 @@ namespace ApiWebApplication.Controllers
 {
     public class CourseController : ApiController
     {
+
         SchoolDbContext SchoolDbContext { get; set; }
         IQueryable<CourseDTO> CourseList
         {
@@ -43,12 +44,13 @@ namespace ApiWebApplication.Controllers
                     }).ToList (),
                 });
             }
-        }
-        
+        }        
+
         public CourseController()
         {
             SchoolDbContext = new SchoolDbContext();
         }
+        
         
         public  HttpResponseMessage Get() =>
             CourseList.Count() == 0 ?

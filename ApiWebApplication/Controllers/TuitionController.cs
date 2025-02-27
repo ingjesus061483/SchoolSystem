@@ -41,6 +41,7 @@ namespace ApiWebApplication.Controllers
                         TutionValue=x.TutionValue,
                         Status =x.Status,
                         StatusId=x.StatusId,
+                        Date=x.Date,
                         Strangenesses =x.Strangeness.Where (a=> a.TuitionId==x.Id).Select(st=>new StrangenessDTO { 
                             Id = st.Id,
                             Code=st.Code,
@@ -104,6 +105,7 @@ namespace ApiWebApplication.Controllers
             tuition.WorkingDayId = value .WorkingDayId;
             tuition.FirstDate =value .FirstDate ;
             tuition.LastDate = value.LastDate ;
+            tuition.Date = value.Date;
             tuition.CourseId = value . CourseId;
             tuition.MonthValue = value.MonthValue;
             tuition.TutionValue = value .TutionValue ;

@@ -17,7 +17,7 @@ namespace ApiWebApplication.Models
         public string Code { get; set; }
 
         [Required]
-        DateTime DateTime { get; set; }
+        public DateTime DateTime { get; set; }
 
           
         [Required]

@@ -34,6 +34,9 @@ namespace Controls.Models
         public DateTime LastDate { get; set; }
 
         [Required]
+        public DateTime Date { get; set; }
+
+        [Required]
         public  decimal TutionValue {  get; set; }
 
         [Required]

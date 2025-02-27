@@ -30,26 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalificacionesUser));
             this.dgvEstudiante = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.asignatura = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Observaciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Periodo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.btnPeriodo = new System.Windows.Forms.Button();
             this.txtPeriodo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.txtEstudiante = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
             this.txtFecha = new System.Windows.Forms.DateTimePicker();
-            this.Button1 = new System.Windows.Forms.Button();
+            this.btnEstudiante = new System.Windows.Forms.Button();
             this.txtLogros = new System.Windows.Forms.TextBox();
-            this.Button2 = new System.Windows.Forms.Button();
-            this.txtEstudiante = new System.Windows.Forms.TextBox();
+            this.btnLogros = new System.Windows.Forms.Button();
+            this.txtIdentificacion = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.txtObservacion = new System.Windows.Forms.TextBox();
             this.Label9 = new System.Windows.Forms.Label();
@@ -61,6 +54,13 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estudiante = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.asignatura = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Observaciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiante)).BeginInit();
             this.Panel1.SuspendLayout();
             this.Panel3.SuspendLayout();
@@ -79,11 +79,11 @@
             this.dgvEstudiante.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
             this.fecha,
+            this.Estudiante,
             this.asignatura,
             this.Concepto,
             this.nota,
-            this.Observaciones,
-            this.Periodo});
+            this.Observaciones});
             this.dgvEstudiante.Location = new System.Drawing.Point(8, 563);
             this.dgvEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvEstudiante.Name = "dgvEstudiante";
@@ -93,69 +93,6 @@
             this.dgvEstudiante.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEstudiante.Size = new System.Drawing.Size(495, 101);
             this.dgvEstudiante.TabIndex = 1116;
-            // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.MinimumWidth = 8;
-            this.Id.Name = "Id";
-            this.Id.ReadOnly = true;
-            this.Id.Visible = false;
-            this.Id.Width = 150;
-            // 
-            // fecha
-            // 
-            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.fecha.DataPropertyName = "fecha";
-            this.fecha.HeaderText = "fecha";
-            this.fecha.MinimumWidth = 8;
-            this.fecha.Name = "fecha";
-            this.fecha.ReadOnly = true;
-            // 
-            // asignatura
-            // 
-            this.asignatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.asignatura.DataPropertyName = "logros";
-            this.asignatura.HeaderText = " logros";
-            this.asignatura.MinimumWidth = 8;
-            this.asignatura.Name = "asignatura";
-            this.asignatura.ReadOnly = true;
-            // 
-            // Concepto
-            // 
-            this.Concepto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Concepto.DataPropertyName = "Concepto";
-            this.Concepto.HeaderText = "Concepto";
-            this.Concepto.MinimumWidth = 8;
-            this.Concepto.Name = "Concepto";
-            this.Concepto.ReadOnly = true;
-            // 
-            // nota
-            // 
-            this.nota.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nota.DataPropertyName = "nota";
-            this.nota.HeaderText = "nota";
-            this.nota.MinimumWidth = 8;
-            this.nota.Name = "nota";
-            this.nota.ReadOnly = true;
-            // 
-            // Observaciones
-            // 
-            this.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Observaciones.DataPropertyName = "Observaciones";
-            this.Observaciones.HeaderText = "Observaciones";
-            this.Observaciones.MinimumWidth = 8;
-            this.Observaciones.Name = "Observaciones";
-            this.Observaciones.ReadOnly = true;
-            // 
-            // Periodo
-            // 
-            this.Periodo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Periodo.HeaderText = "Periodo";
-            this.Periodo.MinimumWidth = 8;
-            this.Periodo.Name = "Periodo";
-            this.Periodo.ReadOnly = true;
             // 
             // Panel1
             // 
@@ -167,13 +104,13 @@
             this.Panel1.Controls.Add(this.btnPeriodo);
             this.Panel1.Controls.Add(this.txtPeriodo);
             this.Panel1.Controls.Add(this.label4);
-            this.Panel1.Controls.Add(this.TextBox1);
+            this.Panel1.Controls.Add(this.txtEstudiante);
             this.Panel1.Controls.Add(this.Label2);
             this.Panel1.Controls.Add(this.txtFecha);
-            this.Panel1.Controls.Add(this.Button1);
+            this.Panel1.Controls.Add(this.btnEstudiante);
             this.Panel1.Controls.Add(this.txtLogros);
-            this.Panel1.Controls.Add(this.Button2);
-            this.Panel1.Controls.Add(this.txtEstudiante);
+            this.Panel1.Controls.Add(this.btnLogros);
+            this.Panel1.Controls.Add(this.txtIdentificacion);
             this.Panel1.Controls.Add(this.Label3);
             this.Panel1.Controls.Add(this.txtObservacion);
             this.Panel1.Controls.Add(this.Label9);
@@ -191,7 +128,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(88, 199);
+            this.label5.Location = new System.Drawing.Point(89, 241);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 21);
@@ -204,7 +141,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCodigo.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtCodigo.Location = new System.Drawing.Point(166, 196);
+            this.txtCodigo.Location = new System.Drawing.Point(167, 238);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCodigo.MaxLength = 20;
             this.txtCodigo.Name = "txtCodigo";
@@ -226,6 +163,7 @@
             this.btnPeriodo.Size = new System.Drawing.Size(52, 31);
             this.btnPeriodo.TabIndex = 1149;
             this.btnPeriodo.UseVisualStyleBackColor = false;
+            this.btnPeriodo.Click += new System.EventHandler(this.btnPeriodo_Click);
             // 
             // txtPeriodo
             // 
@@ -255,26 +193,26 @@
             this.label4.Text = "CALIFICACIONES";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TextBox1
+            // txtEstudiante
             // 
-            this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtEstudiante.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TextBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TextBox1.Location = new System.Drawing.Point(314, 116);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.TextBox1.MaxLength = 40;
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.ReadOnly = true;
-            this.TextBox1.Size = new System.Drawing.Size(166, 30);
-            this.TextBox1.TabIndex = 1144;
+            this.txtEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstudiante.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtEstudiante.Location = new System.Drawing.Point(314, 116);
+            this.txtEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtEstudiante.MaxLength = 40;
+            this.txtEstudiante.Name = "txtEstudiante";
+            this.txtEstudiante.ReadOnly = true;
+            this.txtEstudiante.Size = new System.Drawing.Size(166, 30);
+            this.txtEstudiante.TabIndex = 1144;
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(95, 241);
+            this.Label2.Location = new System.Drawing.Point(94, 201);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(63, 21);
@@ -288,26 +226,27 @@
             this.txtFecha.CustomFormat = "yyyy-MM-dd";
             this.txtFecha.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtFecha.Location = new System.Drawing.Point(167, 236);
+            this.txtFecha.Location = new System.Drawing.Point(166, 196);
             this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(314, 30);
             this.txtFecha.TabIndex = 1142;
             // 
-            // Button1
+            // btnEstudiante
             // 
-            this.Button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.Button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button1.BackgroundImage")));
-            this.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(118, 116);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(45, 31);
-            this.Button1.TabIndex = 1141;
-            this.Button1.UseVisualStyleBackColor = false;
+            this.btnEstudiante.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnEstudiante.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEstudiante.BackgroundImage")));
+            this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiante.ForeColor = System.Drawing.Color.White;
+            this.btnEstudiante.Location = new System.Drawing.Point(118, 116);
+            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEstudiante.Name = "btnEstudiante";
+            this.btnEstudiante.Size = new System.Drawing.Size(45, 31);
+            this.btnEstudiante.TabIndex = 1141;
+            this.btnEstudiante.UseVisualStyleBackColor = false;
+            this.btnEstudiante.Click += new System.EventHandler(this.btnEstudiante_Click);
             // 
             // txtLogros
             // 
@@ -323,44 +262,45 @@
             this.txtLogros.Size = new System.Drawing.Size(314, 30);
             this.txtLogros.TabIndex = 1140;
             // 
-            // Button2
+            // btnLogros
             // 
-            this.Button2.BackColor = System.Drawing.Color.SteelBlue;
-            this.Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button2.BackgroundImage")));
-            this.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.ForeColor = System.Drawing.Color.White;
-            this.Button2.Location = new System.Drawing.Point(118, 156);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(45, 31);
-            this.Button2.TabIndex = 1139;
-            this.Button2.UseVisualStyleBackColor = false;
+            this.btnLogros.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnLogros.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogros.BackgroundImage")));
+            this.btnLogros.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLogros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogros.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogros.ForeColor = System.Drawing.Color.White;
+            this.btnLogros.Location = new System.Drawing.Point(118, 156);
+            this.btnLogros.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLogros.Name = "btnLogros";
+            this.btnLogros.Size = new System.Drawing.Size(45, 31);
+            this.btnLogros.TabIndex = 1139;
+            this.btnLogros.UseVisualStyleBackColor = false;
+            this.btnLogros.Click += new System.EventHandler(this.btnLogros_Click);
             // 
-            // txtEstudiante
+            // txtIdentificacion
             // 
-            this.txtEstudiante.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstudiante.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtEstudiante.Location = new System.Drawing.Point(166, 116);
-            this.txtEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtEstudiante.MaxLength = 40;
-            this.txtEstudiante.Name = "txtEstudiante";
-            this.txtEstudiante.ReadOnly = true;
-            this.txtEstudiante.Size = new System.Drawing.Size(142, 30);
-            this.txtEstudiante.TabIndex = 1138;
+            this.txtIdentificacion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentificacion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtIdentificacion.Location = new System.Drawing.Point(166, 116);
+            this.txtIdentificacion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIdentificacion.MaxLength = 40;
+            this.txtIdentificacion.Name = "txtIdentificacion";
+            this.txtIdentificacion.ReadOnly = true;
+            this.txtIdentificacion.Size = new System.Drawing.Size(142, 30);
+            this.txtIdentificacion.TabIndex = 1138;
             // 
             // Label3
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(18, 355);
+            this.Label3.Location = new System.Drawing.Point(86, 354);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(142, 21);
+            this.Label3.Size = new System.Drawing.Size(71, 21);
             this.Label3.TabIndex = 1137;
-            this.Label3.Text = "Observaciones";
+            this.Label3.Text = "Detalle";
             // 
             // txtObservacion
             // 
@@ -456,6 +396,7 @@
             this.btnNuevo.TabIndex = 1099;
             this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnGuardar
             // 
@@ -471,6 +412,7 @@
             this.btnGuardar.TabIndex = 1097;
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEliminar
             // 
@@ -486,6 +428,7 @@
             this.btnEliminar.TabIndex = 1098;
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnSalir
             // 
@@ -501,6 +444,71 @@
             this.btnSalir.TabIndex = 1084;
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.MinimumWidth = 8;
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Visible = false;
+            this.Id.Width = 150;
+            // 
+            // fecha
+            // 
+            this.fecha.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.fecha.DataPropertyName = "DateTime";
+            this.fecha.HeaderText = "fecha";
+            this.fecha.MinimumWidth = 8;
+            this.fecha.Name = "fecha";
+            this.fecha.ReadOnly = true;
+            // 
+            // Estudiante
+            // 
+            this.Estudiante.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Estudiante.DataPropertyName = "Student";
+            this.Estudiante.HeaderText = "Estudiante";
+            this.Estudiante.MinimumWidth = 8;
+            this.Estudiante.Name = "Estudiante";
+            this.Estudiante.ReadOnly = true;
+            // 
+            // asignatura
+            // 
+            this.asignatura.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.asignatura.DataPropertyName = "Achievement";
+            this.asignatura.HeaderText = " logros";
+            this.asignatura.MinimumWidth = 8;
+            this.asignatura.Name = "asignatura";
+            this.asignatura.ReadOnly = true;
+            // 
+            // Concepto
+            // 
+            this.Concepto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Concepto.DataPropertyName = "Reference";
+            this.Concepto.HeaderText = "Concepto";
+            this.Concepto.MinimumWidth = 8;
+            this.Concepto.Name = "Concepto";
+            this.Concepto.ReadOnly = true;
+            // 
+            // nota
+            // 
+            this.nota.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nota.DataPropertyName = "Note";
+            this.nota.HeaderText = "Nota";
+            this.nota.MinimumWidth = 8;
+            this.nota.Name = "nota";
+            this.nota.ReadOnly = true;
+            // 
+            // Observaciones
+            // 
+            this.Observaciones.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Observaciones.DataPropertyName = "Detail";
+            this.Observaciones.HeaderText = "Detalle";
+            this.Observaciones.MinimumWidth = 8;
+            this.Observaciones.Name = "Observaciones";
+            this.Observaciones.ReadOnly = true;
             // 
             // CalificacionesUser
             // 
@@ -524,13 +532,13 @@
         #endregion
         private System.Windows.Forms.DataGridView dgvEstudiante;
         internal System.Windows.Forms.Panel Panel1;
-        internal System.Windows.Forms.TextBox TextBox1;
+        internal System.Windows.Forms.TextBox txtEstudiante;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.DateTimePicker txtFecha;
-        internal System.Windows.Forms.Button Button1;
+        internal System.Windows.Forms.Button btnEstudiante;
         internal System.Windows.Forms.TextBox txtLogros;
-        internal System.Windows.Forms.Button Button2;
-        internal System.Windows.Forms.TextBox txtEstudiante;
+        internal System.Windows.Forms.Button btnLogros;
+        internal System.Windows.Forms.TextBox txtIdentificacion;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.TextBox txtObservacion;
         internal System.Windows.Forms.Label Label9;
@@ -538,13 +546,6 @@
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.TextBox txtConcepto;
         internal System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignatura;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Concepto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nota;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Observaciones;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Periodo;
         internal System.Windows.Forms.Panel Panel3;
         internal System.Windows.Forms.Button btnNuevo;
         internal System.Windows.Forms.Button btnGuardar;
@@ -554,5 +555,12 @@
         internal System.Windows.Forms.TextBox txtPeriodo;
         internal System.Windows.Forms.Label label5;
         internal System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estudiante;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignatura;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Concepto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Observaciones;
     }
 }

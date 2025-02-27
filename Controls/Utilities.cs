@@ -18,6 +18,7 @@ namespace Controls
     {
 
         public static string Api {  get; set; }
+
         static string HeaderValue { get { return ConfigurationManager.AppSettings["HeaderValue"]; } }
         static HttpClient HttpClient
         {

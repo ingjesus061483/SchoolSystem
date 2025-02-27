@@ -10,6 +10,8 @@ namespace ApiWebApplication.DTO
 {
     public class QualificationDTO
     {
+        public int Id { get; set; }
+
         [Required]
         [StringLength(50)]
         [Column(TypeName = "varchar")]
@@ -17,7 +19,7 @@ namespace ApiWebApplication.DTO
         public string Code { get; set; }
 
         [Required]
-        DateTime DateTime { get; set; }
+        public  DateTime DateTime { get; set; }
 
           
         [Required]

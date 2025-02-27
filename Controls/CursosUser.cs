@@ -28,7 +28,15 @@ namespace Controls
                 course = null;
                 this.Cursor = Cursors.WaitCursor;
                 courses = await Utilities<Course>.Get();
-                dgvCurso.DataSource = courses;
+                dgvCurso.DataSource = courses.Select(x=>new
+                {
+                    x.Id,
+                    x.Code,
+                    x.Name,
+                    x.Amount,
+                    x.Description,
+                
+                }).ToList() ;
                 txtCodigo.Clear();
                 txtNombre.Clear();
                 txtDescripcion.Clear();

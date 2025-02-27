@@ -37,6 +37,7 @@ namespace Controls
                 WorkingDay=x.WorkingDay.Name,
                 Course=x.Course.Reference ,
                 x.Code,
+                x.Date,
                 x.FirstDate,
                 x.LastDate,
                 x.Duration ,
@@ -49,6 +50,7 @@ namespace Controls
             txtNombre .Clear ();
             txtFechaFinMatricula.Value =DateTime.Now;
             txtFechaInicioMatricula.Value =DateTime.Now;
+            txtfechaMatricula.Value = DateTime.Now;
             txtValorMensualidad .Clear ();
             txtValorMatricula .Clear ();    
             txtCodigo .Clear ();
@@ -122,6 +124,7 @@ namespace Controls
                     StudentId = student.Id,
                     WorkingDayId = int.Parse(cmbJornada.SelectedValue.ToString()),
                     FirstDate = txtFechaInicioMatricula.Value,
+                    Date=txtfechaMatricula.Value,
                     LastDate = txtFechaFinMatricula.Value,
                     CourseId = Course.Id,
                     MonthValue = decimal.Parse(txtValorMensualidad.Text),
@@ -147,6 +150,7 @@ namespace Controls
             {
                 Tuition.Code = txtCodigo.Text;
                 Tuition.StudentId = student.Id;
+                Tuition.Date = txtfechaMatricula.Value;
                 Tuition.WorkingDayId = int.Parse(cmbJornada.SelectedValue.ToString());
                 Tuition.FirstDate = txtFechaInicioMatricula.Value;
                 Tuition.LastDate = txtFechaFinMatricula.Value;
@@ -184,6 +188,7 @@ namespace Controls
             txtCodigo.Text = Tuition.Code;
             txtIdentificacion.Text = Tuition.Student.Identification;
             cmbJornada.SelectedValue = Tuition.WorkingDayId;
+            txtfechaMatricula.Value = Tuition.Date;
             txtFechaInicioMatricula.Value = Tuition.FirstDate;
             txtFechaFinMatricula.Value = Tuition.LastDate;
             txtCurso.Text = Tuition.Course.Reference;

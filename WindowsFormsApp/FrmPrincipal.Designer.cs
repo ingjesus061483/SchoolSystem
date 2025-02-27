@@ -42,6 +42,7 @@
             this.toolStripButtonPeriodo = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonLogro = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonCalificaciones = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonReport = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +77,8 @@
             this.toolStripTeacher,
             this.toolStripButtonPeriodo,
             this.toolStripButtonLogro,
-            this.toolStripButtonCalificaciones});
+            this.toolStripButtonCalificaciones,
+            this.toolStripButtonReport});
             this.toolStrip1.Location = new System.Drawing.Point(221, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(579, 33);
@@ -191,6 +193,16 @@
             this.toolStripButtonCalificaciones.ToolTipText = "Calificaciones";
             this.toolStripButtonCalificaciones.Click += new System.EventHandler(this.toolStripButtonCalificaciones_Click);
             // 
+            // toolStripButtonReport
+            // 
+            this.toolStripButtonReport.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonReport.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonReport.Image")));
+            this.toolStripButtonReport.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonReport.Name = "toolStripButtonReport";
+            this.toolStripButtonReport.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButtonReport.Text = "toolStripButton1";
+            this.toolStripButtonReport.Click += new System.EventHandler(this.toolStripButtonReport_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -226,6 +238,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButtonLogro;
         private System.Windows.Forms.ToolStripButton toolStripButtonPeriodo;
         private System.Windows.Forms.ToolStripButton toolStripButtonCalificaciones;
+        private System.Windows.Forms.ToolStripButton toolStripButtonReport;
     }
 }
 

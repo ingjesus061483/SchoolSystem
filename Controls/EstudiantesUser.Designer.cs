@@ -640,12 +640,12 @@
             // 
             // Edad
             // 
+            this.Edad.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Edad.DataPropertyName = "Age";
             this.Edad.HeaderText = "Edad";
             this.Edad.MinimumWidth = 8;
             this.Edad.Name = "Edad";
             this.Edad.ReadOnly = true;
-            this.Edad.Width = 150;
             // 
             // direccion
             // 
@@ -667,12 +667,12 @@
             // 
             // Email
             // 
+            this.Email.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Email.DataPropertyName = "Email";
             this.Email.HeaderText = "Email";
             this.Email.MinimumWidth = 8;
             this.Email.Name = "Email";
             this.Email.ReadOnly = true;
-            this.Email.Width = 150;
             // 
             // sexo
             // 
@@ -685,12 +685,12 @@
             // 
             // acudiente
             // 
+            this.acudiente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.acudiente.DataPropertyName = "Attendant";
             this.acudiente.HeaderText = "Acudiente";
             this.acudiente.MinimumWidth = 8;
             this.acudiente.Name = "acudiente";
             this.acudiente.ReadOnly = true;
-            this.acudiente.Width = 150;
             // 
             // EstudiantesUser
             // 

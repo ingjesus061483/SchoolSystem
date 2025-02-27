@@ -54,9 +54,12 @@
             this.cmbJornada = new System.Windows.Forms.ComboBox();
             this.Label11 = new System.Windows.Forms.Label();
             this.dgvmatricula = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtfechaMatricula = new System.Windows.Forms.DateTimePicker();
             this.novedad = new System.Windows.Forms.DataGridViewButtonColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaMatricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaInicioMatricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaFinMatricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Duracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,7 +83,7 @@
             this.Panel1.Controls.Add(this.btnGuardar);
             this.Panel1.Controls.Add(this.btnEliminar);
             this.Panel1.Controls.Add(this.btnSalir);
-            this.Panel1.Location = new System.Drawing.Point(10, 412);
+            this.Panel1.Location = new System.Drawing.Point(10, 460);
             this.Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(614, 62);
@@ -155,6 +158,8 @@
             this.Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel3.BackColor = System.Drawing.Color.White;
+            this.Panel3.Controls.Add(this.label3);
+            this.Panel3.Controls.Add(this.txtfechaMatricula);
             this.Panel3.Controls.Add(this.txtDuracion);
             this.Panel3.Controls.Add(this.txtCodigo);
             this.Panel3.Controls.Add(this.label5);
@@ -176,7 +181,7 @@
             this.Panel3.Location = new System.Drawing.Point(10, 11);
             this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(614, 395);
+            this.Panel3.Size = new System.Drawing.Size(614, 443);
             this.Panel3.TabIndex = 1121;
             // 
             // txtDuracion
@@ -185,7 +190,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDuracion.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDuracion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtDuracion.Location = new System.Drawing.Point(490, 206);
+            this.txtDuracion.Location = new System.Drawing.Point(489, 254);
             this.txtDuracion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDuracion.MaxLength = 40;
             this.txtDuracion.Name = "txtDuracion";
@@ -282,7 +287,7 @@
             this.txtFechaFinMatricula.CustomFormat = "yyyy-MM-dd";
             this.txtFechaFinMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFechaFinMatricula.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtFechaFinMatricula.Location = new System.Drawing.Point(349, 206);
+            this.txtFechaFinMatricula.Location = new System.Drawing.Point(348, 254);
             this.txtFechaFinMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaFinMatricula.Name = "txtFechaFinMatricula";
             this.txtFechaFinMatricula.Size = new System.Drawing.Size(134, 30);
@@ -295,7 +300,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtValorMensualidad.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValorMensualidad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtValorMensualidad.Location = new System.Drawing.Point(208, 291);
+            this.txtValorMensualidad.Location = new System.Drawing.Point(207, 339);
             this.txtValorMensualidad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtValorMensualidad.MaxLength = 40;
             this.txtValorMensualidad.Name = "txtValorMensualidad";
@@ -307,7 +312,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(14, 295);
+            this.Label1.Location = new System.Drawing.Point(13, 343);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(183, 24);
@@ -319,7 +324,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(130, 209);
+            this.Label2.Location = new System.Drawing.Point(129, 257);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(67, 24);
@@ -348,7 +353,7 @@
             this.txtFechaInicioMatricula.CustomFormat = "yyyy-MM-dd";
             this.txtFechaInicioMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFechaInicioMatricula.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(208, 206);
+            this.txtFechaInicioMatricula.Location = new System.Drawing.Point(207, 254);
             this.txtFechaInicioMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFechaInicioMatricula.Name = "txtFechaInicioMatricula";
             this.txtFechaInicioMatricula.Size = new System.Drawing.Size(136, 30);
@@ -372,7 +377,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtValorMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValorMatricula.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtValorMatricula.Location = new System.Drawing.Point(208, 249);
+            this.txtValorMatricula.Location = new System.Drawing.Point(207, 297);
             this.txtValorMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtValorMatricula.MaxLength = 40;
             this.txtValorMatricula.Name = "txtValorMatricula";
@@ -384,7 +389,7 @@
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label10.ForeColor = System.Drawing.Color.Black;
-            this.Label10.Location = new System.Drawing.Point(46, 252);
+            this.Label10.Location = new System.Drawing.Point(45, 300);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(151, 24);
@@ -398,7 +403,7 @@
             this.cmbJornada.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbJornada.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbJornada.FormattingEnabled = true;
-            this.cmbJornada.Location = new System.Drawing.Point(208, 331);
+            this.cmbJornada.Location = new System.Drawing.Point(207, 379);
             this.cmbJornada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbJornada.Name = "cmbJornada";
             this.cmbJornada.Size = new System.Drawing.Size(364, 31);
@@ -409,7 +414,7 @@
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label11.ForeColor = System.Drawing.Color.Black;
-            this.Label11.Location = new System.Drawing.Point(112, 334);
+            this.Label11.Location = new System.Drawing.Point(111, 382);
             this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(87, 24);
@@ -430,6 +435,7 @@
             this.novedad,
             this.id,
             this.Codigo,
+            this.fechaMatricula,
             this.FechaInicioMatricula,
             this.FechaFinMatricula,
             this.Duracion,
@@ -439,16 +445,41 @@
             this.jornada,
             this.curso,
             this.esEstudianteNuevo});
-            this.dgvmatricula.Location = new System.Drawing.Point(12, 482);
+            this.dgvmatricula.Location = new System.Drawing.Point(11, 527);
             this.dgvmatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvmatricula.Name = "dgvmatricula";
             this.dgvmatricula.ReadOnly = true;
             this.dgvmatricula.RowHeadersVisible = false;
             this.dgvmatricula.RowHeadersWidth = 62;
             this.dgvmatricula.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvmatricula.Size = new System.Drawing.Size(610, 145);
+            this.dgvmatricula.Size = new System.Drawing.Size(610, 103);
             this.dgvmatricula.TabIndex = 1120;
             this.dgvmatricula.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvmatricula_CellContentClick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(41, 211);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 24);
+            this.label3.TabIndex = 1148;
+            this.label3.Text = "Fecha matricula";
+            // 
+            // txtfechaMatricula
+            // 
+            this.txtfechaMatricula.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtfechaMatricula.CustomFormat = "yyyy-MM-dd";
+            this.txtfechaMatricula.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfechaMatricula.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.txtfechaMatricula.Location = new System.Drawing.Point(209, 208);
+            this.txtfechaMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtfechaMatricula.Name = "txtfechaMatricula";
+            this.txtfechaMatricula.Size = new System.Drawing.Size(363, 30);
+            this.txtfechaMatricula.TabIndex = 1147;
             // 
             // novedad
             // 
@@ -478,6 +509,15 @@
             this.Codigo.MinimumWidth = 8;
             this.Codigo.Name = "Codigo";
             this.Codigo.ReadOnly = true;
+            // 
+            // fechaMatricula
+            // 
+            this.fechaMatricula.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.fechaMatricula.DataPropertyName = "date";
+            this.fechaMatricula.HeaderText = "Fecha Matricula";
+            this.fechaMatricula.MinimumWidth = 8;
+            this.fechaMatricula.Name = "fechaMatricula";
+            this.fechaMatricula.ReadOnly = true;
             // 
             // FechaInicioMatricula
             // 
@@ -606,9 +646,12 @@
         internal System.Windows.Forms.TextBox txtCodigo;
         internal System.Windows.Forms.Label label5;
         internal System.Windows.Forms.TextBox txtDuracion;
+        internal System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker txtfechaMatricula;
         private System.Windows.Forms.DataGridViewButtonColumn novedad;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaMatricula;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaInicioMatricula;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaFinMatricula;
         private System.Windows.Forms.DataGridViewTextBoxColumn Duracion;

@@ -36,5 +36,17 @@ namespace ApiWebApplication.DTO
         public List<CourseSubjectDTO> CourseSubjects { get; set; }
         public List<Tuition> Tuitions { get; set; }
 
+        public string Reference
+        {
+            get
+            {
+                return Code + " " + Name;
+            }
+        }
+
+
+
+
+
     }
 }

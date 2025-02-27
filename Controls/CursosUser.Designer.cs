@@ -64,7 +64,7 @@
             this.Panel3.Controls.Add(this.btnGuardar);
             this.Panel3.Controls.Add(this.btnEliminar);
             this.Panel3.Controls.Add(this.btnSalir);
-            this.Panel3.Location = new System.Drawing.Point(10, 295);
+            this.Panel3.Location = new System.Drawing.Point(10, 294);
             this.Panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(617, 62);

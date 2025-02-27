@@ -1,8 +1,5 @@
 ﻿################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
-
-*.suo
 /.vs
-/.vs/SchoolSystem
-/.vs/SchoolSystem/v17
+

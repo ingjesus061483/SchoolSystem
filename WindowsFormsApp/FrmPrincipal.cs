@@ -1,5 +1,6 @@
 ﻿using Controls;
 using System;
+using Controls.Menu;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,18 +19,8 @@ namespace WindowsFormsApp
         }
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-
-            toolStripButtonCourse.PerformClick();
         }
-        private void toolStripButtonCourse_Click(object sender, EventArgs e)
-        {
-            CursosUser cursosUser = new CursosUser 
-            {
-                Dock = DockStyle.Fill ,
-                Form =this,
-            };
-            addControl (cursosUser);
-        }
+       
         void addControl(UserControl control)
         {
             pnlbody.Controls.Clear();
@@ -40,99 +31,11 @@ namespace WindowsFormsApp
             Utilities<string>.CloseForm("Salir de aplicacion", e);
         }
 
-        private void toolStripButtonSchoolSubject_Click(object sender, EventArgs e)
-        {
-            AsignaturaUser asignaturaUser = new AsignaturaUser
-            {
-                Dock = DockStyle.Fill,
-                Form = this,
-            };
-            addControl(asignaturaUser);
+      
 
-        }
+       
 
-        private void toolStripStudent_Click(object sender, EventArgs e)
-        {
-            EstudiantesUser estudiantesUser = new EstudiantesUser
-            {
-                Dock = DockStyle.Fill,
-                Form =this,
-            };
-            addControl(estudiantesUser );
-        }
-
-        private void toolStripMatricula_Click(object sender, EventArgs e)
-        {
-            MatriculaUser matriculaUser = new MatriculaUser
-            {
-                Form = this,
-                Dock = DockStyle.Fill,
-            };
-            addControl(matriculaUser);
-        }
-
-        private void toolStripConcepto_Click(object sender, EventArgs e)
-        {
-            ConceptosUser conceptoUser = new ConceptosUser
-            {
-                Form = this,
-                Dock = DockStyle.Fill
-            };
-            addControl(conceptoUser);
-        }
-
-        private void toolStripButtonAcudiente_Click(object sender, EventArgs e)
-        {
-            AcudienteUser acudienteUser = new AcudienteUser 
-            {
-                Form = this,
-                Dock = DockStyle.Fill,
-            };
-            addControl(acudienteUser);
-
-        }
-
-        private void toolStripTeacher_Click(object sender, EventArgs e)
-        {
-            ProfesorUser ProfesorUser  = new ProfesorUser
-            {
-                Dock = DockStyle.Fill,
-                Form = this,
-            };
-            addControl(ProfesorUser);
-        }
-
-        private void toolStripButtonLogro_Click(object sender, EventArgs e)
-        {
-            LogrosUser  logrosUser = new LogrosUser
-            {
-                Dock = DockStyle.Fill,
-                Form = this,
-            };
-            addControl(logrosUser );
-        }
-
-        private void toolStripButtonPeriodo_Click(object sender, EventArgs e)
-        {
-            PeriodoUser periodoUser= new PeriodoUser
-            {
-                Dock = DockStyle.Fill,
-                Form = this,
-            };
-            addControl(periodoUser );
-        }
-
-        private void toolStripButtonCalificaciones_Click(object sender, EventArgs e)
-        {
-            CalificacionesUser calificacionesUser = new CalificacionesUser
-            {
-                Dock = DockStyle.Fill,
-                Form = this,
-            };
-            addControl(calificacionesUser);
-        }
-
-        private void toolStripButtonReport_Click(object sender, EventArgs e)
+        private void btnReportes_Click(object sender, EventArgs e)
         {
             frmSecundario frmSecundario = new frmSecundario();
             ReportesUser reportesUser = new ReportesUser
@@ -143,6 +46,43 @@ namespace WindowsFormsApp
             frmSecundario.UserControl = reportesUser;
             frmSecundario.ShowDialog();
        
+        }
+
+        private void btnConfiguracion_Click(object sender, EventArgs e)
+        {
+           ConfiguracionControl configuracionControl = new ConfiguracionControl
+           {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            Utilities<ConfiguracionControl>.AddControl(pnlbody,configuracionControl   );
+        }
+
+        private void btnAdmisiones_Click(object sender, EventArgs e)
+        {
+            AdmisionesControl admisionesControl = new AdmisionesControl
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            Utilities<AdmisionesControl>.AddControl(pnlbody, admisionesControl);
+
+
+    }
+
+        private void btnNotas_Click(object sender, EventArgs e)
+        {
+            NotasControl notasControl = new NotasControl
+            {
+                Dock = DockStyle.Fill,
+                Form = this,
+            };
+            Utilities<NotasControl>.AddControl(pnlbody, notasControl);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

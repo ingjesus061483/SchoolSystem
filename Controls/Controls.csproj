@@ -78,6 +78,18 @@
     <Compile Include="ConceptosUser.Designer.cs">
       <DependentUpon>ConceptosUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\AdmisionesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\AdmisionesControl.Designer.cs">
+      <DependentUpon>AdmisionesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\ConfiguracionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\ConfiguracionControl.Designer.cs">
+      <DependentUpon>ConfiguracionControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSecundario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,18 @@
     </Compile>
     <Compile Include="ImagePreviewUser.Designer.cs">
       <DependentUpon>ImagePreviewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FacturacionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\FacturacionControl.Designer.cs">
+      <DependentUpon>FacturacionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\NotasControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\NotasControl.Designer.cs">
+      <DependentUpon>NotasControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Achievement.cs" />
     <Compile Include="Models\Attendant.cs" />
@@ -208,6 +232,12 @@
     <EmbeddedResource Include="ConceptosUser.resx">
       <DependentUpon>ConceptosUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu\AdmisionesControl.resx">
+      <DependentUpon>AdmisionesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ConfiguracionControl.resx">
+      <DependentUpon>ConfiguracionControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CursosUser.resx">
       <DependentUpon>CursosUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,6 +264,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MatriculaUser.resx">
       <DependentUpon>MatriculaUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FacturacionControl.resx">
+      <DependentUpon>FacturacionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\NotasControl.resx">
+      <DependentUpon>NotasControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NovedadesUser.resx">
       <DependentUpon>NovedadesUser.cs</DependentUpon>

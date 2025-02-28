@@ -206,5 +206,10 @@ namespace Controls
             frmSecundario.ShowDialog();           
             return buscarUser.Id;
         }
+        public static void AddControl(Panel pnlbody, T control)
+        {           
+            pnlbody.Controls.Clear();
+            pnlbody.Controls.Add(control as UserControl);
+        }
     }
 }

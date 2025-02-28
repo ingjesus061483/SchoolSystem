@@ -328,10 +328,6 @@ G:\Mi unidad\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.csproj.C
 G:\Mi unidad\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebAp.38175CB5.Up2Date
 G:\Mi unidad\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.dll
 G:\Mi unidad\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.pdb
-C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.csproj.AssemblyReference.cache
-C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.csproj.CoreCompileInputs.cache
-C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.dll
-C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.pdb
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\ApiWebApplication.dll.config
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\ApiWebApplication.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\ApiWebApplication.pdb
@@ -393,6 +389,7 @@ C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Select.HtmlToPdf.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\System.Net.Http.Formatting.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\System.Threading.Tasks.Extensions.dll
@@ -412,6 +409,7 @@ C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\EntityFram
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.Extensions.DependencyInjection.xml
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Select.HtmlToPdf.xml
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Newtonsoft.Json.xml
@@ -437,4 +435,9 @@ C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\es\System.
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\es\System.Web.WebPages.resources.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\bin\Select.Html.dep
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.csproj.AssemblyReference.cache
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.csproj.CoreCompileInputs.cache
 C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebAp.38175CB5.Up2Date
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.dll
+C:\Users\issac\OneDrive\Documentos\SchoolSystem\ApiWebApplication\obj\Debug\ApiWebApplication.pdb

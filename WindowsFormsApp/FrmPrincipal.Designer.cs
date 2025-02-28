@@ -30,196 +30,130 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnFacturacion = new System.Windows.Forms.Button();
+            this.btnNotas = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
+            this.btnAdmisiones = new System.Windows.Forms.Button();
+            this.btnConfiguracion = new System.Windows.Forms.Button();
             this.pnlbody = new System.Windows.Forms.Panel();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButtonCourse = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonSchoolSubject = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonAcudiente = new System.Windows.Forms.ToolStripButton();
-            this.toolStripStudent = new System.Windows.Forms.ToolStripButton();
-            this.toolStripConcepto = new System.Windows.Forms.ToolStripButton();
-            this.toolStripMatricula = new System.Windows.Forms.ToolStripButton();
-            this.toolStripTeacher = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonPeriodo = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonLogro = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonCalificaciones = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonReport = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip1.SuspendLayout();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.btnSalir);
+            this.panel1.Controls.Add(this.btnFacturacion);
+            this.panel1.Controls.Add(this.btnNotas);
+            this.panel1.Controls.Add(this.btnReportes);
+            this.panel1.Controls.Add(this.btnAdmisiones);
+            this.panel1.Controls.Add(this.btnConfiguracion);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(221, 450);
+            this.panel1.Size = new System.Drawing.Size(221, 697);
             this.panel1.TabIndex = 0;
+            // 
+            // btnFacturacion
+            // 
+            this.btnFacturacion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFacturacion.BackgroundImage")));
+            this.btnFacturacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFacturacion.FlatAppearance.BorderSize = 0;
+            this.btnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFacturacion.Location = new System.Drawing.Point(70, 536);
+            this.btnFacturacion.Name = "btnFacturacion";
+            this.btnFacturacion.Size = new System.Drawing.Size(75, 69);
+            this.btnFacturacion.TabIndex = 4;
+            this.btnFacturacion.UseVisualStyleBackColor = true;
+            // 
+            // btnNotas
+            // 
+            this.btnNotas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNotas.BackgroundImage")));
+            this.btnNotas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNotas.FlatAppearance.BorderSize = 0;
+            this.btnNotas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNotas.Location = new System.Drawing.Point(70, 319);
+            this.btnNotas.Name = "btnNotas";
+            this.btnNotas.Size = new System.Drawing.Size(75, 69);
+            this.btnNotas.TabIndex = 3;
+            this.btnNotas.UseVisualStyleBackColor = true;
+            this.btnNotas.Click += new System.EventHandler(this.btnNotas_Click);
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReportes.BackgroundImage")));
+            this.btnReportes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReportes.FlatAppearance.BorderSize = 0;
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.Location = new System.Drawing.Point(70, 427);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(75, 69);
+            this.btnReportes.TabIndex = 2;
+            this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
+            // 
+            // btnAdmisiones
+            // 
+            this.btnAdmisiones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdmisiones.BackgroundImage")));
+            this.btnAdmisiones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAdmisiones.FlatAppearance.BorderSize = 0;
+            this.btnAdmisiones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmisiones.Location = new System.Drawing.Point(70, 207);
+            this.btnAdmisiones.Name = "btnAdmisiones";
+            this.btnAdmisiones.Size = new System.Drawing.Size(75, 69);
+            this.btnAdmisiones.TabIndex = 1;
+            this.btnAdmisiones.UseVisualStyleBackColor = true;
+            this.btnAdmisiones.Click += new System.EventHandler(this.btnAdmisiones_Click);
+            // 
+            // btnConfiguracion
+            // 
+            this.btnConfiguracion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfiguracion.BackgroundImage")));
+            this.btnConfiguracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnConfiguracion.FlatAppearance.BorderSize = 0;
+            this.btnConfiguracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfiguracion.Location = new System.Drawing.Point(70, 92);
+            this.btnConfiguracion.Name = "btnConfiguracion";
+            this.btnConfiguracion.Size = new System.Drawing.Size(75, 69);
+            this.btnConfiguracion.TabIndex = 0;
+            this.btnConfiguracion.UseVisualStyleBackColor = true;
+            this.btnConfiguracion.Click += new System.EventHandler(this.btnConfiguracion_Click);
             // 
             // pnlbody
             // 
             this.pnlbody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlbody.Location = new System.Drawing.Point(221, 33);
+            this.pnlbody.Location = new System.Drawing.Point(221, 0);
             this.pnlbody.Name = "pnlbody";
-            this.pnlbody.Size = new System.Drawing.Size(579, 417);
+            this.pnlbody.Size = new System.Drawing.Size(579, 697);
             this.pnlbody.TabIndex = 1;
             // 
-            // toolStrip1
+            // btnSalir
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.SteelBlue;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButtonCourse,
-            this.toolStripButtonSchoolSubject,
-            this.toolStripButtonAcudiente,
-            this.toolStripStudent,
-            this.toolStripConcepto,
-            this.toolStripMatricula,
-            this.toolStripTeacher,
-            this.toolStripButtonPeriodo,
-            this.toolStripButtonLogro,
-            this.toolStripButtonCalificaciones,
-            this.toolStripButtonReport});
-            this.toolStrip1.Location = new System.Drawing.Point(221, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(579, 33);
-            this.toolStrip1.TabIndex = 2;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButtonCourse
-            // 
-            this.toolStripButtonCourse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("toolStripButtonCourse.BackgroundImage")));
-            this.toolStripButtonCourse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.toolStripButtonCourse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonCourse.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonCourse.Name = "toolStripButtonCourse";
-            this.toolStripButtonCourse.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonCourse.Text = "toolStripButton1";
-            this.toolStripButtonCourse.ToolTipText = "Cursos";
-            this.toolStripButtonCourse.Click += new System.EventHandler(this.toolStripButtonCourse_Click);
-            // 
-            // toolStripButtonSchoolSubject
-            // 
-            this.toolStripButtonSchoolSubject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("toolStripButtonSchoolSubject.BackgroundImage")));
-            this.toolStripButtonSchoolSubject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.toolStripButtonSchoolSubject.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonSchoolSubject.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonSchoolSubject.Name = "toolStripButtonSchoolSubject";
-            this.toolStripButtonSchoolSubject.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonSchoolSubject.Text = "toolStripButton1";
-            this.toolStripButtonSchoolSubject.ToolTipText = "Asignatura";
-            this.toolStripButtonSchoolSubject.Click += new System.EventHandler(this.toolStripButtonSchoolSubject_Click);
-            // 
-            // toolStripButtonAcudiente
-            // 
-            this.toolStripButtonAcudiente.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonAcudiente.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonAcudiente.Image")));
-            this.toolStripButtonAcudiente.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonAcudiente.Name = "toolStripButtonAcudiente";
-            this.toolStripButtonAcudiente.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonAcudiente.Text = "toolStripButton1";
-            this.toolStripButtonAcudiente.ToolTipText = "Acudiente";
-            this.toolStripButtonAcudiente.Click += new System.EventHandler(this.toolStripButtonAcudiente_Click);
-            // 
-            // toolStripStudent
-            // 
-            this.toolStripStudent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripStudent.Image = ((System.Drawing.Image)(resources.GetObject("toolStripStudent.Image")));
-            this.toolStripStudent.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripStudent.Name = "toolStripStudent";
-            this.toolStripStudent.Size = new System.Drawing.Size(34, 28);
-            this.toolStripStudent.Text = "Estudiantes";
-            this.toolStripStudent.Click += new System.EventHandler(this.toolStripStudent_Click);
-            // 
-            // toolStripConcepto
-            // 
-            this.toolStripConcepto.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripConcepto.Image = ((System.Drawing.Image)(resources.GetObject("toolStripConcepto.Image")));
-            this.toolStripConcepto.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripConcepto.Name = "toolStripConcepto";
-            this.toolStripConcepto.Size = new System.Drawing.Size(34, 28);
-            this.toolStripConcepto.ToolTipText = "Concepto";
-            this.toolStripConcepto.Click += new System.EventHandler(this.toolStripConcepto_Click);
-            // 
-            // toolStripMatricula
-            // 
-            this.toolStripMatricula.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripMatricula.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMatricula.Image")));
-            this.toolStripMatricula.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripMatricula.Name = "toolStripMatricula";
-            this.toolStripMatricula.Size = new System.Drawing.Size(34, 28);
-            this.toolStripMatricula.Text = "Matricula";
-            this.toolStripMatricula.Click += new System.EventHandler(this.toolStripMatricula_Click);
-            // 
-            // toolStripTeacher
-            // 
-            this.toolStripTeacher.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripTeacher.Image = ((System.Drawing.Image)(resources.GetObject("toolStripTeacher.Image")));
-            this.toolStripTeacher.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripTeacher.Name = "toolStripTeacher";
-            this.toolStripTeacher.Size = new System.Drawing.Size(34, 28);
-            this.toolStripTeacher.Text = "toolStripButton1";
-            this.toolStripTeacher.ToolTipText = "Profesor";
-            this.toolStripTeacher.Click += new System.EventHandler(this.toolStripTeacher_Click);
-            // 
-            // toolStripButtonPeriodo
-            // 
-            this.toolStripButtonPeriodo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonPeriodo.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonPeriodo.Image")));
-            this.toolStripButtonPeriodo.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonPeriodo.Name = "toolStripButtonPeriodo";
-            this.toolStripButtonPeriodo.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonPeriodo.Text = "toolStripButton1";
-            this.toolStripButtonPeriodo.ToolTipText = "Periodo";
-            this.toolStripButtonPeriodo.Click += new System.EventHandler(this.toolStripButtonPeriodo_Click);
-            // 
-            // toolStripButtonLogro
-            // 
-            this.toolStripButtonLogro.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonLogro.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonLogro.Image")));
-            this.toolStripButtonLogro.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonLogro.Name = "toolStripButtonLogro";
-            this.toolStripButtonLogro.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonLogro.Text = "toolStripButton1";
-            this.toolStripButtonLogro.Click += new System.EventHandler(this.toolStripButtonLogro_Click);
-            // 
-            // toolStripButtonCalificaciones
-            // 
-            this.toolStripButtonCalificaciones.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonCalificaciones.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonCalificaciones.Image")));
-            this.toolStripButtonCalificaciones.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonCalificaciones.Name = "toolStripButtonCalificaciones";
-            this.toolStripButtonCalificaciones.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonCalificaciones.Text = "toolStripButton1";
-            this.toolStripButtonCalificaciones.ToolTipText = "Calificaciones";
-            this.toolStripButtonCalificaciones.Click += new System.EventHandler(this.toolStripButtonCalificaciones_Click);
-            // 
-            // toolStripButtonReport
-            // 
-            this.toolStripButtonReport.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonReport.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonReport.Image")));
-            this.toolStripButtonReport.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonReport.Name = "toolStripButtonReport";
-            this.toolStripButtonReport.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButtonReport.Text = "toolStripButton1";
-            this.toolStripButtonReport.Click += new System.EventHandler(this.toolStripButtonReport_Click);
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Location = new System.Drawing.Point(70, 647);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 69);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 697);
             this.Controls.Add(this.pnlbody);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);
             this.Name = "FrmPrincipal";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -227,18 +161,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pnlbody;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonCourse;
-        private System.Windows.Forms.ToolStripButton toolStripButtonSchoolSubject;
-        private System.Windows.Forms.ToolStripButton toolStripStudent;
-        private System.Windows.Forms.ToolStripButton toolStripMatricula;
-        private System.Windows.Forms.ToolStripButton toolStripConcepto;
-        private System.Windows.Forms.ToolStripButton toolStripButtonAcudiente;
-        private System.Windows.Forms.ToolStripButton toolStripTeacher;
-        private System.Windows.Forms.ToolStripButton toolStripButtonLogro;
-        private System.Windows.Forms.ToolStripButton toolStripButtonPeriodo;
-        private System.Windows.Forms.ToolStripButton toolStripButtonCalificaciones;
-        private System.Windows.Forms.ToolStripButton toolStripButtonReport;
+        private System.Windows.Forms.Button btnConfiguracion;
+        private System.Windows.Forms.Button btnAdmisiones;
+        private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnNotas;
+        private System.Windows.Forms.Button btnFacturacion;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

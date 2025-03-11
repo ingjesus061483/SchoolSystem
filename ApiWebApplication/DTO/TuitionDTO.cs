@@ -48,6 +48,8 @@ namespace ApiWebApplication.DTO
         public int StatusId { get; set; }
         public Status Status { get; set; }
 
+        public List<MonthlyPaymentDTO> MonthlyPayments;
+
        public  List<StrangenessDTO> Strangenesses { get; set; }
         public double Duration
         {

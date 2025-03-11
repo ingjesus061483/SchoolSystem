@@ -73,7 +73,7 @@ namespace Controls
 
             Utilities<SchoolSubject>.Api = "api/SchoolSubject";
             List<SchoolSubject> schoolSubjects = await Utilities<SchoolSubject>.Get();
-            int id = Utilities<SchoolSubject>.GetID(schoolSubjects);
+            int id = Utilities<SchoolSubject>.GetID(schoolSubjects,"asignatura");
 
             SchoolSubject = schoolSubjects.Where(x => x.Id == id).FirstOrDefault();
             if (SchoolSubject == null)
@@ -189,7 +189,7 @@ namespace Controls
         {
             Utilities<Course>.Api = "api/Course";
             var courses = await Utilities<Course>.Get();
-            int id = Utilities<Course>.GetID(courses);
+            int id = Utilities<Course>.GetID(courses,"cursos");
 
             Course = courses.FirstOrDefault(x => x.Id == id);
             if (Course == null)
@@ -203,7 +203,7 @@ namespace Controls
         {
             Utilities<Period>.Api = "api/Period";
             var periods =await Utilities<Period>.Get();
-            int id =Utilities<Period>.GetID(periods);
+            int id =Utilities<Period>.GetID(periods,"periodo");
             period = periods.FirstOrDefault(x => x.Id == id);
             if(period ==null)
             {

@@ -116,6 +116,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Name = "ConfiguracionControl";
             this.Size = new System.Drawing.Size(739, 713);
+            this.Load += new System.EventHandler(this.ConfiguracionControl_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

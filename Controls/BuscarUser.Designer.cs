@@ -48,7 +48,8 @@
             // 
             this.dgVer.AllowUserToAddRows = false;
             this.dgVer.AllowUserToDeleteRows = false;
-            this.dgVer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgVer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgVer.BackgroundColor = System.Drawing.Color.White;
             this.dgVer.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -62,14 +63,14 @@
             this.dgVer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgVer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgVer.GridColor = System.Drawing.Color.White;
-            this.dgVer.Location = new System.Drawing.Point(9, 183);
+            this.dgVer.Location = new System.Drawing.Point(9, 250);
             this.dgVer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgVer.Name = "dgVer";
             this.dgVer.ReadOnly = true;
             this.dgVer.RowHeadersVisible = false;
             this.dgVer.RowHeadersWidth = 62;
             this.dgVer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgVer.Size = new System.Drawing.Size(526, 175);
+            this.dgVer.Size = new System.Drawing.Size(526, 179);
             this.dgVer.TabIndex = 51;
             this.dgVer.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgVer_CellContentClick);
             // 
@@ -79,7 +80,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Panel1.BackColor = System.Drawing.Color.White;
             this.Panel1.Controls.Add(this.btnsalir);
-            this.Panel1.Location = new System.Drawing.Point(9, 365);
+            this.Panel1.Location = new System.Drawing.Point(9, 182);
             this.Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(526, 62);

@@ -55,7 +55,7 @@ namespace Controls
         {
             Utilities<Course>.Api = "api/Course";      
             List<Course> courses = await Utilities<Course>.Get();
-            int id = Utilities<Course >.GetID(courses);
+            int id = Utilities<Course >.GetID(courses,"cursos");
 
             course = courses .FirstOrDefault ( x=>x.Id ==id );
             if (course == null)
@@ -146,9 +146,9 @@ namespace Controls
         {
             Utilities<Teacher>.Api = "api/Teacher"; 
             var teachers = await Utilities<Teacher>.Get();
-            int id = Utilities<Teacher>.GetID(teachers );
+            int id = Utilities<Teacher>.GetID(teachers,"profesor" );
             Teacher = teachers.FirstOrDefault(x => x.Id == id );
-            if (teachers == null)
+            if (Teacher == null)
             {
                 return;
             }

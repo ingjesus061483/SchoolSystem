@@ -45,7 +45,7 @@ namespace Controls.Models
         [Required]
         public int StatusId { get; set; }
         public Status Status { get; set; }
-
+         public List <MonthlyPayment> MonthlyPayments { get; set; }
         public List <Strangeness> Strangenesses { get; set; }
 
         public double Duration

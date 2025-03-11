@@ -77,7 +77,7 @@ namespace Controls
         {
             Utilities<Period>.Api = "api/Period";
             var periods=await Utilities<Period>.Get();
-           var id= Utilities<Period>.GetID(periods);
+           var id= Utilities<Period>.GetID(periods,"periodo");
             Period =periods .FirstOrDefault(x=>x.Id==id);
             if (Period == null){return;}
             txtPeriodo.Text = Period.Title;
@@ -89,14 +89,14 @@ namespace Controls
         {
             Utilities<Student>.Api = "api/Students";
            var students=await Utilities<Student>.Get();
-            int id = Utilities<Student>.GetID(students);
+            int id = Utilities<Student>.GetID(students,"estudiante");
             student = students .FirstOrDefault(x=>x.Id==id);
             if (student == null) { return; }
             txtIdentificacion.Text = student.Identification;
             txtEstudiante.Text = student.CompleteName;
             Utilities<Tuition>.Api = "api/Tuition";
             var tuitions =await Utilities<Tuition>.Get();
-            int tuitionId = Utilities<Tuition>.GetID(tuitions.Where (x=>x.StatusId==student .Id).ToList());
+            int tuitionId = Utilities<Tuition>.GetID(tuitions.Where (x=>x.StatusId==student .Id).ToList(),"matricula");
             var tuition = tuitions.FirstOrDefault(x => x.Id == tuitionId);
             if (tuition == null) { return; }
             course = tuition.Course;
@@ -107,7 +107,7 @@ namespace Controls
             if (course == null) { return; }                
             Utilities<Achievement>.Api = "api/Achievement";
             var achievements = await Utilities<Achievement>.Get();
-            int id =Utilities<Achievement >.GetID(achievements.Where (x=>x.CourseId ==course.Id).ToList());
+            int id =Utilities<Achievement >.GetID(achievements.Where (x=>x.CourseId ==course.Id).ToList(),"logros");
             achievement = achievements.FirstOrDefault(x => x.Id == id);
             if (achievement == null) { return; }
             txtLogros.Text = achievement.Title;

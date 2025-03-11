@@ -12,6 +12,7 @@ namespace Controls.Menu
 {
     public partial class NotasControl : UserControl
     {
+        string name;
         public Form Form { get; set; }
         public NotasControl()
         {
@@ -21,6 +22,7 @@ namespace Controls.Menu
 
         private void toolStripButtonLogro_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Logros";
             LogrosUser logrosUser = new LogrosUser
             {
                 Dock = DockStyle.Fill,
@@ -33,6 +35,8 @@ namespace Controls.Menu
 
         private void toolStripButtonCalificaciones_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Notas";
+
             CalificacionesUser calificacionesUser = new CalificacionesUser
             {
                 Dock = DockStyle.Fill,
@@ -41,5 +45,9 @@ namespace Controls.Menu
           Utilities<CalificacionesUser> .  AddControl(pnlNotas, calificacionesUser);
         }
 
+        private void NotasControl_Load(object sender, EventArgs e)
+        {
+            name = Form.Text;
+        }
     }
 }

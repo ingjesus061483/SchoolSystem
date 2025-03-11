@@ -12,6 +12,7 @@ namespace Controls.Menu
 {
     public partial class AdmisionesControl : UserControl
     {
+        string name;
         public Form Form { get; set; }
         public AdmisionesControl()
         {
@@ -21,6 +22,7 @@ namespace Controls.Menu
 
         private void toolStripStudent_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Estudiante";
             EstudiantesUser estudiantesUser = new EstudiantesUser
             {
                 Dock = DockStyle.Fill,
@@ -31,6 +33,8 @@ namespace Controls.Menu
 
         private void toolStripMatricula_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Matricula";
+
             MatriculaUser matriculaUser = new MatriculaUser
             {
                 Form = Form ,
@@ -41,6 +45,8 @@ namespace Controls.Menu
 
         private void toolStripConcepto_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Concepto";
+
             ConceptosUser conceptoUser = new ConceptosUser
             {
                 Form = Form ,
@@ -51,6 +57,8 @@ namespace Controls.Menu
 
         private void toolStripButtonAcudiente_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Acudiente";
+
             AcudienteUser acudienteUser = new AcudienteUser
             {
                 Form = Form,
@@ -60,5 +68,9 @@ namespace Controls.Menu
 
         }
 
+        private void AdmisionesControl_Load(object sender, EventArgs e)
+        {
+            name = Form.Text;
+        }
     }
 }

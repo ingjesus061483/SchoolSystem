@@ -12,6 +12,7 @@ namespace Controls.Menu
 {
     public partial class ConfiguracionControl : UserControl
     {
+        string name;
         public Form Form { get; set; }
         public ConfiguracionControl()
         {
@@ -20,6 +21,7 @@ namespace Controls.Menu
 
         private void toolStripButtonCourse_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Cursos";
             CursosUser cursosUser = new CursosUser
             {
                 Dock = DockStyle.Fill,
@@ -30,6 +32,8 @@ namespace Controls.Menu
 
         private void toolStripButtonSchoolSubject_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Asignaturas";
+
             AsignaturaUser asignaturaUser = new AsignaturaUser
             {
                 Dock = DockStyle.Fill,
@@ -41,6 +45,8 @@ namespace Controls.Menu
 
         private void toolStripTeacher_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Profesores";
+
             ProfesorUser ProfesorUser = new ProfesorUser
             {
                 Dock = DockStyle.Fill,
@@ -51,12 +57,19 @@ namespace Controls.Menu
 
         private void toolStripButtonPeriodo_Click(object sender, EventArgs e)
         {
+            Form.Text = name + " - Periodo";
+
             PeriodoUser periodoUser = new PeriodoUser
             {
                 Dock = DockStyle.Fill,
                 Form =Form ,
             };
         Utilities <PeriodoUser>.    AddControl(panelConfiguration, periodoUser);
+        }
+
+        private void ConfiguracionControl_Load(object sender, EventArgs e)
+        {
+            name = Form.Text;
         }
     }
 }

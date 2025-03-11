@@ -23,6 +23,41 @@ namespace Controls
         {
             InitializeComponent();
         }
+        List <MonthlyPayment > GetMonthlyPayments()
+        {
+            DateTime date = txtFechaInicioMatricula.Value;  
+            List<MonthlyPayment> monthlyPayments = new List<MonthlyPayment>();
+            for (int i = 0; i <= int.Parse( txtDuracion.Text) - 1; i++)
+            {
+                MonthlyPayment monthlyPayment;
+                int day = (date.AddDays(30)- date ).Days;
+                if (i == 0 )
+                {
+                    monthlyPayment = new MonthlyPayment
+                    {
+                        Code =txtCodigo .Text +(i+1).ToString (),
+                        Since = date,
+                        Untill = date.AddMonths(1),
+                        IsConfirmed = false,
+                        Value = date.Month == txtfechaMatricula.Value.Month? decimal.Parse(txtValorMensualidad.Text)+decimal .Parse(txtValorMatricula.Text): decimal.Parse(txtValorMatricula.Text)
+                    };
+                }
+                else
+                {
+                    monthlyPayment = new MonthlyPayment
+                    {
+                        Code = txtCodigo.Text +  (i + 1).ToString(),
+                        Since = date,
+                        Untill = date.AddMonths(1),
+                        IsConfirmed = false,
+                        Value = decimal.Parse(txtValorMensualidad.Text)
+                    };
+                }
+                date = date.AddMonths(1);
+                monthlyPayments.Add(monthlyPayment);             
+            }
+            return monthlyPayments;
+         }
         async  void newTuition()
         {
             Tuition = null;
@@ -71,7 +106,7 @@ namespace Controls
         {
             Utilities<Course>.Api = "api/Course";
             var courses=await  Utilities <Course>.Get();
-            int id = Utilities<Course>.GetID(courses);
+            int id = Utilities<Course>.GetID(courses,"cursos");
 
             Course = courses .FirstOrDefault(x => x.Id == id);
             if (Course == null)
@@ -85,7 +120,7 @@ namespace Controls
         {
             Utilities<Student>.Api = "api/Students";
             var students=await Utilities<Student>.Get();
-            int id = Utilities<Student>.GetID(students);
+            int id = Utilities<Student>.GetID(students,"estudiante");
 
             student = students .FirstOrDefault(x => x.Id == id);
             if (student == null)
@@ -129,7 +164,9 @@ namespace Controls
                     CourseId = Course.Id,
                     MonthValue = decimal.Parse(txtValorMensualidad.Text),
                     TutionValue = decimal.Parse(txtValorMatricula.Text),
-                    StatusId = 1
+                    StatusId = 1, 
+                    MonthlyPayments=GetMonthlyPayments()
+                    
                 };
                 await Utilities<Tuition>.Post(Tuition);
                 Tuitions = await Utilities<Tuition>.Get();

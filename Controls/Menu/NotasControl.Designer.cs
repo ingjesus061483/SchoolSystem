@@ -45,7 +45,7 @@
             this.toolStripButtonCalificaciones});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(737, 33);
+            this.toolStrip1.Size = new System.Drawing.Size(737, 38);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -55,7 +55,7 @@
             this.toolStripButtonLogro.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonLogro.Image")));
             this.toolStripButtonLogro.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonLogro.Name = "toolStripButtonLogro";
-            this.toolStripButtonLogro.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButtonLogro.Size = new System.Drawing.Size(34, 33);
             this.toolStripButtonLogro.Text = "toolStripButton1";
             this.toolStripButtonLogro.ToolTipText = "Logros";
             this.toolStripButtonLogro.Click += new System.EventHandler(this.toolStripButtonLogro_Click);
@@ -74,9 +74,9 @@
             // pnlNotas
             // 
             this.pnlNotas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlNotas.Location = new System.Drawing.Point(0, 33);
+            this.pnlNotas.Location = new System.Drawing.Point(0, 38);
             this.pnlNotas.Name = "pnlNotas";
-            this.pnlNotas.Size = new System.Drawing.Size(737, 717);
+            this.pnlNotas.Size = new System.Drawing.Size(737, 712);
             this.pnlNotas.TabIndex = 4;
             // 
             // NotasControl
@@ -88,6 +88,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Name = "NotasControl";
             this.Size = new System.Drawing.Size(737, 750);
+            this.Load += new System.EventHandler(this.NotasControl_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

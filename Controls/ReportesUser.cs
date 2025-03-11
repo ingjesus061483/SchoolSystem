@@ -49,7 +49,7 @@ namespace Controls
         {
             Utilities<Course>.Api = "api/Course";
             var courses = await Utilities<Course>.Get();
-            int id = Utilities<Course>.GetID(courses);
+            int id = Utilities<Course>.GetID(courses, "cursos");
 
             Course = courses.FirstOrDefault(x => x.Id == id);
             if (Course == null)
@@ -63,7 +63,7 @@ namespace Controls
         {
             Utilities<Period>.Api = "api/Period";
             var periods = await Utilities<Period>.Get();
-            int id = Utilities<Period>.GetID(periods);
+            int id = Utilities<Period>.GetID(periods,"periodos");
             period = periods.FirstOrDefault(x => x.Id == id);
             if (period == null)
             {
@@ -83,7 +83,7 @@ namespace Controls
         {
             Utilities<Tuition>.Api = "api/Tuition";
             var tuitions = await Utilities<Tuition>.Get();
-            int tuitionId = Utilities<Tuition>.GetID(tuitions.Where(x => x.CourseId  == Course.Id).ToList());
+            int tuitionId = Utilities<Tuition>.GetID(tuitions.Where(x => x.CourseId  == Course.Id).ToList(),"estudiantes");
             var tuition = tuitions.FirstOrDefault(x => x.Id == tuitionId);
             if (tuition == null) { return; }
            student   = tuition.Student ;

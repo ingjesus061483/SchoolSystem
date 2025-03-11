@@ -158,6 +158,8 @@ namespace  Controls
                 SchoolSubject  = current ,
                 Dock = DockStyle.Fill,
             };
+            frmSecundario.Text = "Asignar Cursos";
+            frmSecundario .Size =asignaCursoUser.Size ;
             frmSecundario .UserControl = asignaCursoUser; 
             frmSecundario.ShowDialog();
             newSchool();

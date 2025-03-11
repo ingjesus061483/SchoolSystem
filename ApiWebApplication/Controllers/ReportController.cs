@@ -14,6 +14,56 @@ namespace ApiWebApplication.Controllers
     public class ReportController : Controller
     {
         SchoolDbContext dbContext=new SchoolDbContext();
+        PdfPageSize pageSize = PdfPageSize.A4;
+        PdfPageOrientation pdfOrientation = PdfPageOrientation.Portrait;
+        int webPageWidth = 1500;
+        StudentDTO GetStudent(int id)
+        {
+            return dbContext.Students
+                           .Include("Sexes")
+                           .Include("Status")
+                           .Include("Pictures")
+                           .Include("PicturePersons")
+                           .Include("Attendants")
+                           .Include("IdentificationTypes")
+                           .Where(s=>s.Id ==id )
+                           .Select(x => new StudentDTO
+                           {
+                               Id = x.Id,
+                               FirstName = x.FirstName,
+                               LastName = x.LastName,
+                               Address = x.Address,
+                               PhoneNumber = x.PhoneNumber,
+                               Email = x.Email,
+                               BirthDate = x.BirthDate,
+                               Identification = x.Identification,
+                               IdentificationType = x.IdentificationType,
+                               Sex = x.Sex,
+                               SexId = x.SexId,
+                               IdentificationTypeId = x.IdentificationTypeId,
+                               Attendant = x.Attendant,
+                               AttendantId = x.AttendantId,
+                               PicturePeople = x.picturePeople.Where(p => p.StudentId == x.Id).Select(p => new PicturePersonDTO
+                               {
+                                   Id = p.Id,
+                                   Picture = p.Picture,
+                                   PictureId = p.PictureId,
+                                   Student = x.FirstName + " " + x.LastName,
+                                   StudentId = p.StudentId,
+                               }).ToList()
+                           }).FirstOrDefault();
+        }
+        CourseDTO GetCourse(int id)
+        {
+            return dbContext.Courses.Where(x => x.Id == id).Select(x => new CourseDTO
+            {
+                Id = x.Id,
+                Code = x.Code,
+                Name = x.Name,
+                Description = x.Description,
+                Amount = x.Amount,
+            }).FirstOrDefault();
+        }
         IQueryable<TuitionDTO> TuitionDTOs { 
             get
             {
@@ -23,7 +73,8 @@ namespace ApiWebApplication.Controllers
                     .Include("Course")
                     .Include("Status")
                     .Include("Strangenesses")
-                    .Include("Concepts")
+                    .Include("Concepts")                        
+                    .Include("MonthlyPayments")
                     .Select(x => new TuitionDTO
                     {
                         Id = x.Id,
@@ -51,7 +102,19 @@ namespace ApiWebApplication.Controllers
                             Detail = st.Detail,
                             Concept = st.Concept,
 
-                        }).ToList()
+                        }).ToList(),
+                        MonthlyPayments= x.MonthlyPayments.Where(m=>m.TuitionId==x.Id ).Select(m=>new MonthlyPaymentDTO
+                        {
+                            Id = m.Id,
+                            Detail = m.Detail,
+                            Code = m.Code,
+                            IsConfirmed = m.IsConfirmed,
+                            Value = m.Value,
+                            Since = m.Since,
+                            Untill = m.Untill,
+                            TuitionId = m.TuitionId
+                        }).ToList(),
+
 
                     });
 
@@ -59,25 +122,28 @@ namespace ApiWebApplication.Controllers
         }
         public FileResult GetFileStudent(int courseid)
         {
-            CourseDTO course = dbContext.Courses.Where(x => x.Id == courseid).Select(x => new CourseDTO 
-            {
-                Id=x.Id,
-                Code=x.Code,
-                Name=x.Name ,
-                Description=x.Description,
-                Amount=x.Amount ,
-            }).FirstOrDefault();
-            TempData["course"] = course ;
+            ViewBag.title = "Listado de estudiante";
+           
+            TempData["course"] =GetCourse (courseid) ;
             List<TuitionDTO> tuitions=TuitionDTOs.Where(x=>x.CourseId==courseid).ToList();
-            string htmlString = this.RenderRazorViewToString("StudentByCousePdf", tuitions);
-            PdfPageSize pageSize = PdfPageSize.A4;
-            PdfPageOrientation pdfOrientation = PdfPageOrientation.Portrait;
-            int webPageWidth = 1500;
+            string htmlString = this.RenderRazorViewToString("StudentByCoursePdf", tuitions);
+     
             HtmlToPdf htmlToPdf = Utilities .GetHtmlToPdf(pageSize, pdfOrientation, webPageWidth);
             byte[] pdf = Utilities .ConvertPdfToByte(htmlString, htmlToPdf);
             return File(pdf, "application/pdf");
         }
+        public FileResult GetFileMonthlyPayments(int tuitionId)
+        {
+            TuitionDTO tuition = TuitionDTOs.Where(x => x.Id == tuitionId).FirstOrDefault();
+            List<MonthlyPaymentDTO> monthlyPayments =tuition. MonthlyPayments;
+            TempData["course"] =GetCourse( tuition .CourseId);
+            TempData["Student"] = GetStudent(tuition.StudentId);
+            string htmlString = this.RenderRazorViewToString("MonthlyPaymentsBytuitionPdf", monthlyPayments);
 
+            HtmlToPdf htmlToPdf = Utilities.GetHtmlToPdf(pageSize, pdfOrientation, webPageWidth);
+            byte[] pdf = Utilities.ConvertPdfToByte(htmlString, htmlToPdf);
+            return File(pdf, "application/pdf");
+        }
         // GET: Report
         public ActionResult Index()
         {

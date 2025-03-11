@@ -18,6 +18,12 @@
 
         protected override void Seed(ApiWebApplication.DataAccess.SchoolDbContext context)
         {
+            List<MethodOfPayment> methodOfPayments = new List<MethodOfPayment> {
+             new MethodOfPayment { Id = 1,Name="Contado" },
+               new MethodOfPayment{Id= 2,Name="Datafono" },
+                new MethodOfPayment {Id = 3,Name="Transferencia" }
+            };
+            methodOfPayments .ForEach(m=>context .MethodOfPayments.AddOrUpdate(pa=>pa.Name,m));
             List <Period > periods= new List<Period> { 
                 new Period{ Id = 1,Title="Primer periodo"},
                 new Period{ Id = 1,Title="Segundo periodo"},

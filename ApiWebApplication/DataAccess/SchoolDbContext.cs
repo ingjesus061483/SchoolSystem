@@ -12,10 +12,15 @@ namespace ApiWebApplication.DataAccess
 {
     public class SchoolDbContext:DbContext
     {
-        public SchoolDbContext():base(ConfigurationManager.ConnectionStrings["SchoolSystem"].ConnectionString )
+        public SchoolDbContext():base(Utilities .conectionstring  )
         { 
            
         }
+        public DbSet<PaymentDetail> PaymentDetails { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+       public DbSet<Category> Categories { get; set; }
+       public DbSet<MethodOfPayment> MethodOfPayments { get; set; }
+        public DbSet<MonthlyPayment> MonthlyPayments { get; set; }
         public DbSet<Period > Periods {  get; set; }
         public DbSet <Achievement> Achievements { get; set; }
         public DbSet<Relationship> Relationships { get; set; }
@@ -35,5 +40,6 @@ namespace ApiWebApplication.DataAccess
         public DbSet <Concept> Concepts { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Qualification> Qualifications { get; set; }
+
     }
 }

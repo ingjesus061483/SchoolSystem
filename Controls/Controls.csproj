@@ -78,6 +78,18 @@
     <Compile Include="ConceptosUser.Designer.cs">
       <DependentUpon>ConceptosUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetallePagoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DetallePagoControl.Designer.cs">
+      <DependentUpon>DetallePagoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensualidadControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MensualidadControl.Designer.cs">
+      <DependentUpon>MensualidadControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\AdmisionesControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -123,6 +135,10 @@
     <Compile Include="Models\Achievement.cs" />
     <Compile Include="Models\Attendant.cs" />
     <Compile Include="Models\Concept.cs" />
+    <Compile Include="Models\MethodOfPayment.cs" />
+    <Compile Include="Models\MonthlyPayment.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\PaymentDetail.cs" />
     <Compile Include="Models\Period.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Course.cs" />
@@ -180,6 +196,12 @@
     <Compile Include="NovedadesUser.Designer.cs">
       <DependentUpon>NovedadesUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="PagosControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PagosControl.Designer.cs">
+      <DependentUpon>PagosControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="PeriodoUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -232,6 +254,12 @@
     <EmbeddedResource Include="ConceptosUser.resx">
       <DependentUpon>ConceptosUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DetallePagoControl.resx">
+      <DependentUpon>DetallePagoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensualidadControl.resx">
+      <DependentUpon>MensualidadControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\AdmisionesControl.resx">
       <DependentUpon>AdmisionesControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -273,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NovedadesUser.resx">
       <DependentUpon>NovedadesUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagosControl.resx">
+      <DependentUpon>PagosControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PeriodoUser.resx">
       <DependentUpon>PeriodoUser.cs</DependentUpon>

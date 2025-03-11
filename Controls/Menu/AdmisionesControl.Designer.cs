@@ -111,6 +111,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Name = "AdmisionesControl";
             this.Size = new System.Drawing.Size(709, 758);
+            this.Load += new System.EventHandler(this.AdmisionesControl_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

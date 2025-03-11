@@ -195,7 +195,7 @@ namespace Controls
         {
             Utilities<Attendant>.Api = "api/Attendant";
             var attendants=await  Utilities<Attendant>.Get();
-            int id = Utilities<Attendant >.GetID(attendants);
+            int id = Utilities<Attendant >.GetID(attendants,"acudientes");
             Attendant = attendants.FirstOrDefault(x=> x.Id ==id );
             if (Attendant==null)
             {

@@ -23,8 +23,12 @@ namespace ApiWebApplication.Controllers
                     .Include("WorkingDays")
                     .Include("Course")
                     .Include("Status")
+                    .Include("MonthlyPayments")
                     .Include ("Strangenesses")
                     .Include("Concepts")
+                    .Include ("Payments")
+                    .Include("PaymentDetails")
+                    .Include("MethodOfPayments")
                     .Select(x => new TuitionDTO
                     {
                         Id = x.Id,
@@ -52,8 +56,40 @@ namespace ApiWebApplication.Controllers
                             Detail=st.Detail,
                             Concept=st.Concept,
                             
-                        }).ToList()
-                        
+                        }).ToList(),
+                        MonthlyPayments = x.MonthlyPayments.Where(m => m.TuitionId == x.Id).Select(m => new MonthlyPaymentDTO
+                        {
+                            Id = m.Id,
+                            Detail = m.Detail,
+                            Code = m.Code,
+                            IsConfirmed = m.IsConfirmed,
+                            Value = m.Value,
+                            Since = m.Since,
+                            Untill = m.Untill,
+                            TuitionId = m.TuitionId,
+                           Payments=m.Payments.Where (p=>p.MonthlyPaymentId==m.Id).Select(p=>new PaymentDTO
+                           {
+                               Id =p.Id,
+                               Code =p.Code,
+                               Date=p.Date,
+                               IsTotalPay =p.IsTotalPay,
+                               Remark=p.Remark,
+                               Value=p.Value,
+                               MonthlyPaymentId=m.Id,
+                               PaymentDetails=p.PaymentDetails.Where (dp=>dp.PaymentId==p.Id).Select(dp=>new PaymentDetailDTO
+                               {
+                                   Id =dp.Id,
+                                   Title =dp.Title,
+                                   PaymentId=dp.PaymentId,
+                                   Value=dp .Value ,
+                                   MethodOfPaymentId=dp.MethodOfPaymentId,
+                                   MethodOfPayment =dp.MethodOfPayment,
+                               }).ToList()
+
+                           }).ToList()
+                            
+                        }).ToList(),
+
                     });    
             } 
         }

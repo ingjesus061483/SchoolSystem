@@ -12,9 +12,27 @@ namespace Controls.Menu
 {
     public partial class FacturacionControl : UserControl
     {
+        public Form Form;
+        string name;
         public FacturacionControl()
         {
             InitializeComponent();
+        }
+
+        private void toolStripMensualidad_Click(object sender, EventArgs e)
+        {
+            Form.Text  = name+" - Mensualidad" ;
+            MensualidadControl mensualidadControl    = new MensualidadControl
+            {
+                Dock = DockStyle.Fill,
+                Form = Form,
+            };
+            Utilities<MensualidadControl>.AddControl(panelFacturacion, mensualidadControl);
+        }
+
+        private void FacturacionControl_Load(object sender, EventArgs e)
+        {
+            name = Form.Text;
         }
     }
 }

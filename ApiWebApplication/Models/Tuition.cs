@@ -14,6 +14,8 @@ namespace ApiWebApplication.Models
         [Required]
         [StringLength (50)]
         [Index(IsUnique =true )]
+        [Column(TypeName = "varchar")]
+        
         public string Code {  get; set; }
 
         [Required]
@@ -49,5 +51,6 @@ namespace ApiWebApplication.Models
         public decimal MonthValue { get; set; }
 
        public List<Strangeness> Strangeness { get; set; }
+         public List <MonthlyPayment> MonthlyPayments { get; set; }
     }
 }

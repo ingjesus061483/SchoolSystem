@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.btnNotas = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnAdmisiones = new System.Windows.Forms.Button();
             this.btnConfiguracion = new System.Windows.Forms.Button();
             this.pnlbody = new System.Windows.Forms.Panel();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,19 @@
             this.panel1.Size = new System.Drawing.Size(221, 697);
             this.panel1.TabIndex = 0;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Location = new System.Drawing.Point(70, 647);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 69);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // btnFacturacion
             // 
             this.btnFacturacion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFacturacion.BackgroundImage")));
@@ -66,6 +79,7 @@
             this.btnFacturacion.Size = new System.Drawing.Size(75, 69);
             this.btnFacturacion.TabIndex = 4;
             this.btnFacturacion.UseVisualStyleBackColor = true;
+            this.btnFacturacion.Click += new System.EventHandler(this.btnFacturacion_Click);
             // 
             // btnNotas
             // 
@@ -127,19 +141,6 @@
             this.pnlbody.Size = new System.Drawing.Size(579, 697);
             this.pnlbody.TabIndex = 1;
             // 
-            // btnSalir
-            // 
-            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
-            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Location = new System.Drawing.Point(70, 647);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 69);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -147,8 +148,9 @@
             this.ClientSize = new System.Drawing.Size(800, 697);
             this.Controls.Add(this.pnlbody);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmPrincipal";
-            this.Text = "Form1";
+            this.Text = "Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);

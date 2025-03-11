@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using SelectPdf;
@@ -8,6 +9,8 @@ namespace ApiWebApplication
 {
     public abstract  class Utilities
     {
+        public static string app = ConfigurationManager.AppSettings["NombreAplicacion"];
+        public static string conectionstring = ConfigurationManager.ConnectionStrings["SchoolSystem"].ConnectionString;
         public static HtmlToPdf GetHtmlToPdf(PdfPageSize pageSize, PdfPageOrientation pdfOrientation,
                                  int webPageWidth)
         {
